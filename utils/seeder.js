@@ -1,21 +1,21 @@
 // set up a temporary (in memory) database
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
-const puppies = require('../data/puppies.json')
+const Customer = require('../data/Customer.json')
 
 module.exports = (app) => {
   LOG.info('START seeder.')
   const db = {}
 
-  db.puppies = new Datastore()
-  db.puppies.loadDatabase()
+  db.Customer = new Datastore()
+  db.Customer.loadDatabase()
 
   // insert the sample data into our data store
-  db.puppies.insert(puppies)
+  db.Customer.insert(Customer)
 
   // initialize app.locals (these objects will be available to our controllers)
-  app.locals.puppies = db.puppies.find(puppies)
-  LOG.debug(`${app.locals.puppies.query.length} puppies seeded`)
+  app.locals.Customer = db.Customer.find(Customer)
+  LOG.debug(`${app.locals.Customer.query.length} customer seeded`)
   
   LOG.info('END Seeder. Sample data read and verified.')
 }
