@@ -6,7 +6,7 @@ const Customer = require('../data/Customer.json')
 module.exports = (app) => {
   LOG.info('START seeder.')
   const db = {}
-  const order = require('../data/order.json')
+  const Order = require('../data/order.json')
 
   db.Customer = new Datastore()
   db.Customer.loadDatabase()
@@ -28,7 +28,7 @@ module.exports = (app) => {
 
   //initialize app.locals(these ojects will be available to our controllers)
   app.locals.Order = db.Order.find(Order)
-  Location.debug('${app.locals.Order.query.length} Order seeded')
+  LOG.debug('${app.locals.Order.query.length} Order seeded')
   
   LOG.info('END Seeder. Sample data read and verified.')
 }

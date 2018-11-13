@@ -257,3 +257,73 @@ SyntaxError: Unexpected token <<
 2018-11-13T02:04:21.554Z - info: START seeder.
 2018-11-13T02:04:21.560Z - debug: 4 customer seeded
 2018-11-13T02:04:21.561Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:47:47.938Z - info: Environment variables loaded.
+2018-11-13T04:47:47.998Z - error: uncaughtException: Order is not defined date=Mon Nov 12 2018 22:47:47 GMT-0600 (Central Standard Time), pid=19496, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=72855552, heapTotal=61329408, heapUsed=40624888, external=19863800, loadavg=[0, 0, 0], uptime=1179753.5770292
+ReferenceError: Order is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:27:19)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:47:47.977Z - info: START seeder.
+2018-11-13T04:47:47.980Z - debug: 4 customer seeded
+2018-11-13T04:48:56.801Z - info: Environment variables loaded.
+2018-11-13T04:48:56.862Z - error: uncaughtException: Location is not defined date=Mon Nov 12 2018 22:48:56 GMT-0600 (Central Standard Time), pid=19796, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73613312, heapTotal=63426560, heapUsed=31636504, external=18408980, loadavg=[0, 0, 0], uptime=1179822.438991
+ReferenceError: Location is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:48:56.840Z - info: START seeder.
+2018-11-13T04:48:56.843Z - debug: 4 customer seeded
+2018-11-13T04:49:10.465Z - info: Environment variables loaded.
+2018-11-13T04:49:10.513Z - error: uncaughtException: Location is not defined date=Mon Nov 12 2018 22:49:10 GMT-0600 (Central Standard Time), pid=1284, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73740288, heapTotal=63950848, heapUsed=31186480, external=18335256, loadavg=[0, 0, 0], uptime=1179836.0912948
+ReferenceError: Location is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:49:10.496Z - info: START seeder.
+2018-11-13T04:49:10.499Z - debug: 4 customer seeded
+2018-11-13T04:49:35.896Z - info: Environment variables loaded.
+2018-11-13T04:49:35.968Z - error: uncaughtException: LocationLOG is not defined date=Mon Nov 12 2018 22:49:35 GMT-0600 (Central Standard Time), pid=11432, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73814016, heapTotal=63426560, heapUsed=31172584, external=18335256, loadavg=[0, 0, 0], uptime=1179861.5462934
+ReferenceError: LocationLOG is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:49:35.946Z - info: START seeder.
+2018-11-13T04:49:35.950Z - debug: 4 customer seeded
+2018-11-13T04:49:40.227Z - info: Environment variables loaded.
+2018-11-13T04:49:40.265Z - info: START seeder.
+2018-11-13T04:49:40.268Z - debug: 4 customer seeded
+2018-11-13T04:49:40.271Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T04:49:40.271Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:49:45.235Z - info: Environment variables loaded.
+2018-11-13T04:49:45.266Z - info: START seeder.
+2018-11-13T04:49:45.269Z - debug: 4 customer seeded
+2018-11-13T04:49:45.270Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T04:49:45.270Z - info: END Seeder. Sample data read and verified.
