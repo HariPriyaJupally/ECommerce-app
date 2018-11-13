@@ -1,4 +1,4 @@
-# ECommerce-a04.
+# ECommerce-a04
 
 Web Apps and Services Group Ecommerce Project
 
