@@ -1,0 +1,23 @@
+2018-11-12T18:51:02.709Z - info: Environment variables loaded.
+2018-11-12T18:51:02.718Z - debug: START routing
+2018-11-12T18:51:02.744Z - debug: END routing
+2018-11-12T18:51:02.745Z - info: Loaded routing.
+2018-11-12T18:51:02.768Z - info: START seeder.
+2018-11-12T18:51:02.772Z - debug: 3 puppies seeded
+2018-11-12T18:51:02.773Z - info: END Seeder. Sample data read and verified.
+2018-11-12T18:51:05.703Z - debug: GET /
+2018-11-12T18:51:05.708Z - debug: Request to /
+2018-11-12T18:51:05.761Z - debug: GET /css/main.css
+2018-11-12T18:51:06.920Z - debug: GET /images/manifest.json
+2018-11-12T18:51:06.921Z - debug: GET /images/favicon-32x32.png
+2018-11-12T18:51:06.928Z - debug: GET /images/favicon-16x16.png
+2018-11-12T18:51:06.935Z - debug: GET /images/favicon-96x96.png
+2018-11-12T18:51:06.942Z - debug: GET /images/android-icon-192x192.png
+2018-11-12T18:51:09.602Z - debug: GET /puppy
+2018-11-12T18:51:14.970Z - debug: GET /puppy/details/3
+2018-11-12T18:51:14.972Z - info: Handling GET /details/:id [object Object]
+2018-11-12T18:51:14.973Z - info: RETURNING VIEW FOR {"_id":3,"name":"Max","breed":"Beagle","age":7,"parents":[{"parentName":"Lassie","parentBreed":"Beagle","parentAge":5},{"parentName":"Sport","parentBreed":"Beagle","parentAge":6}]}
+2018-11-12T18:54:41.032Z - debug: GET /puppy?
+2018-11-12T18:54:42.258Z - debug: GET /puppy/delete/3
+2018-11-12T18:54:42.259Z - info: Handling GET /delete/:id [object Object]
+2018-11-12T18:54:42.259Z - info: RETURNING VIEW FOR {"_id":3,"name":"Max","breed":"Beagle","age":7,"parents":[{"parentName":"Lassie","parentBreed":"Beagle","parentAge":5},{"parentName":"Sport","parentBreed":"Beagle","parentAge":6}]}
