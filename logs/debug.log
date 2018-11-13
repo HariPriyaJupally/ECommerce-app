@@ -327,3 +327,13 @@ ReferenceError: LocationLOG is not defined
 2018-11-13T04:49:45.269Z - debug: 4 customer seeded
 2018-11-13T04:49:45.270Z - debug: ${app.locals.Order.query.length} Order seeded
 2018-11-13T04:49:45.270Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:03:01.812Z - info: Environment variables loaded.
+2018-11-13T22:03:01.867Z - info: START seeder.
+2018-11-13T22:03:01.871Z - debug: 4 customer seeded
+2018-11-13T22:03:01.879Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T22:03:01.879Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:04:05.382Z - info: Environment variables loaded.
+2018-11-13T22:04:05.420Z - info: START seeder.
+2018-11-13T22:04:05.424Z - debug: 4 customer seeded
+2018-11-13T22:04:05.426Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T22:04:05.426Z - info: END Seeder. Sample data read and verified.
