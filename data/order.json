@@ -1,0 +1,22 @@
+[
+    {
+        "_id": 1,
+        "firstname": "Hari Priya",
+        "lastname": "Jupally",
+        "datePlaced": "2018-11-10",
+        "dateShipped": "2018-11-12",
+        "paymentType": "Cash",
+        "amountDue": 24.99,
+        "paid": true
+    },
+    {
+        "_id": 2,
+        "firstname": "Hayden",
+        "lastname": "Rainey",
+        "datePlaced": "2018-11-11",
+        "dateShipped": "2018-11-12",
+        "paymentType": "Cash",
+        "amountDue": 49.98,
+        "paid": false  
+    }
+]
