@@ -22,7 +22,8 @@ const fs = require('fs')
 dotenv.load({ path: '.env' })
 LOG.info('Environment variables loaded.')
 app.set('views', path.resolve(__dirname, 'views')) // path to views
-app.set('view engine', 'ejs') // specify our view engine
+app.set('view engine', 'ejs') // specifies our view engine
+
 
 
 app.use(express.static('public'))
