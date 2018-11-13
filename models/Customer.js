@@ -1,4 +1,5 @@
 /**
+ * Customer Scheme to store customer details
  * @author Hari Priya Jupally
  */const mongoose = require('mongoose')
 
