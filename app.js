@@ -1,14 +1,3 @@
-/**
- * @file app.js
- * The starting point of the application.
- * Express allows us to configure our app and use
- * dependency injection to add it to the http server.
- * 
- * The server-side app starts and begins listening for events.
- *
- */
-
-// Module dependencies
 const express = require('express')
 const http = require('http')
 const expressLayouts = require('express-ejs-layouts')
@@ -23,59 +12,57 @@ const mongoose = require('mongoose')
 const expressValidator = require('express-validator')
 const expressStatusMonitor = require('express-status-monitor')
 const LOG = require('./utils/logger.js')
+const logfile = '/access.log'
+const app = express()  // make express app
+const port = process.env.PORT  || 8081
+const fs = require('fs')
 
-// Load environment variables from .env file, where API keys and passwords are configured.
-// dotenv.load({ path: '.env.example' })
+
+
 dotenv.load({ path: '.env' })
 LOG.info('Environment variables loaded.')
+app.set('views', path.resolve(__dirname, 'views')) // path to views
+app.set('view engine', 'ejs') // specify our view engine
 
-// app variables
-const DEFAULT_PORT = 8089
 
-// create express app ..................................
-const app = express()
-
-// configure app.settings.............................
-app.set('port', process.env.PORT || DEFAULT_PORT)
-
-// set the root view folder
-app.set('views', path.join(__dirname, 'views'))
-
-// specify desired view engine
-app.set('view engine', 'ejs')
-app.engine('ejs', engines.ejs)
-
-// configure middleware.....................................................
-app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
-app.use(expressStatusMonitor())
-
-// log calls
-app.use((req, res, next) => {
-  LOG.debug('%s %s', req.method, req.url)
-  next()
-})
-
-// specify various resources and apply them to our application
-app.use(bodyParser.json())
+app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(expressValidator())
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
-app.use(expressLayouts)
+app.use(bodyParser.json())
+//app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
-const routes = require('./routes/index.js')
-app.use('/', routes)  // load routing
-LOG.info('Loaded routing.')
 
-app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
+app.get("/", function (req, res) {
+  //res.sendFile(path.join(__dirname + '/assets/index.html'))
+  res.render("index.ejs")
+ })
 
-// initialize data ............................................
-require('./utils/seeder.js')(app)  // load seed data
+ app.get("/index", function (req, res) {
+  //res.sendFile(path.join(__dirname + '/assets/index.html'))
+  res.render("index.ejs")
+ })
 
-// start Express app
-app.listen(app.get('port'), () => {
-  console.log('App is running at http://localhost:%d in %s mode', app.get('port'), app.get('env'))
-  console.log('  Press CTRL-C to stop\n')
+ app.get("/products", function (req, res) {
+  res.render("products.ejs")
+ })
+
+ app.get("/about", function (req, res) {
+  res.render("aboutus.ejs")
+ })
+
+ app.get("/contact", function (req, res) {
+  res.render("contactus.ejs")
+ })
+
+ app.get(function (req, res) {
+  res.render('404')
 })
 
-module.exports = app
+
+require('./utils/seeder.js')(app)  
+ 
+ 
+ app.listen(port, function () {
+  console.log('Web app started and listening on http://localhost:' + port)
+  console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
+ })
