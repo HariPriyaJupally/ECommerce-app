@@ -1,0 +1,34 @@
+[
+    {
+      "_id": 1,
+      "firstname": "Hari Priya",
+      "lastname": "Jupally",
+      "age": 22,
+      "phonenumber": 7147678290,
+      "address" : "1121 N College Drive"
+    },
+    {
+        "_id": 2,
+        "firstname": "Hayden",
+        "lastname": "Rainey",
+        "age": 22,
+        "phonenumber": 9999999999,
+        "address" : "1121 N College Drive"
+      },
+      {
+        "_id": 3,
+        "firstname": "Vamsee",
+        "lastname": "Krishna",
+        "age": 22,
+        "phonenumber": 88888888888,
+        "address" : "1121 N College Drive"
+      },
+      {
+        "_id": 4,
+        "firstname": "Amy",
+        "lastname": "White",
+        "age": 22,
+        "phonenumber": 444444444444,
+        "address" : "1121 N College Drive"
+      }
+  ]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // set up a temporary (in memory) database
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
@@ -19,3 +20,5 @@ module.exports = (app) => {
   
   LOG.info('END Seeder. Sample data read and verified.')
 }
+=======
+>>>>>>> c1200cb8258ec4763fb0b162a1460011091f2099
