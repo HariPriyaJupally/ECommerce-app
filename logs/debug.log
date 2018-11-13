@@ -327,3 +327,659 @@ ReferenceError: LocationLOG is not defined
 2018-11-13T04:49:45.269Z - debug: 4 customer seeded
 2018-11-13T04:49:45.270Z - debug: ${app.locals.Order.query.length} Order seeded
 2018-11-13T04:49:45.270Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:08:58.855Z - info: Environment variables loaded.
+2018-11-13T05:08:59.083Z - info: START seeder.
+2018-11-13T05:08:59.089Z - debug: 4 customer seeded
+2018-11-13T05:08:59.092Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:08:59.092Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:14:40.961Z - info: Environment variables loaded.
+2018-11-13T05:14:40.995Z - info: START seeder.
+2018-11-13T05:14:41.008Z - debug: 4 customer seeded
+2018-11-13T05:14:41.017Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:14:41.017Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:15:25.063Z - info: Environment variables loaded.
+2018-11-13T05:15:25.096Z - info: START seeder.
+2018-11-13T05:15:25.108Z - debug: 4 customer seeded
+2018-11-13T05:15:25.114Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:15:25.114Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:15:35.965Z - info: Environment variables loaded.
+2018-11-13T05:15:36.003Z - info: START seeder.
+2018-11-13T05:15:36.008Z - debug: 4 customer seeded
+2018-11-13T05:15:36.011Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:15:36.012Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:18:32.922Z - info: Environment variables loaded.
+2018-11-13T05:18:33.015Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:18:32 GMT-0600 (Central Standard Time), pid=9224, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65101824, heapTotal=61779968, heapUsed=34089912, external=19079983, loadavg=[0, 0, 0], uptime=789354.3425679
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:18:32.975Z - debug: START routing
+2018-11-13T05:19:02.589Z - info: Environment variables loaded.
+2018-11-13T05:19:02.619Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:19:02 GMT-0600 (Central Standard Time), pid=16380, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65064960, heapTotal=61779968, heapUsed=33844568, external=19052152, loadavg=[0, 0, 0], uptime=789383.9523793
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:19:02.598Z - debug: START routing
+2018-11-13T05:21:29.911Z - info: Environment variables loaded.
+2018-11-13T05:21:29.948Z - info: START seeder.
+2018-11-13T05:21:29.953Z - debug: 4 customer seeded
+2018-11-13T05:21:29.956Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:21:29.956Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:24:17.468Z - info: Environment variables loaded.
+2018-11-13T05:24:17.505Z - info: START seeder.
+2018-11-13T05:24:17.521Z - debug: 4 customer seeded
+2018-11-13T05:24:17.525Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:24:17.526Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:24:29.645Z - info: Environment variables loaded.
+2018-11-13T05:24:29.673Z - info: START seeder.
+2018-11-13T05:24:29.678Z - debug: 4 customer seeded
+2018-11-13T05:24:29.680Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:24:29.681Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:25:23.542Z - info: Environment variables loaded.
+2018-11-13T05:25:23.578Z - info: START seeder.
+2018-11-13T05:25:23.586Z - debug: 4 customer seeded
+2018-11-13T05:25:23.589Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:25:23.589Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:28:03.899Z - info: Environment variables loaded.
+2018-11-13T05:28:03.950Z - error: uncaughtException: Cannot find module '../data/puppies.json' date=Mon Nov 12 2018 23:28:03 GMT-0600 (Central Standard Time), pid=21668, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66240512, heapTotal=61779968, heapUsed=35664824, external=19304711, loadavg=[0, 0, 0], uptime=789925.2807445
+Error: Cannot find module '../data/puppies.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:4:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:11.079Z - info: Environment variables loaded.
+2018-11-13T05:28:11.131Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:11 GMT-0600 (Central Standard Time), pid=16848, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=67100672, heapTotal=61779968, heapUsed=36124104, external=19347455, loadavg=[0, 0, 0], uptime=789932.4628893
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:7:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:15.679Z - info: Environment variables loaded.
+2018-11-13T05:28:15.724Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:15 GMT-0600 (Central Standard Time), pid=13048, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66248704, heapTotal=61779968, heapUsed=35162408, external=19237802, loadavg=[0, 0, 0], uptime=789937.0570026
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:26.381Z - info: Environment variables loaded.
+2018-11-13T05:28:26.438Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:26 GMT-0600 (Central Standard Time), pid=2056, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65814528, heapTotal=62304256, heapUsed=35162824, external=19229610, loadavg=[0, 0, 0], uptime=789947.7687963
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:41.945Z - info: Environment variables loaded.
+2018-11-13T05:28:42.000Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:41 GMT-0600 (Central Standard Time), pid=10892, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65806336, heapTotal=61779968, heapUsed=35125312, external=19245994, loadavg=[0, 0, 0], uptime=789963.3285174
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:45.039Z - info: Environment variables loaded.
+2018-11-13T05:28:45.085Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:45 GMT-0600 (Central Standard Time), pid=11612, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65699840, heapTotal=61779968, heapUsed=35116520, external=19229610, loadavg=[0, 0, 0], uptime=789966.41823
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:52.711Z - info: Environment variables loaded.
+2018-11-13T05:28:52.767Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:52 GMT-0600 (Central Standard Time), pid=9144, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65478656, heapTotal=62304256, heapUsed=34839512, external=19193587, loadavg=[0, 0, 0], uptime=789974.0981125
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:29:49.771Z - info: Environment variables loaded.
+2018-11-13T05:29:49.834Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:29:49 GMT-0600 (Central Standard Time), pid=4116, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65708032, heapTotal=62304256, heapUsed=34880344, external=19201779, loadavg=[0, 0, 0], uptime=790031.1644084
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:29.817Z - info: Environment variables loaded.
+2018-11-13T05:30:29.867Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:29 GMT-0600 (Central Standard Time), pid=14372, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66043904, heapTotal=61779968, heapUsed=35155280, external=19218163, loadavg=[0, 0, 0], uptime=790071.1998742
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:33.137Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:33 GMT-0600 (Central Standard Time), pid=17164, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65916928, heapTotal=61779968, heapUsed=35147176, external=19237802, loadavg=[0, 0, 0], uptime=790074.4703502
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:33.084Z - info: Environment variables loaded.
+2018-11-13T05:30:36.036Z - info: Environment variables loaded.
+2018-11-13T05:30:36.081Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:36 GMT-0600 (Central Standard Time), pid=13348, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65810432, heapTotal=61779968, heapUsed=34850656, external=19209971, loadavg=[0, 0, 0], uptime=790077.4139606
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:37.693Z - info: Environment variables loaded.
+2018-11-13T05:30:37.739Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:37 GMT-0600 (Central Standard Time), pid=19580, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65998848, heapTotal=62304256, heapUsed=35128800, external=19245994, loadavg=[0, 0, 0], uptime=790079.0719611
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:40.574Z - info: Environment variables loaded.
+2018-11-13T05:30:40.650Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:40 GMT-0600 (Central Standard Time), pid=13152, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65728512, heapTotal=61779968, heapUsed=35134960, external=19245994, loadavg=[0, 0, 0], uptime=790081.9821266
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:42.935Z - info: Environment variables loaded.
+2018-11-13T05:30:42.982Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:42 GMT-0600 (Central Standard Time), pid=6432, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65892352, heapTotal=61779968, heapUsed=35121888, external=19245994, loadavg=[0, 0, 0], uptime=790084.3153614
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:31:12.272Z - info: Environment variables loaded.
+2018-11-13T05:31:12.320Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:31:12 GMT-0600 (Central Standard Time), pid=3340, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65953792, heapTotal=61779968, heapUsed=35375000, external=19265223, loadavg=[0, 0, 0], uptime=790113.6534225
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:32:56.726Z - info: Environment variables loaded.
+2018-11-13T05:32:56.781Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:32:56 GMT-0600 (Central Standard Time), pid=736, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66256896, heapTotal=61779968, heapUsed=35151712, external=19245994, loadavg=[0, 0, 0], uptime=790218.1142018
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:02.280Z - info: Environment variables loaded.
+2018-11-13T05:33:02.351Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:02 GMT-0600 (Central Standard Time), pid=8132, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65568768, heapTotal=61779968, heapUsed=35002352, external=19218163, loadavg=[0, 0, 0], uptime=790223.6819512
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:04.396Z - info: Environment variables loaded.
+2018-11-13T05:33:04.445Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:04 GMT-0600 (Central Standard Time), pid=5180, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65970176, heapTotal=62304256, heapUsed=35226280, external=19245994, loadavg=[0, 0, 0], uptime=790225.7766233
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:08.191Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:08 GMT-0600 (Central Standard Time), pid=18068, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66461696, heapTotal=61779968, heapUsed=35378872, external=19265223, loadavg=[0, 0, 0], uptime=790229.5236906
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:08.144Z - info: Environment variables loaded.
+2018-11-13T05:36:26.426Z - info: Environment variables loaded.
+2018-11-13T05:36:26.524Z - error: uncaughtException: Cannot find module '../data/products.json' date=Mon Nov 12 2018 23:36:26 GMT-0600 (Central Standard Time), pid=4688, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65859584, heapTotal=61779968, heapUsed=35175200, external=19237802, loadavg=[0, 0, 0], uptime=790427.8562624
+Error: Cannot find module '../data/products.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:6:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:36:57.070Z - info: Environment variables loaded.
+2018-11-13T05:36:57.126Z - error: uncaughtException: G:\Repos\ecommerce-a04\data\products.json: Unexpected end of JSON input date=Mon Nov 12 2018 23:36:57 GMT-0600 (Central Standard Time), pid=5720, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66260992, heapTotal=62304256, heapUsed=35174072, external=19254186, loadavg=[0, 0, 0], uptime=790458.4529549
+SyntaxError: G:\Repos\ecommerce-a04\data\products.json: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:6:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-13T05:37:45.475Z - info: Environment variables loaded.
+2018-11-13T05:37:45.529Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Mon Nov 12 2018 23:37:45 GMT-0600 (Central Standard Time), pid=10504, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65888256, heapTotal=61779968, heapUsed=35027512, external=19218163, loadavg=[0, 0, 0], uptime=790506.8623172
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:7:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:37:59.195Z - info: Environment variables loaded.
+2018-11-13T05:37:59.278Z - info: START seeder.
+2018-11-13T05:37:59.295Z - debug: 4 customers seeded
+2018-11-13T05:37:59.311Z - debug: 2 products seeded
+2018-11-13T05:37:59.326Z - debug: 2 orders seeded
+2018-11-13T05:37:59.339Z - debug: 2 orderLineItems seeded
+2018-11-13T05:37:59.344Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:39:15.118Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:39:15 GMT-0600 (Central Standard Time), pid=17604, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=64385024, heapTotal=61779968, heapUsed=34055056, external=19071791, loadavg=[0, 0, 0], uptime=790596.4335856
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:39:15.071Z - info: Environment variables loaded.
+2018-11-13T05:39:15.080Z - debug: START routing
+2018-11-13T05:41:27.492Z - info: Environment variables loaded.
+2018-11-13T05:41:27.502Z - debug: START routing
+2018-11-13T05:41:27.559Z - debug: END routing
+2018-11-13T05:41:27.559Z - info: Loaded routing.
+2018-11-13T05:41:27.591Z - info: START seeder.
+2018-11-13T05:41:27.600Z - debug: 4 customers seeded
+2018-11-13T05:41:27.604Z - debug: 2 products seeded
+2018-11-13T05:41:27.609Z - debug: 2 orders seeded
+2018-11-13T05:41:27.613Z - debug: 2 orderLineItems seeded
+2018-11-13T05:41:27.613Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:41:31.946Z - debug: GET /
+2018-11-13T05:41:31.951Z - debug: Request to /
+2018-11-13T05:41:49.793Z - debug: GET /products
+2018-11-13T05:41:54.690Z - debug: GET /product

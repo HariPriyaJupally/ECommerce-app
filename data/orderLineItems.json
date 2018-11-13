@@ -3,14 +3,14 @@
         "_id": 1,
         "orderID": 87452,
         "lineNumber": 1,
-        "productKey": "Sleepy Cat",
+        "productKey": "Chair",
         "quantity": 1
     },
     {
         "_id": 2,
         "orderID": 87452,
         "lineNumber": 2,
-        "productKey": "Barbaric Dog",
+        "productKey": "Couch",
         "quantity": 1
     }
 ]
