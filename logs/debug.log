@@ -983,3 +983,323 @@ TypeError: Router.use() requires a middleware function but got a Object
 2018-11-13T05:41:31.951Z - debug: Request to /
 2018-11-13T05:41:49.793Z - debug: GET /products
 2018-11-13T05:41:54.690Z - debug: GET /product
+2018-11-14T01:38:51.136Z - info: Environment variables loaded.
+2018-11-14T01:38:51.147Z - debug: START routing
+2018-11-14T01:38:51.180Z - debug: END routing
+2018-11-14T01:38:51.182Z - info: Loaded routing.
+2018-11-14T01:38:51.210Z - info: START seeder.
+2018-11-14T01:38:51.210Z - debug: 4 customers seeded
+2018-11-14T01:38:51.216Z - debug: 5 products seeded
+2018-11-14T01:38:51.218Z - debug: 2 orders seeded
+2018-11-14T01:38:51.220Z - debug: 4 orderLineItems seeded
+2018-11-14T01:38:51.221Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:06.304Z - info: Environment variables loaded.
+2018-11-14T02:45:06.602Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:06 GMT-0600 (Central Standard Time), pid=272164, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72896512, heapTotal=63426560, heapUsed=31789320, external=18435191, loadavg=[0, 0, 0], uptime=602435.856163
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    mi
+    ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:06.320Z - debug: START routing
+2018-11-14T02:45:11.179Z - info: Environment variables loaded.
+2018-11-14T02:45:11.201Z - debug: START routing
+2018-11-14T02:45:11.248Z - debug: END routing
+2018-11-14T02:45:11.248Z - info: Loaded routing.
+2018-11-14T02:45:11.306Z - info: START seeder.
+2018-11-14T02:45:11.315Z - debug: 4 customers seeded
+2018-11-14T02:45:11.315Z - debug: 5 products seeded
+2018-11-14T02:45:11.323Z - debug: 2 orders seeded
+2018-11-14T02:45:11.327Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:11.327Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:14.773Z - info: Environment variables loaded.
+2018-11-14T02:45:14.930Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:14 GMT-0600 (Central Standard Time), pid=273580, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72417280, heapTotal=61329408, heapUsed=41017240, external=19812507, loadavg=[0, 0, 0], uptime=602444.2043479
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:14.791Z - debug: START routing
+2018-11-14T02:45:17.656Z - info: Environment variables loaded.
+2018-11-14T02:45:17.788Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:17 GMT-0600 (Central Standard Time), pid=272176, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73535488, heapTotal=63426560, heapUsed=31410616, external=18418807, loadavg=[0, 0, 0], uptime=602447.0911226
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:17.678Z - debug: START routing
+2018-11-14T02:45:23.075Z - info: Environment variables loaded.
+2018-11-14T02:45:23.089Z - debug: START routing
+2018-11-14T02:45:23.119Z - debug: END routing
+2018-11-14T02:45:23.119Z - info: Loaded routing.
+2018-11-14T02:45:23.188Z - info: START seeder.
+2018-11-14T02:45:23.188Z - debug: 4 customers seeded
+2018-11-14T02:45:23.188Z - debug: 5 products seeded
+2018-11-14T02:45:23.188Z - debug: 2 orders seeded
+2018-11-14T02:45:23.205Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:23.205Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:28.946Z - info: Environment variables loaded.
+2018-11-14T02:45:28.963Z - debug: START routing
+2018-11-14T02:45:28.995Z - debug: END routing
+2018-11-14T02:45:28.995Z - info: Loaded routing.
+2018-11-14T02:45:29.057Z - info: START seeder.
+2018-11-14T02:45:29.063Z - debug: 4 customers seeded
+2018-11-14T02:45:29.068Z - debug: 5 products seeded
+2018-11-14T02:45:29.068Z - debug: 2 orders seeded
+2018-11-14T02:45:29.072Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:29.072Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:46:43.196Z - info: Environment variables loaded.
+2018-11-14T02:46:43.332Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:43 GMT-0600 (Central Standard Time), pid=274412, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73248768, heapTotal=63950848, heapUsed=30952480, external=18326700, loadavg=[0, 0, 0], uptime=602532.6283904
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:43.216Z - debug: START routing
+2018-11-14T02:46:52.119Z - info: Environment variables loaded.
+2018-11-14T02:46:52.245Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:52 GMT-0600 (Central Standard Time), pid=274120, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72638464, heapTotal=61329408, heapUsed=41119472, external=19804315, loadavg=[0, 0, 0], uptime=602541.5585881
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:52.143Z - debug: START routing
+2018-11-14T02:46:57.540Z - info: Environment variables loaded.
+2018-11-14T02:46:57.695Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:57 GMT-0600 (Central Standard Time), pid=273800, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73281536, heapTotal=63426560, heapUsed=30553568, external=18313660, loadavg=[0, 0, 0], uptime=602546.9858173
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:57.562Z - debug: START routing
+2018-11-14T02:47:00.573Z - info: Environment variables loaded.
+2018-11-14T02:47:00.703Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:00 GMT-0600 (Central Standard Time), pid=272708, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72491008, heapTotal=61329408, heapUsed=41011576, external=19804315, loadavg=[0, 0, 0], uptime=602550.0054467
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:00.584Z - debug: START routing
+2018-11-14T02:47:12.892Z - info: Environment variables loaded.
+2018-11-14T02:47:13.066Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:12 GMT-0600 (Central Standard Time), pid=273276, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72245248, heapTotal=61329408, heapUsed=41116696, external=19812507, loadavg=[0, 0, 0], uptime=602562.3318625
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:12.914Z - debug: START routing
+2018-11-14T02:47:20.106Z - info: Environment variables loaded.
+2018-11-14T02:47:20.281Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:20 GMT-0600 (Central Standard Time), pid=271636, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73175040, heapTotal=63426560, heapUsed=31406944, external=18418807, loadavg=[0, 0, 0], uptime=602569.548217
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:20.127Z - debug: START routing
+2018-11-14T02:49:16.779Z - info: Environment variables loaded.
+2018-11-14T02:49:16.802Z - debug: START routing
+2018-11-14T02:49:16.853Z - debug: END routing
+2018-11-14T02:49:16.853Z - info: Loaded routing.
+2018-11-14T02:49:16.905Z - info: START seeder.
+2018-11-14T02:49:16.920Z - debug: 4 customers seeded
+2018-11-14T02:49:16.925Z - debug: 5 products seeded
+2018-11-14T02:49:16.928Z - debug: 2 orders seeded
+2018-11-14T02:49:16.929Z - debug: 4 orderLineItems seeded
+2018-11-14T02:49:16.929Z - info: END Seeder. Sample data read and verified.
