@@ -1313,3 +1313,13 @@ SyntaxError: Unexpected identifier
 2018-11-14T02:52:04.722Z - debug: 2 orders seeded
 2018-11-14T02:52:04.724Z - debug: 4 orderLineItems seeded
 2018-11-14T02:52:04.724Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:53:35.187Z - info: Environment variables loaded.
+2018-11-14T02:53:35.195Z - debug: START routing
+2018-11-14T02:53:35.212Z - debug: END routing
+2018-11-14T02:53:35.212Z - info: Loaded routing.
+2018-11-14T02:53:35.245Z - info: START seeder.
+2018-11-14T02:53:35.245Z - debug: 4 customers seeded
+2018-11-14T02:53:35.245Z - debug: 5 products seeded
+2018-11-14T02:53:35.253Z - debug: 2 orders seeded
+2018-11-14T02:53:35.254Z - debug: 4 orderLineItems seeded
+2018-11-14T02:53:35.254Z - info: END Seeder. Sample data read and verified.
