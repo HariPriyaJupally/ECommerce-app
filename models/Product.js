@@ -17,7 +17,7 @@ const ProductSchema = new mongoose.Schema({
     required: true,
     default: 'TOP brabded Laptop'
   }, 
-  price: {
+  price: { 
     type: Number,
     required: false,
     default:1000,
