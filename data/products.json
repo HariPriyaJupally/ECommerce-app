@@ -1,14 +1,42 @@
 [
     {
-        "_id": 1,
-        "productKey": "Coffee Mug",
-        "description": "Best mug ever!",
-        "unitPrice": 9.99
+      "_productid": 1,
+      "productName": "DELL-LAPTOP",
+      "productDescription": "Dell laptop is top branded laptop",
+      "price": 100,
+      "productCategory": "Laptop",
+      "sellerId":"1"
     },
     {
-        "_id": 2,
-        "productKey": "Tshirt",
-        "description": "Even better shirt",
-        "unitPrice": 24.99
-    }
+        "_productid": 2,
+        "productName": "MEN/WOMEN Wallet",
+        "productDescription": "TOP branded wallets",
+        "price": 10,
+        "productCategory": "Accessories",
+        "sellerId":"2"
+      },
+      {
+        "_productid": 3,
+        "productName": "BAGS",
+        "productDescription": "AMerican Tourists Bags",
+        "price": 50,
+        "productCategory": "Accessories",
+        "sellerId":"3"
+      },
+      {
+        "_productid": 4,
+        "productName": "HEAD PHONE",
+        "productDescription": "Top branded HEAD PHONE ",
+        "price": 20,
+        "productCategory": "Accessories",
+        "sellerId":"4"
+      },
+      {
+        "_productid": 5,
+        "productName": "SAMSUNG GALAXY-S7",
+        "productDescription": "Latest S series Andriod phone by SAMSUNG",
+        "price": 700,
+        "productCategory": "Electronic",
+        "sellerId":"5"
+      }
 ]
