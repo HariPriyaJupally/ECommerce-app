@@ -1,17 +1,17 @@
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/Product.js')
+const Model = require('../models/orderLineItem.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'product'
+const notfoundstring = 'orderLine'
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 
 // GET all JSON
 api.get('/findall', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   res.send(JSON.stringify(data))
 })
 
@@ -19,7 +19,7 @@ api.get('/findall', (req, res) => {
 api.get('/findone/:id', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   res.send(JSON.stringify(item))
@@ -29,7 +29,7 @@ api.get('/findone/:id', (req, res) => {
 
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
-  res.render('product/index.ejs')
+  res.render('orderLine/index.ejs')
 })
 
 // GET create
@@ -37,11 +37,11 @@ api.get('/create', (req, res) => {
   LOG.info(`Handling GET /create${req}`)
   const item = new Model()
   LOG.debug(JSON.stringify(item))
-  res.render('product/create',
+  res.render('orderLine/create',
     {
-      title: 'Create product',
+      title: 'Create orderLine',
       layout: 'layout.ejs',
-      product: item
+      orderLine: item
     })
 })
 
@@ -49,15 +49,15 @@ api.get('/create', (req, res) => {
 api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('product/delete.ejs',
+  return res.render('orderLine/delete.ejs',
     {
-      title: 'Delete product',
+      title: 'Delete orderLine',
       layout: 'layout.ejs',
-      product: item
+      orderLine: item
     })
 })
 
@@ -65,15 +65,15 @@ api.get('/delete/:id', (req, res) => {
 api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('product/details.ejs',
+  return res.render('orderLine/details.ejs',
     {
-      title: 'product Details',
+      title: 'orderLine Details',
       layout: 'layout.ejs',
-      product: item
+      orderLine: item
     })
 })
 
@@ -81,15 +81,15 @@ api.get('/details/:id', (req, res) => {
 api.get('/edit/:id', (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-  return res.render('product/edit.ejs',
+  return res.render('orderLine/edit.ejs',
     {
-      title: 'products',
+      title: 'orderLineItems',
       layout: 'layout.ejs',
-      product: item
+      orderLine: item
     })
 })
 
@@ -99,7 +99,7 @@ api.get('/edit/:id', (req, res) => {
 api.post('/save', (req, res) => {
   LOG.info(`Handling POST ${req}`)
   LOG.debug(JSON.stringify(req.body))
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
@@ -119,8 +119,8 @@ api.post('/save', (req, res) => {
       )
     }
     data.push(item)
-    LOG.info(`SAVING NEW product ${JSON.stringify(item)}`)
-    return res.redirect('/product')
+    LOG.info(`SAVING NEW orderLine ${JSON.stringify(item)}`)
+    return res.redirect('/orderLine')
   }
 })
 
@@ -129,7 +129,7 @@ api.post('/save/:id', (req, res) => {
   LOG.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling SAVING ID=${id}`)
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
@@ -149,8 +149,8 @@ api.post('/save/:id', (req, res) => {
         }
       )
     }
-    LOG.info(`SAVING UPDATED product ${JSON.stringify(item)}`)
-    return res.redirect('/product')
+    LOG.info(`SAVING UPDATED orderLine ${JSON.stringify(item)}`)
+    return res.redirect('/orderLine')
   }
 })
 
@@ -159,7 +159,7 @@ api.post('/delete/:id', (req, res) => {
   LOG.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling REMOVING ID=${id}`)
-  const data = req.app.locals.products.query
+  const data = req.app.locals.orderLineItems.query
   const item = find(data, { _id: id })
   if (!item) {
     return res.end(notfoundstring)
@@ -171,7 +171,7 @@ api.post('/delete/:id', (req, res) => {
     const item = remove(data, { _id: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect('/product')
+  return res.redirect('/orderLine')
 })
 
 module.exports = api
