@@ -8,3 +8,6 @@ Product - Vamsee Krishna Gangapatnam
 Order - Amy White
 Order Line Item - Hayden Rainey
 ```
+
+
+Updated model and data for product.
