@@ -1,6 +1,6 @@
 /**
  * Controller for the product page
- * @author Gangapatnam, Vamsee Krishna
+ * @author Gangapatnam, Vamsee Krishna   
  */
 const express = require('express')
 const api = express.Router()
