@@ -1336,3 +1336,537 @@ SyntaxError: Unexpected identifier
 2018-11-14T02:53:35.254Z - debug: 4 orderLineItems seeded
 2018-11-14T02:53:35.254Z - info: END Seeder. Sample data read and verified.
 >>>>>>> 94c6fb93698150b6958c7ceb1d87e3984e95cd16
+2018-11-16T00:18:22.176Z - info: Environment variables loaded.
+2018-11-16T00:18:22.186Z - debug: START routing
+2018-11-16T00:18:22.208Z - debug: END routing
+2018-11-16T00:18:22.209Z - info: Loaded routing.
+2018-11-16T00:18:22.245Z - info: START seeder.
+2018-11-16T00:18:22.248Z - debug: 4 customers seeded
+2018-11-16T00:18:22.250Z - debug: 5 products seeded
+2018-11-16T00:18:22.251Z - debug: 2 orders seeded
+2018-11-16T00:18:22.253Z - debug: 4 orderLineItems seeded
+2018-11-16T00:18:22.253Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:18:40.007Z - debug: GET /
+2018-11-16T00:18:40.018Z - debug: Request to /
+2018-11-16T00:18:40.091Z - debug: GET /css/main.css
+2018-11-16T00:18:42.294Z - debug: GET /images/manifest.json
+2018-11-16T00:18:42.295Z - debug: GET /images/favicon-32x32.png
+2018-11-16T00:18:42.314Z - debug: GET /images/favicon-16x16.png
+2018-11-16T00:18:42.327Z - debug: GET /images/favicon-96x96.png
+2018-11-16T00:18:42.337Z - debug: GET /images/android-icon-192x192.png
+2018-11-16T00:18:51.579Z - debug: GET /customer
+2018-11-16T00:18:54.451Z - debug: GET /customer
+2018-11-16T00:19:00.053Z - debug: GET /product
+2018-11-16T00:19:02.367Z - debug: GET /orderLine
+2018-11-16T00:19:04.315Z - debug: GET /orderLine/findall
+2018-11-16T00:19:14.737Z - debug: GET /
+2018-11-16T00:19:14.739Z - debug: Request to /
+2018-11-16T00:19:19.749Z - debug: GET /customer
+2018-11-16T00:19:21.500Z - debug: GET /orderLine
+2018-11-16T00:21:09.464Z - debug: GET /order
+2018-11-16T00:21:11.219Z - debug: GET /customer
+2018-11-16T00:21:12.925Z - debug: GET /
+2018-11-16T00:21:12.927Z - debug: Request to /
+2018-11-16T00:21:14.631Z - debug: GET /customer
+2018-11-16T00:21:23.376Z - debug: GET /orderLine
+2018-11-16T00:21:25.619Z - debug: GET /orderLine/edit/0
+2018-11-16T00:21:25.620Z - info: Handling GET /edit/:id [object Object]
+2018-11-16T00:21:25.622Z - info: RETURNING VIEW FOR{"_id":0,"orderID":87452,"lineNumber":1,"productKey":"Chair","quantity":1}
+2018-11-16T00:21:30.162Z - debug: GET /orderLine/create
+2018-11-16T00:21:30.163Z - info: Handling GET /create[object Object]
+2018-11-16T00:21:30.168Z - debug: {"quantity":1}
+2018-11-16T00:22:39.224Z - info: Environment variables loaded.
+2018-11-16T00:22:39.242Z - debug: START routing
+2018-11-16T00:22:39.281Z - debug: END routing
+2018-11-16T00:22:39.281Z - info: Loaded routing.
+2018-11-16T00:22:39.330Z - info: START seeder.
+2018-11-16T00:22:39.336Z - debug: 4 customers seeded
+2018-11-16T00:22:39.339Z - debug: 5 products seeded
+2018-11-16T00:22:39.341Z - debug: 2 orders seeded
+2018-11-16T00:22:39.345Z - debug: 4 orderLineItems seeded
+2018-11-16T00:22:39.345Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:24.834Z - info: Environment variables loaded.
+2018-11-16T00:29:24.848Z - debug: START routing
+2018-11-16T00:29:24.896Z - debug: END routing
+2018-11-16T00:29:24.896Z - info: Loaded routing.
+2018-11-16T00:29:24.956Z - info: START seeder.
+2018-11-16T00:29:24.968Z - debug: 4 customers seeded
+2018-11-16T00:29:24.975Z - debug: 5 products seeded
+2018-11-16T00:29:24.975Z - debug: 2 orders seeded
+2018-11-16T00:29:24.977Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:24.977Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:33.422Z - info: Environment variables loaded.
+2018-11-16T00:29:33.435Z - debug: START routing
+2018-11-16T00:29:33.462Z - debug: END routing
+2018-11-16T00:29:33.463Z - info: Loaded routing.
+2018-11-16T00:29:33.504Z - info: START seeder.
+2018-11-16T00:29:33.509Z - debug: 4 customers seeded
+2018-11-16T00:29:33.512Z - debug: 5 products seeded
+2018-11-16T00:29:33.514Z - debug: 2 orders seeded
+2018-11-16T00:29:33.515Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:33.515Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:54.046Z - debug: GET /
+2018-11-16T00:29:54.057Z - debug: Request to /
+2018-11-16T00:29:57.088Z - debug: GET /customer
+2018-11-16T00:29:58.344Z - debug: GET /customer
+2018-11-16T00:29:59.372Z - debug: GET /customer
+2018-11-16T00:29:59.916Z - debug: GET /customer
+2018-11-16T00:30:00.256Z - debug: GET /customer
+2018-11-16T00:30:00.590Z - debug: GET /customer
+2018-11-16T00:30:00.950Z - debug: GET /customer
+2018-11-16T00:30:01.554Z - debug: GET /customer
+2018-11-16T00:30:01.872Z - debug: GET /customer
+2018-11-16T00:30:02.235Z - debug: GET /customer
+2018-11-16T00:30:26.811Z - info: Environment variables loaded.
+2018-11-16T00:30:26.822Z - debug: START routing
+2018-11-16T00:30:26.845Z - debug: END routing
+2018-11-16T00:30:26.845Z - info: Loaded routing.
+2018-11-16T00:30:26.887Z - info: START seeder.
+2018-11-16T00:30:26.892Z - debug: 4 customers seeded
+2018-11-16T00:30:26.893Z - debug: 5 products seeded
+2018-11-16T00:30:26.895Z - debug: 2 orders seeded
+2018-11-16T00:30:26.896Z - debug: 4 orderLineItems seeded
+2018-11-16T00:30:26.897Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:30:40.397Z - debug: GET /
+2018-11-16T00:30:40.407Z - debug: Request to /
+2018-11-16T00:30:42.422Z - debug: GET /customer
+2018-11-16T00:30:45.698Z - debug: GET /customer
+2018-11-16T00:30:46.078Z - debug: GET /customer
+2018-11-16T00:30:46.468Z - debug: GET /customer
+2018-11-16T00:30:46.772Z - debug: GET /customer
+2018-11-16T00:30:47.122Z - debug: GET /customer
+2018-11-16T00:30:47.521Z - debug: GET /customer
+2018-11-16T00:31:40.306Z - debug: GET /orderLine
+2018-11-16T00:31:42.113Z - debug: GET /customer
+2018-11-16T00:33:19.555Z - info: Environment variables loaded.
+2018-11-16T00:33:19.755Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Thu Nov 15 2018 18:33:19 GMT-0600 (Central Standard Time), pid=47784, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=73773056, heapTotal=63426560, heapUsed=32610720, external=18640947, loadavg=[0, 0, 0], uptime=15903.2393096
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:33:19.574Z - debug: START routing
+2018-11-16T00:33:19.618Z - debug: END routing
+2018-11-16T00:33:19.618Z - info: Loaded routing.
+2018-11-16T00:37:45.243Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Thu Nov 15 2018 18:37:45 GMT-0600 (Central Standard Time), pid=49440, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=73740288, heapTotal=62902272, heapUsed=32636416, external=18640947, loadavg=[0, 0, 0], uptime=16168.7391195
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:37:45.141Z - info: Environment variables loaded.
+2018-11-16T00:37:45.152Z - debug: START routing
+2018-11-16T00:37:45.179Z - debug: END routing
+2018-11-16T00:37:45.180Z - info: Loaded routing.
+2018-11-16T00:38:00.652Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Thu Nov 15 2018 18:38:00 GMT-0600 (Central Standard Time), pid=43292, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=74256384, heapTotal=62902272, heapUsed=33698136, external=18748727, loadavg=[0, 0, 0], uptime=16184.1477485
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:38:00.559Z - info: Environment variables loaded.
+2018-11-16T00:38:00.567Z - debug: START routing
+2018-11-16T00:38:00.588Z - debug: END routing
+2018-11-16T00:38:00.588Z - info: Loaded routing.
+2018-11-16T00:38:31.194Z - info: Environment variables loaded.
+2018-11-16T00:38:31.212Z - debug: START routing
+2018-11-16T00:38:31.258Z - debug: END routing
+2018-11-16T00:38:31.258Z - info: Loaded routing.
+2018-11-16T00:38:31.307Z - info: START seeder.
+2018-11-16T00:38:31.311Z - debug: 4 customers seeded
+2018-11-16T00:38:31.313Z - debug: 5 products seeded
+2018-11-16T00:38:31.316Z - debug: 2 orders seeded
+2018-11-16T00:38:31.318Z - debug: 4 orderLineItems seeded
+2018-11-16T00:38:31.318Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:41:03.043Z - info: Environment variables loaded.
+2018-11-16T00:41:03.052Z - debug: START routing
+2018-11-16T00:41:03.076Z - debug: END routing
+2018-11-16T00:41:03.076Z - info: Loaded routing.
+2018-11-16T00:41:03.117Z - info: START seeder.
+2018-11-16T00:41:03.120Z - debug: 4 customers seeded
+2018-11-16T00:41:03.123Z - debug: 5 products seeded
+2018-11-16T00:41:03.124Z - debug: 2 orders seeded
+2018-11-16T00:41:03.126Z - debug: 4 orderLineItems seeded
+2018-11-16T00:41:03.126Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:41:17.754Z - debug: GET /
+2018-11-16T00:41:17.764Z - debug: Request to /
+2018-11-16T00:41:21.540Z - debug: GET /customer
+2018-11-16T00:41:22.669Z - debug: GET /customer
+2018-11-16T00:42:17.549Z - debug: GET /customer
+2018-11-16T00:42:19.474Z - debug: GET /orderLine
+2018-11-16T00:42:27.255Z - debug: GET /order
+2018-11-16T00:42:29.162Z - debug: GET /orderLine
+2018-11-16T00:42:33.750Z - debug: GET /customer
+2018-11-16T00:45:53.714Z - debug: GET /customer
+2018-11-16T00:51:05.062Z - debug: GET /customer
+2018-11-16T00:51:26.996Z - info: Environment variables loaded.
+2018-11-16T00:51:27.012Z - debug: START routing
+2018-11-16T00:51:27.056Z - debug: END routing
+2018-11-16T00:51:27.056Z - info: Loaded routing.
+2018-11-16T00:51:27.127Z - info: START seeder.
+2018-11-16T00:51:27.133Z - debug: 4 customers seeded
+2018-11-16T00:51:27.141Z - debug: 5 products seeded
+2018-11-16T00:51:27.144Z - debug: 2 orders seeded
+2018-11-16T00:51:27.147Z - debug: 4 orderLineItems seeded
+2018-11-16T00:51:27.147Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:52:18.573Z - error: uncaughtException: CustomerSchema is not defined date=Thu Nov 15 2018 18:52:18 GMT-0600 (Central Standard Time), pid=46136, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=72462336, heapTotal=61329408, heapUsed=40535664, external=19826615, loadavg=[0, 0, 0], uptime=17042.0663194
+ReferenceError: CustomerSchema is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\models\Customer.js:35:45)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\controllers\Customer.js:6:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-16T00:52:18.495Z - info: Environment variables loaded.
+2018-11-16T00:52:18.508Z - debug: START routing
+2018-11-16T00:52:28.060Z - error: uncaughtException: CustomerSchema is not defined date=Thu Nov 15 2018 18:52:28 GMT-0600 (Central Standard Time), pid=45420, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=70885376, heapTotal=61853696, heapUsed=39282824, external=19626295, loadavg=[0, 0, 0], uptime=17051.5570378
+ReferenceError: CustomerSchema is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\models\Customer.js:35:45)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\controllers\Customer.js:6:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-16T00:52:27.984Z - info: Environment variables loaded.
+2018-11-16T00:52:27.993Z - debug: START routing
+2018-11-16T00:56:11.594Z - info: Environment variables loaded.
+2018-11-16T00:56:11.657Z - error: uncaughtException: r is not defined date=Thu Nov 15 2018 18:56:11 GMT-0600 (Central Standard Time), pid=46136, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=71151616, heapTotal=60805120, heapUsed=40055072, external=19793162, loadavg=[0, 0, 0], uptime=17275.1481851
+ReferenceError: r is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:29:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:56:11.612Z - debug: START routing
+2018-11-16T00:56:11.613Z - debug: END routing
+2018-11-16T00:56:23.544Z - info: Environment variables loaded.
+2018-11-16T00:56:23.586Z - error: uncaughtException: r is not defined date=Thu Nov 15 2018 18:56:23 GMT-0600 (Central Standard Time), pid=50376, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=69943296, heapTotal=60805120, heapUsed=38787392, external=19666568, loadavg=[0, 0, 0], uptime=17287.079454
+ReferenceError: r is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:29:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:56:23.555Z - debug: START routing
+2018-11-16T00:56:23.556Z - debug: END routing
+2018-11-16T00:56:39.445Z - info: Environment variables loaded.
+2018-11-16T00:56:39.491Z - error: uncaughtException: api is not defined date=Thu Nov 15 2018 18:56:39 GMT-0600 (Central Standard Time), pid=49976, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=67350528, heapTotal=62377984, heapUsed=36636936, external=19177836, loadavg=[0, 0, 0], uptime=17302.9845727
+ReferenceError: api is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:29:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:56:39.456Z - debug: START routing
+2018-11-16T00:56:39.457Z - debug: END routing
+2018-11-16T00:57:21.079Z - info: Environment variables loaded.
+2018-11-16T00:57:21.099Z - debug: START routing
+2018-11-16T00:57:21.100Z - debug: END routing
+2018-11-16T00:57:21.101Z - info: Loaded routing.
+2018-11-16T00:57:21.165Z - info: START seeder.
+2018-11-16T00:57:21.170Z - debug: 4 customers seeded
+2018-11-16T00:57:21.174Z - debug: 5 products seeded
+2018-11-16T00:57:21.177Z - debug: 2 orders seeded
+2018-11-16T00:57:21.179Z - debug: 4 orderLineItems seeded
+2018-11-16T00:57:21.179Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:57:33.684Z - debug: GET /
+2018-11-16T00:57:36.566Z - debug: GET /customer
+2018-11-16T00:57:38.112Z - debug: GET /
+2018-11-16T00:57:43.814Z - debug: GET /orderLine
+2018-11-16T00:58:00.075Z - info: Environment variables loaded.
+2018-11-16T00:58:00.176Z - error: uncaughtException: CustomerSchema is not defined date=Thu Nov 15 2018 18:58:00 GMT-0600 (Central Standard Time), pid=51808, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=73523200, heapTotal=63426560, heapUsed=31128136, external=18319292, loadavg=[0, 0, 0], uptime=17383.6669891
+ReferenceError: CustomerSchema is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\models\Customer.js:35:45)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\controllers\Customer.js:6:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-16T00:58:00.091Z - debug: START routing
+2018-11-16T00:58:27.951Z - info: Environment variables loaded.
+2018-11-16T00:58:28.021Z - error: uncaughtException: CustomerSchema is not defined date=Thu Nov 15 2018 18:58:27 GMT-0600 (Central Standard Time), pid=52028, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=71348224, heapTotal=61853696, heapUsed=39888600, external=19744697, loadavg=[0, 0, 0], uptime=17411.5132762
+ReferenceError: CustomerSchema is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\models\Customer.js:35:45)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\controllers\Customer.js:6:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-16T00:58:27.961Z - debug: START routing
+2018-11-16T00:59:45.663Z - info: Environment variables loaded.
+2018-11-16T00:59:45.729Z - error: uncaughtException: CustomerSchema is not defined date=Thu Nov 15 2018 18:59:45 GMT-0600 (Central Standard Time), pid=50800, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=73072640, heapTotal=63426560, heapUsed=31698344, external=18484449, loadavg=[0, 0, 0], uptime=17489.2257667
+ReferenceError: CustomerSchema is not defined
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\models\Customer.js:35:45)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\controllers\Customer.js:6:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-16T00:59:45.673Z - debug: START routing
+2018-11-16T01:00:52.714Z - info: Environment variables loaded.
+2018-11-16T01:00:52.733Z - debug: START routing
+2018-11-16T01:00:52.779Z - debug: END routing
+2018-11-16T01:00:52.779Z - info: Loaded routing.
+2018-11-16T01:00:52.828Z - info: START seeder.
+2018-11-16T01:00:52.833Z - debug: 4 customers seeded
+2018-11-16T01:00:52.835Z - debug: 5 products seeded
+2018-11-16T01:00:52.837Z - debug: 2 orders seeded
+2018-11-16T01:00:52.839Z - debug: 4 orderLineItems seeded
+2018-11-16T01:00:52.839Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:00:56.321Z - info: Environment variables loaded.
+2018-11-16T01:00:56.331Z - debug: START routing
+2018-11-16T01:00:56.360Z - debug: END routing
+2018-11-16T01:00:56.360Z - info: Loaded routing.
+2018-11-16T01:00:56.403Z - info: START seeder.
+2018-11-16T01:00:56.406Z - debug: 4 customers seeded
+2018-11-16T01:00:56.408Z - debug: 5 products seeded
+2018-11-16T01:00:56.409Z - debug: 2 orders seeded
+2018-11-16T01:00:56.411Z - debug: 4 orderLineItems seeded
+2018-11-16T01:00:56.411Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:01:06.888Z - debug: GET /
+2018-11-16T01:01:06.892Z - debug: Request to /
+2018-11-16T01:01:09.694Z - debug: GET /customer
+2018-11-16T01:02:56.682Z - debug: GET /customer
+2018-11-16T01:02:58.133Z - debug: GET /product
+2018-11-16T01:02:59.476Z - debug: GET /order
+2018-11-16T01:03:00.802Z - debug: GET /orderLine
+2018-11-16T01:03:02.401Z - debug: GET /customer
+2018-11-16T01:04:02.134Z - debug: GET /customer
+2018-11-16T01:04:06.542Z - debug: GET /orderLine
+2018-11-16T01:04:08.202Z - debug: GET /orderLine/findall
+2018-11-16T01:04:13.212Z - debug: GET /customer
+2018-11-16T01:04:14.298Z - debug: GET /orderLine/findall
+2018-11-16T01:04:18.947Z - debug: GET /orderLine
+2018-11-16T01:04:20.240Z - debug: GET /orderLine/findall
+2018-11-16T01:04:23.635Z - debug: GET /customer
+2018-11-16T01:04:25.628Z - debug: GET /orderLine/findone/0
+2018-11-16T01:05:09.426Z - debug: GET /orderLine
+2018-11-16T01:05:11.283Z - debug: GET /orderLine/edit/0
+2018-11-16T01:05:11.284Z - info: Handling GET /edit/:id [object Object]
+2018-11-16T01:05:11.284Z - info: RETURNING VIEW FOR{"_id":0,"orderID":87452,"lineNumber":1,"productKey":"Chair","quantity":1}
+2018-11-16T01:05:15.524Z - debug: GET /orderLine/findall
+2018-11-16T01:05:27.220Z - debug: GET /customer
+2018-11-16T01:05:28.447Z - debug: GET /orderLine/findall
+2018-11-16T01:06:52.839Z - debug: GET /orderLine/findall
+2018-11-16T01:07:41.680Z - debug: GET /product
+2018-11-16T01:07:43.031Z - debug: GET /customer
+2018-11-16T01:08:28.728Z - debug: GET /customer
+2018-11-16T01:08:31.186Z - debug: GET /customer
+2018-11-16T01:08:32.375Z - debug: GET /Customer/findall
+2018-11-16T01:16:39.678Z - debug: GET /customer
+2018-11-16T01:16:41.354Z - debug: GET /
+2018-11-16T01:16:41.355Z - debug: Request to /
+2018-11-16T01:16:42.463Z - debug: GET /customer
+2018-11-16T01:16:45.405Z - debug: GET /Customer/findall
+2018-11-16T01:16:49.250Z - debug: GET /customer
+2018-11-16T01:17:22.583Z - debug: GET /
+2018-11-16T01:17:22.583Z - debug: Request to /
+2018-11-16T01:21:10.642Z - debug: GET /customer
+2018-11-16T01:21:12.288Z - debug: GET /Customer/findall
+2018-11-16T01:21:59.310Z - debug: GET /
+2018-11-16T01:21:59.312Z - debug: Request to /
+2018-11-16T01:22:24.217Z - debug: GET /puppy
+2018-11-16T01:22:38.757Z - debug: GET /
+2018-11-16T01:22:38.758Z - debug: Request to /
+2018-11-16T01:22:40.461Z - debug: GET /
+2018-11-16T01:22:40.463Z - debug: Request to /
+2018-11-16T01:22:42.417Z - debug: GET /
+2018-11-16T01:22:42.418Z - debug: Request to /
+2018-11-16T01:22:44.901Z - debug: GET /Customer
+2018-11-16T01:22:49.401Z - debug: GET /puppy/create
+2018-11-16T01:23:31.406Z - debug: GET /
+2018-11-16T01:23:31.408Z - debug: Request to /
+2018-11-16T01:23:33.492Z - debug: GET /Customer/create
+2018-11-16T01:23:33.494Z - info: Handling GET /create[object Object]
+2018-11-16T01:23:33.508Z - debug: {"_id":12345,"firstname":"Hari Priya","lastname":"Jupally","age":22,"phonenumber":0,"address":"address"}
+2018-11-16T01:23:37.311Z - debug: GET /Customer/edit/1
+2018-11-16T01:23:37.312Z - info: Handling GET /edit/:id [object Object]
+2018-11-16T01:23:37.313Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Hari Priya","lastname":"Jupally","age":22,"phonenumber":7147678290,"address":"1121 N College Drive"}
+2018-11-16T01:24:17.391Z - debug: GET /
+2018-11-16T01:24:17.392Z - debug: Request to /
+2018-11-16T01:24:19.396Z - debug: GET /Customer/edit/2
+2018-11-16T01:24:19.399Z - info: Handling GET /edit/:id [object Object]
+2018-11-16T01:24:19.399Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","age":22,"phonenumber":9999999999,"address":"1121 N College Drive"}
+2018-11-16T01:24:49.188Z - debug: GET /
+2018-11-16T01:24:49.190Z - debug: Request to /
+2018-11-16T01:25:01.986Z - debug: GET /
+2018-11-16T01:25:01.988Z - debug: Request to /
+2018-11-16T01:25:04.041Z - debug: GET /orderLine/edit/1
+2018-11-16T01:25:04.042Z - info: Handling GET /edit/:id [object Object]
+2018-11-16T01:25:04.043Z - info: RETURNING VIEW FOR{"_id":1,"orderID":87452,"lineNumber":2,"productKey":"Couch","quantity":1}
+2018-11-16T01:27:17.703Z - debug: GET /
+2018-11-16T01:27:17.704Z - debug: Request to /
+2018-11-16T01:29:25.778Z - debug: GET /
+2018-11-16T01:29:25.779Z - debug: Request to /
+2018-11-16T01:29:28.682Z - debug: GET /Customer/findall
+2018-11-16T01:30:25.412Z - debug: GET /customer
+2018-11-16T01:30:27.169Z - debug: GET /Customer/findall
+2018-11-16T01:30:30.215Z - debug: GET /
+2018-11-16T01:30:30.216Z - debug: Request to /

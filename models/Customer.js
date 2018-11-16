@@ -3,7 +3,7 @@
  * @author Hari Priya Jupally
  */const mongoose = require('mongoose')
 
-const CustomerScheme = new mongoose.Schema({
+const CustomerSchema = new mongoose.Schema({
 
   _id: { type: Number, required: true, default: 12345 },
   firstname: {
