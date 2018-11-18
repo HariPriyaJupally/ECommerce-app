@@ -3275,3 +3275,32 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T20:07:43.626Z - debug: GET /order/delete/1
 2018-11-18T20:07:43.628Z - info: Handling GET /delete/:id [object Object]
 2018-11-18T20:07:43.628Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T20:15:32.366Z - info: Environment variables loaded.
+2018-11-18T20:15:32.378Z - debug: START routing
+2018-11-18T20:15:32.425Z - debug: END routing
+2018-11-18T20:15:32.425Z - info: Loaded routing.
+2018-11-18T20:15:32.470Z - info: START seeder.
+2018-11-18T20:15:32.482Z - debug: 4 customers seeded
+2018-11-18T20:15:32.486Z - debug: 5 products seeded
+2018-11-18T20:15:32.489Z - debug: 2 order seeded
+2018-11-18T20:15:32.491Z - debug: 4 orderLineItems seeded
+2018-11-18T20:15:32.491Z - info: END Seeder. Sample data read and verified.
+2018-11-18T20:15:37.257Z - debug: GET /order/delete/1
+2018-11-18T20:15:37.264Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T20:15:37.266Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T20:15:41.484Z - debug: GET /
+2018-11-18T20:15:41.487Z - debug: Request to /
+2018-11-18T20:15:47.953Z - debug: GET /order
+2018-11-18T20:15:52.421Z - debug: GET /order/create
+2018-11-18T20:15:52.423Z - info: Handling GET /create[object Object]
+2018-11-18T20:15:52.429Z - debug: {"orderID":555,"datePlaced":"2018-11-18T20:15:32.410Z","paymentType":"not selected yet","paid":false}
+2018-11-18T20:15:56.517Z - debug: GET /order/edit/1
+2018-11-18T20:15:56.518Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T20:15:56.519Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T20:16:00.045Z - debug: GET /order/delete/1
+2018-11-18T20:16:00.047Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T20:16:00.048Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T20:16:03.415Z - debug: GET /order?
+2018-11-18T20:16:11.337Z - debug: GET /order/details/1
+2018-11-18T20:16:11.351Z - info: Handling GET /details/:id [object Object]
+2018-11-18T20:16:11.358Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
