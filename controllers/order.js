@@ -114,7 +114,6 @@ api.post('/save', (req, res) => {
     data.push(item)
     LOG.info(`SAVING NEW order ${JSON.stringify(item)}`)
     return res.redirect('/order')
-  }
 })
 
 // POST update
@@ -136,7 +135,6 @@ api.post('/save/:id', (req, res) => {
   item. paid = req.body.paid
     LOG.info(`SAVING UPDATED order ${JSON.stringify(item)}`)
     return res.redirect('/order')
-  }
 })
 
 // DELETE id (uses HTML5 form method POST)
