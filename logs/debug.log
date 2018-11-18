@@ -3415,3 +3415,139 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T21:04:39.248Z - debug: GET /css/main.css
 2018-11-18T21:04:39.609Z - debug: GET /images/manifest.json
 2018-11-18T21:04:41.646Z - debug: GET /order
+2018-11-18T21:07:04.611Z - info: Environment variables loaded.
+2018-11-18T21:07:04.620Z - debug: START routing
+2018-11-18T21:07:04.666Z - debug: END routing
+2018-11-18T21:07:04.666Z - info: Loaded routing.
+2018-11-18T21:07:04.713Z - info: START seeder.
+2018-11-18T21:07:04.717Z - debug: 4 customers seeded
+2018-11-18T21:07:04.718Z - debug: 5 products seeded
+2018-11-18T21:07:04.720Z - debug: 2 order seeded
+2018-11-18T21:07:04.722Z - debug: 4 orderLineItems seeded
+2018-11-18T21:07:04.722Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:07:09.185Z - debug: GET /order/create
+2018-11-18T21:07:09.200Z - info: Handling GET /create[object Object]
+2018-11-18T21:07:09.210Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:07:04.652Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:07:13.226Z - debug: GET /order/edit/1
+2018-11-18T21:07:13.228Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:07:13.230Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T21:08:27.285Z - debug: GET /order
+2018-11-18T21:08:43.162Z - debug: GET /order
+2018-11-18T21:09:22.118Z - debug: GET /
+2018-11-18T21:09:22.121Z - debug: Request to /
+2018-11-18T21:09:23.441Z - debug: GET /order
+2018-11-18T21:09:26.547Z - debug: GET /order/create
+2018-11-18T21:09:26.548Z - info: Handling GET /create[object Object]
+2018-11-18T21:09:26.549Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:07:04.652Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:09:29.076Z - debug: GET /order/edit/1
+2018-11-18T21:09:29.078Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:09:29.079Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T21:10:41.959Z - debug: GET /order/delete/1
+2018-11-18T21:10:41.970Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T21:10:41.977Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T21:10:47.875Z - debug: GET /order/delete/2
+2018-11-18T21:10:47.878Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T21:10:47.879Z - info: RETURNING VIEW FOR {"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:10:52.303Z - debug: GET /order/details/1
+2018-11-18T21:10:52.306Z - info: Handling GET /details/:id [object Object]
+2018-11-18T21:10:52.308Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T21:10:55.878Z - debug: GET /order/details/2
+2018-11-18T21:10:55.882Z - info: Handling GET /details/:id [object Object]
+2018-11-18T21:10:55.883Z - info: RETURNING VIEW FOR {"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:11:00.301Z - debug: GET /order
+2018-11-18T21:12:27.785Z - info: Environment variables loaded.
+2018-11-18T21:12:27.798Z - debug: START routing
+2018-11-18T21:12:27.834Z - debug: END routing
+2018-11-18T21:12:27.834Z - info: Loaded routing.
+2018-11-18T21:12:27.878Z - info: START seeder.
+2018-11-18T21:12:27.883Z - debug: 4 customers seeded
+2018-11-18T21:12:27.888Z - debug: 5 products seeded
+2018-11-18T21:12:27.890Z - debug: 2 order seeded
+2018-11-18T21:12:27.892Z - debug: 4 orderLineItems seeded
+2018-11-18T21:12:27.892Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:12:30.585Z - debug: GET /order
+2018-11-18T21:12:35.935Z - debug: GET /
+2018-11-18T21:12:35.938Z - debug: Request to /
+2018-11-18T21:12:37.244Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/views/order/index.ejs
+2018-11-18T21:12:37.318Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/css/main.css
+2018-11-18T21:12:37.612Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/favicon-32x32.png
+2018-11-18T21:12:37.616Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/manifest.json
+2018-11-18T21:12:37.640Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/favicon-16x16.png
+2018-11-18T21:12:37.667Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/favicon-96x96.png
+2018-11-18T21:12:37.676Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/android-icon-192x192.png
+2018-11-18T21:12:44.528Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/views/order/index.ejs
+2018-11-18T21:12:44.613Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/css/main.css
+2018-11-18T21:12:45.020Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/images/manifest.json
+2018-11-18T21:12:47.274Z - debug: GET /C:/Users/s518350/44563/ecommerce-a04/css/main.css
+2018-11-18T21:15:01.123Z - debug: GET /
+2018-11-18T21:15:01.125Z - debug: Request to /
+2018-11-18T21:15:02.311Z - debug: GET /order/index.ejs
+2018-11-18T21:15:57.016Z - debug: GET /
+2018-11-18T21:15:57.017Z - debug: Request to /
+2018-11-18T21:15:58.221Z - debug: GET /Order
+2018-11-18T21:16:02.637Z - debug: GET /
+2018-11-18T21:16:02.638Z - debug: Request to /
+2018-11-18T21:16:04.325Z - debug: GET /Order
+2018-11-18T21:16:09.725Z - debug: GET /Order/create
+2018-11-18T21:16:09.726Z - info: Handling GET /create[object Object]
+2018-11-18T21:16:09.732Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:12:27.822Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:16:41.192Z - debug: GET /
+2018-11-18T21:16:41.194Z - debug: Request to /
+2018-11-18T21:16:43.183Z - debug: GET /order
+2018-11-18T21:16:46.121Z - debug: GET /order/create
+2018-11-18T21:16:46.122Z - info: Handling GET /create[object Object]
+2018-11-18T21:16:46.124Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:12:27.822Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:16:48.855Z - debug: GET /order/delete/1
+2018-11-18T21:16:48.857Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T21:16:48.859Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Hari Priya","lastname":"Jupally","datePlaced":"2018-11-10","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":24.99,"paid":true}
+2018-11-18T21:18:53.738Z - debug: GET /order
+2018-11-18T21:19:53.884Z - info: Environment variables loaded.
+2018-11-18T21:19:53.894Z - debug: START routing
+2018-11-18T21:19:53.948Z - debug: END routing
+2018-11-18T21:19:53.949Z - info: Loaded routing.
+2018-11-18T21:19:54.006Z - info: START seeder.
+2018-11-18T21:19:54.017Z - debug: 4 customers seeded
+2018-11-18T21:19:54.020Z - debug: 5 products seeded
+2018-11-18T21:19:54.022Z - debug: 2 order seeded
+2018-11-18T21:19:54.024Z - debug: 4 orderLineItems seeded
+2018-11-18T21:19:54.024Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:20:00.907Z - debug: GET /
+2018-11-18T21:20:00.914Z - debug: Request to /
+2018-11-18T21:20:04.567Z - debug: GET /order
+2018-11-18T21:23:12.343Z - debug: GET /order
+2018-11-18T21:25:15.653Z - info: Environment variables loaded.
+2018-11-18T21:25:15.663Z - debug: START routing
+2018-11-18T21:25:15.717Z - debug: END routing
+2018-11-18T21:25:15.718Z - info: Loaded routing.
+2018-11-18T21:25:15.771Z - info: START seeder.
+2018-11-18T21:25:15.775Z - debug: 4 customers seeded
+2018-11-18T21:25:15.777Z - debug: 5 products seeded
+2018-11-18T21:25:15.779Z - debug: 2 order seeded
+2018-11-18T21:25:15.780Z - debug: 4 orderLineItems seeded
+2018-11-18T21:25:15.781Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:25:15.964Z - debug: GET /order/create
+2018-11-18T21:25:15.971Z - info: Handling GET /create[object Object]
+2018-11-18T21:25:15.974Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:25:15.704Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:25:19.422Z - debug: POST /order/save
+2018-11-18T21:25:19.468Z - info: Handling POST [object Object]
+2018-11-18T21:25:19.468Z - debug: {"_id":"3"}
+2018-11-18T21:25:19.470Z - info: NEW ID 3
+2018-11-18T21:25:19.474Z - info: SAVING NEW order {"orderID":555,"_id":3}
+2018-11-18T21:25:19.490Z - debug: GET /order
+2018-11-18T21:25:35.819Z - debug: GET /order/delete/3
+2018-11-18T21:25:35.820Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T21:25:35.823Z - info: RETURNING VIEW FOR {"orderID":555,"_id":3}
+2018-11-18T21:25:39.719Z - debug: POST /order/delete/3
+2018-11-18T21:25:39.724Z - info: Handling DELETE request [object Object]
+2018-11-18T21:25:39.724Z - info: Handling REMOVING ID=3
+2018-11-18T21:25:39.734Z - debug: GET /order
+2018-11-18T21:25:42.629Z - debug: GET /order/delete/3
+2018-11-18T21:25:42.633Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T21:25:46.733Z - debug: GET /order/create
+2018-11-18T21:25:46.734Z - info: Handling GET /create[object Object]
+2018-11-18T21:25:46.736Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:25:15.704Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:28:37.434Z - debug: GET /
+2018-11-18T21:28:37.436Z - debug: Request to /
+2018-11-18T21:28:40.613Z - debug: GET /order
+2018-11-18T21:28:43.573Z - debug: GET /
+2018-11-18T21:28:43.577Z - debug: Request to /
