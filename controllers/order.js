@@ -30,7 +30,7 @@ api.get('/findone/:id', (req, res) => {
 // RESPOND WITH VIEWS  --------------------------------------------
 
 // GET to this controller base URI (the default)
-api.get('/order', (req, res) => {
+api.get('/', (req, res) => {
   res.render('order/index.ejs')
 })
 

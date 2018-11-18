@@ -3376,3 +3376,20 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T20:47:11.908Z - info: Handling GET /create[object Object]
 2018-11-18T20:47:11.921Z - debug: {"orderID":555,"datePlaced":"2018-11-18T20:46:26.573Z","paymentType":"not selected yet","paid":false}
 2018-11-18T20:50:32.693Z - debug: GET /order
+2018-11-18T20:52:29.139Z - info: Environment variables loaded.
+2018-11-18T20:52:29.153Z - debug: START routing
+2018-11-18T20:52:29.193Z - debug: END routing
+2018-11-18T20:52:29.194Z - info: Loaded routing.
+2018-11-18T20:52:29.237Z - info: START seeder.
+2018-11-18T20:52:29.240Z - debug: 4 customers seeded
+2018-11-18T20:52:29.242Z - debug: 5 products seeded
+2018-11-18T20:52:29.245Z - debug: 2 order seeded
+2018-11-18T20:52:29.249Z - debug: 4 orderLineItems seeded
+2018-11-18T20:52:29.249Z - info: END Seeder. Sample data read and verified.
+2018-11-18T20:52:34.407Z - debug: GET /
+2018-11-18T20:52:34.415Z - debug: Request to /
+2018-11-18T20:52:36.946Z - debug: GET /order
+2018-11-18T20:53:17.367Z - debug: GET /order
+2018-11-18T20:53:22.106Z - debug: GET /order/create
+2018-11-18T20:53:22.107Z - info: Handling GET /create[object Object]
+2018-11-18T20:53:22.111Z - debug: {"orderID":555,"datePlaced":"2018-11-18T20:52:29.180Z","paymentType":"not selected yet","paid":false}
