@@ -1,0 +1,2462 @@
+2018-11-12T18:51:02.709Z - info: Environment variables loaded.
+2018-11-12T18:51:02.718Z - debug: START routing
+2018-11-12T18:51:02.744Z - debug: END routing
+2018-11-12T18:51:02.745Z - info: Loaded routing.
+2018-11-12T18:51:02.768Z - info: START seeder.
+2018-11-12T18:51:02.772Z - debug: 3 puppies seeded
+2018-11-12T18:51:02.773Z - info: END Seeder. Sample data read and verified.
+2018-11-12T18:51:05.703Z - debug: GET /
+2018-11-12T18:51:05.708Z - debug: Request to /
+2018-11-12T18:51:05.761Z - debug: GET /css/main.css
+2018-11-12T18:51:06.920Z - debug: GET /images/manifest.json
+2018-11-12T18:51:06.921Z - debug: GET /images/favicon-32x32.png
+2018-11-12T18:51:06.928Z - debug: GET /images/favicon-16x16.png
+2018-11-12T18:51:06.935Z - debug: GET /images/favicon-96x96.png
+2018-11-12T18:51:06.942Z - debug: GET /images/android-icon-192x192.png
+2018-11-12T18:51:09.602Z - debug: GET /puppy
+2018-11-12T18:51:14.970Z - debug: GET /puppy/details/3
+2018-11-12T18:51:14.972Z - info: Handling GET /details/:id [object Object]
+2018-11-12T18:51:14.973Z - info: RETURNING VIEW FOR {"_id":3,"name":"Max","breed":"Beagle","age":7,"parents":[{"parentName":"Lassie","parentBreed":"Beagle","parentAge":5},{"parentName":"Sport","parentBreed":"Beagle","parentAge":6}]}
+2018-11-12T18:54:41.032Z - debug: GET /puppy?
+2018-11-12T18:54:42.258Z - debug: GET /puppy/delete/3
+2018-11-12T18:54:42.259Z - info: Handling GET /delete/:id [object Object]
+2018-11-12T18:54:42.259Z - info: RETURNING VIEW FOR {"_id":3,"name":"Max","breed":"Beagle","age":7,"parents":[{"parentName":"Lassie","parentBreed":"Beagle","parentAge":5},{"parentName":"Sport","parentBreed":"Beagle","parentAge":6}]}
+2018-11-13T01:47:36.841Z - info: Environment variables loaded.
+2018-11-13T01:47:36.874Z - error: uncaughtException: Cannot find module './logger.js' date=Mon Nov 12 2018 19:47:36 GMT-0600 (Central Standard Time), pid=57636, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=68894720, heapTotal=61255680, heapUsed=37816200, external=19554822, loadavg=[0, 0, 0], uptime=91112.3687864
+Error: Cannot find module './logger.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:26:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:48:34.212Z - info: Environment variables loaded.
+2018-11-13T01:48:34.248Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:48:34 GMT-0600 (Central Standard Time), pid=58068, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=69734400, heapTotal=60731392, heapUsed=38818592, external=19630735, loadavg=[0, 0, 0], uptime=91169.7410741
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:75:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:48:43.211Z - info: Environment variables loaded.
+2018-11-13T01:48:43.253Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:48:43 GMT-0600 (Central Standard Time), pid=58136, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=68567040, heapTotal=61779968, heapUsed=37592448, external=19436420, loadavg=[0, 0, 0], uptime=91178.7470796
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:75:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:49:13.475Z - info: Environment variables loaded.
+2018-11-13T01:49:13.518Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:49:13 GMT-0600 (Central Standard Time), pid=57660, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=68878336, heapTotal=61255680, heapUsed=38074800, external=19600433, loadavg=[0, 0, 0], uptime=91209.0083645
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:49:21.551Z - info: Environment variables loaded.
+2018-11-13T01:49:21.582Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:49:21 GMT-0600 (Central Standard Time), pid=57180, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=68579328, heapTotal=61779968, heapUsed=37572264, external=19436420, loadavg=[0, 0, 0], uptime=91217.0776544
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:50:13.038Z - info: Environment variables loaded.
+2018-11-13T01:50:13.068Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:50:13 GMT-0600 (Central Standard Time), pid=57580, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=70979584, heapTotal=59682816, heapUsed=39918160, external=19838751, loadavg=[0, 0, 0], uptime=91268.5648892
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:53:39.084Z - info: Environment variables loaded.
+2018-11-13T01:53:39.117Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:53:39 GMT-0600 (Central Standard Time), pid=58708, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=68329472, heapTotal=61779968, heapUsed=37273512, external=19428228, loadavg=[0, 0, 0], uptime=91474.6136651
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:58:02.526Z - info: Environment variables loaded.
+2018-11-13T01:58:02.575Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:58:02 GMT-0600 (Central Standard Time), pid=58416, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=69820416, heapTotal=60731392, heapUsed=39069824, external=19630735, loadavg=[0, 0, 0], uptime=91738.0645429
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:75:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T01:58:48.143Z - info: Environment variables loaded.
+2018-11-13T01:58:48.186Z - error: uncaughtException: Unexpected token << date=Mon Nov 12 2018 19:58:48 GMT-0600 (Central Standard Time), pid=16976, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=70479872, heapTotal=60731392, heapUsed=39577496, external=19816201, loadavg=[0, 0, 0], uptime=91783.6769828
+C:\Users\S533990\44563\ecommerce-a04\utils\seeder.js:1
+(function (exports, require, module, __filename, __dirname) { <<<<<<< HEAD
+                                                              ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T02:00:36.894Z - info: Environment variables loaded.
+2018-11-13T02:00:36.944Z - info: START seeder.
+2018-11-13T02:00:36.950Z - debug: 4 customer seeded
+2018-11-13T02:00:36.950Z - info: END Seeder. Sample data read and verified.
+2018-11-13T02:01:34.520Z - info: Environment variables loaded.
+2018-11-13T02:01:34.558Z - info: START seeder.
+2018-11-13T02:01:34.561Z - debug: 4 customer seeded
+2018-11-13T02:01:34.561Z - info: END Seeder. Sample data read and verified.
+2018-11-13T02:02:32.049Z - info: Environment variables loaded.
+2018-11-13T02:02:32.108Z - info: START seeder.
+2018-11-13T02:02:32.116Z - debug: 4 customer seeded
+2018-11-13T02:02:32.116Z - info: END Seeder. Sample data read and verified.
+2018-11-13T02:02:50.022Z - info: Environment variables loaded.
+2018-11-13T02:02:50.094Z - info: START seeder.
+2018-11-13T02:02:50.100Z - debug: 4 customer seeded
+2018-11-13T02:02:50.100Z - info: END Seeder. Sample data read and verified.
+2018-11-13T02:04:21.505Z - info: Environment variables loaded.
+2018-11-13T02:04:21.554Z - info: START seeder.
+2018-11-13T02:04:21.560Z - debug: 4 customer seeded
+2018-11-13T02:04:21.561Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:47:47.938Z - info: Environment variables loaded.
+2018-11-13T04:47:47.998Z - error: uncaughtException: Order is not defined date=Mon Nov 12 2018 22:47:47 GMT-0600 (Central Standard Time), pid=19496, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=72855552, heapTotal=61329408, heapUsed=40624888, external=19863800, loadavg=[0, 0, 0], uptime=1179753.5770292
+ReferenceError: Order is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:27:19)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:47:47.977Z - info: START seeder.
+2018-11-13T04:47:47.980Z - debug: 4 customer seeded
+2018-11-13T04:48:56.801Z - info: Environment variables loaded.
+2018-11-13T04:48:56.862Z - error: uncaughtException: Location is not defined date=Mon Nov 12 2018 22:48:56 GMT-0600 (Central Standard Time), pid=19796, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73613312, heapTotal=63426560, heapUsed=31636504, external=18408980, loadavg=[0, 0, 0], uptime=1179822.438991
+ReferenceError: Location is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:48:56.840Z - info: START seeder.
+2018-11-13T04:48:56.843Z - debug: 4 customer seeded
+2018-11-13T04:49:10.465Z - info: Environment variables loaded.
+2018-11-13T04:49:10.513Z - error: uncaughtException: Location is not defined date=Mon Nov 12 2018 22:49:10 GMT-0600 (Central Standard Time), pid=1284, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73740288, heapTotal=63950848, heapUsed=31186480, external=18335256, loadavg=[0, 0, 0], uptime=1179836.0912948
+ReferenceError: Location is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:49:10.496Z - info: START seeder.
+2018-11-13T04:49:10.499Z - debug: 4 customer seeded
+2018-11-13T04:49:35.896Z - info: Environment variables loaded.
+2018-11-13T04:49:35.968Z - error: uncaughtException: LocationLOG is not defined date=Mon Nov 12 2018 22:49:35 GMT-0600 (Central Standard Time), pid=11432, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73814016, heapTotal=63426560, heapUsed=31172584, external=18335256, loadavg=[0, 0, 0], uptime=1179861.5462934
+ReferenceError: LocationLOG is not defined
+    at module.exports (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:31:3)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:63:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:49:35.946Z - info: START seeder.
+2018-11-13T04:49:35.950Z - debug: 4 customer seeded
+2018-11-13T04:49:40.227Z - info: Environment variables loaded.
+2018-11-13T04:49:40.265Z - info: START seeder.
+2018-11-13T04:49:40.268Z - debug: 4 customer seeded
+2018-11-13T04:49:40.271Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T04:49:40.271Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:49:45.235Z - info: Environment variables loaded.
+2018-11-13T04:49:45.266Z - info: START seeder.
+2018-11-13T04:49:45.269Z - debug: 4 customer seeded
+2018-11-13T04:49:45.270Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T04:49:45.270Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:08:58.855Z - info: Environment variables loaded.
+2018-11-13T05:08:59.083Z - info: START seeder.
+2018-11-13T05:08:59.089Z - debug: 4 customer seeded
+2018-11-13T05:08:59.092Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:08:59.092Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:14:40.961Z - info: Environment variables loaded.
+2018-11-13T05:14:40.995Z - info: START seeder.
+2018-11-13T05:14:41.008Z - debug: 4 customer seeded
+2018-11-13T05:14:41.017Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:14:41.017Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:15:25.063Z - info: Environment variables loaded.
+2018-11-13T05:15:25.096Z - info: START seeder.
+2018-11-13T05:15:25.108Z - debug: 4 customer seeded
+2018-11-13T05:15:25.114Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:15:25.114Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:15:35.965Z - info: Environment variables loaded.
+2018-11-13T05:15:36.003Z - info: START seeder.
+2018-11-13T05:15:36.008Z - debug: 4 customer seeded
+2018-11-13T05:15:36.011Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:15:36.012Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:18:32.922Z - info: Environment variables loaded.
+2018-11-13T05:18:33.015Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:18:32 GMT-0600 (Central Standard Time), pid=9224, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65101824, heapTotal=61779968, heapUsed=34089912, external=19079983, loadavg=[0, 0, 0], uptime=789354.3425679
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:18:32.975Z - debug: START routing
+2018-11-13T05:19:02.589Z - info: Environment variables loaded.
+2018-11-13T05:19:02.619Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:19:02 GMT-0600 (Central Standard Time), pid=16380, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65064960, heapTotal=61779968, heapUsed=33844568, external=19052152, loadavg=[0, 0, 0], uptime=789383.9523793
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:19:02.598Z - debug: START routing
+2018-11-13T05:21:29.911Z - info: Environment variables loaded.
+2018-11-13T05:21:29.948Z - info: START seeder.
+2018-11-13T05:21:29.953Z - debug: 4 customer seeded
+2018-11-13T05:21:29.956Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:21:29.956Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:24:17.468Z - info: Environment variables loaded.
+2018-11-13T05:24:17.505Z - info: START seeder.
+2018-11-13T05:24:17.521Z - debug: 4 customer seeded
+2018-11-13T05:24:17.525Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:24:17.526Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:24:29.645Z - info: Environment variables loaded.
+2018-11-13T05:24:29.673Z - info: START seeder.
+2018-11-13T05:24:29.678Z - debug: 4 customer seeded
+2018-11-13T05:24:29.680Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:24:29.681Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:25:23.542Z - info: Environment variables loaded.
+2018-11-13T05:25:23.578Z - info: START seeder.
+2018-11-13T05:25:23.586Z - debug: 4 customer seeded
+2018-11-13T05:25:23.589Z - debug: ${app.locals.Order.query.length} Order seeded
+2018-11-13T05:25:23.589Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:28:03.899Z - info: Environment variables loaded.
+2018-11-13T05:28:03.950Z - error: uncaughtException: Cannot find module '../data/puppies.json' date=Mon Nov 12 2018 23:28:03 GMT-0600 (Central Standard Time), pid=21668, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66240512, heapTotal=61779968, heapUsed=35664824, external=19304711, loadavg=[0, 0, 0], uptime=789925.2807445
+Error: Cannot find module '../data/puppies.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:4:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:11.079Z - info: Environment variables loaded.
+2018-11-13T05:28:11.131Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:11 GMT-0600 (Central Standard Time), pid=16848, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=67100672, heapTotal=61779968, heapUsed=36124104, external=19347455, loadavg=[0, 0, 0], uptime=789932.4628893
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:7:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:15.679Z - info: Environment variables loaded.
+2018-11-13T05:28:15.724Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:15 GMT-0600 (Central Standard Time), pid=13048, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66248704, heapTotal=61779968, heapUsed=35162408, external=19237802, loadavg=[0, 0, 0], uptime=789937.0570026
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:26.381Z - info: Environment variables loaded.
+2018-11-13T05:28:26.438Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:26 GMT-0600 (Central Standard Time), pid=2056, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65814528, heapTotal=62304256, heapUsed=35162824, external=19229610, loadavg=[0, 0, 0], uptime=789947.7687963
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:41.945Z - info: Environment variables loaded.
+2018-11-13T05:28:42.000Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:41 GMT-0600 (Central Standard Time), pid=10892, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65806336, heapTotal=61779968, heapUsed=35125312, external=19245994, loadavg=[0, 0, 0], uptime=789963.3285174
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:45.039Z - info: Environment variables loaded.
+2018-11-13T05:28:45.085Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:45 GMT-0600 (Central Standard Time), pid=11612, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65699840, heapTotal=61779968, heapUsed=35116520, external=19229610, loadavg=[0, 0, 0], uptime=789966.41823
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:28:52.711Z - info: Environment variables loaded.
+2018-11-13T05:28:52.767Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:28:52 GMT-0600 (Central Standard Time), pid=9144, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65478656, heapTotal=62304256, heapUsed=34839512, external=19193587, loadavg=[0, 0, 0], uptime=789974.0981125
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:29:49.771Z - info: Environment variables loaded.
+2018-11-13T05:29:49.834Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:29:49 GMT-0600 (Central Standard Time), pid=4116, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65708032, heapTotal=62304256, heapUsed=34880344, external=19201779, loadavg=[0, 0, 0], uptime=790031.1644084
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:29.817Z - info: Environment variables loaded.
+2018-11-13T05:30:29.867Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:29 GMT-0600 (Central Standard Time), pid=14372, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66043904, heapTotal=61779968, heapUsed=35155280, external=19218163, loadavg=[0, 0, 0], uptime=790071.1998742
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:33.137Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:33 GMT-0600 (Central Standard Time), pid=17164, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65916928, heapTotal=61779968, heapUsed=35147176, external=19237802, loadavg=[0, 0, 0], uptime=790074.4703502
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:33.084Z - info: Environment variables loaded.
+2018-11-13T05:30:36.036Z - info: Environment variables loaded.
+2018-11-13T05:30:36.081Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:36 GMT-0600 (Central Standard Time), pid=13348, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65810432, heapTotal=61779968, heapUsed=34850656, external=19209971, loadavg=[0, 0, 0], uptime=790077.4139606
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:37.693Z - info: Environment variables loaded.
+2018-11-13T05:30:37.739Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:37 GMT-0600 (Central Standard Time), pid=19580, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65998848, heapTotal=62304256, heapUsed=35128800, external=19245994, loadavg=[0, 0, 0], uptime=790079.0719611
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:40.574Z - info: Environment variables loaded.
+2018-11-13T05:30:40.650Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:40 GMT-0600 (Central Standard Time), pid=13152, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65728512, heapTotal=61779968, heapUsed=35134960, external=19245994, loadavg=[0, 0, 0], uptime=790081.9821266
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:30:42.935Z - info: Environment variables loaded.
+2018-11-13T05:30:42.982Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:30:42 GMT-0600 (Central Standard Time), pid=6432, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65892352, heapTotal=61779968, heapUsed=35121888, external=19245994, loadavg=[0, 0, 0], uptime=790084.3153614
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:31:12.272Z - info: Environment variables loaded.
+2018-11-13T05:31:12.320Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:31:12 GMT-0600 (Central Standard Time), pid=3340, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65953792, heapTotal=61779968, heapUsed=35375000, external=19265223, loadavg=[0, 0, 0], uptime=790113.6534225
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:32:56.726Z - info: Environment variables loaded.
+2018-11-13T05:32:56.781Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:32:56 GMT-0600 (Central Standard Time), pid=736, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66256896, heapTotal=61779968, heapUsed=35151712, external=19245994, loadavg=[0, 0, 0], uptime=790218.1142018
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:02.280Z - info: Environment variables loaded.
+2018-11-13T05:33:02.351Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:02 GMT-0600 (Central Standard Time), pid=8132, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65568768, heapTotal=61779968, heapUsed=35002352, external=19218163, loadavg=[0, 0, 0], uptime=790223.6819512
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:04.396Z - info: Environment variables loaded.
+2018-11-13T05:33:04.445Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:04 GMT-0600 (Central Standard Time), pid=5180, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65970176, heapTotal=62304256, heapUsed=35226280, external=19245994, loadavg=[0, 0, 0], uptime=790225.7766233
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:08.191Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 23:33:08 GMT-0600 (Central Standard Time), pid=18068, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66461696, heapTotal=61779968, heapUsed=35378872, external=19265223, loadavg=[0, 0, 0], uptime=790229.5236906
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:5:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:33:08.144Z - info: Environment variables loaded.
+2018-11-13T05:36:26.426Z - info: Environment variables loaded.
+2018-11-13T05:36:26.524Z - error: uncaughtException: Cannot find module '../data/products.json' date=Mon Nov 12 2018 23:36:26 GMT-0600 (Central Standard Time), pid=4688, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65859584, heapTotal=61779968, heapUsed=35175200, external=19237802, loadavg=[0, 0, 0], uptime=790427.8562624
+Error: Cannot find module '../data/products.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:6:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:36:57.070Z - info: Environment variables loaded.
+2018-11-13T05:36:57.126Z - error: uncaughtException: G:\Repos\ecommerce-a04\data\products.json: Unexpected end of JSON input date=Mon Nov 12 2018 23:36:57 GMT-0600 (Central Standard Time), pid=5720, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=66260992, heapTotal=62304256, heapUsed=35174072, external=19254186, loadavg=[0, 0, 0], uptime=790458.4529549
+SyntaxError: G:\Repos\ecommerce-a04\data\products.json: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:6:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-13T05:37:45.475Z - info: Environment variables loaded.
+2018-11-13T05:37:45.529Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Mon Nov 12 2018 23:37:45 GMT-0600 (Central Standard Time), pid=10504, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=65888256, heapTotal=61779968, heapUsed=35027512, external=19218163, loadavg=[0, 0, 0], uptime=790506.8623172
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\utils\seeder.js:7:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:63:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:37:59.195Z - info: Environment variables loaded.
+2018-11-13T05:37:59.278Z - info: START seeder.
+2018-11-13T05:37:59.295Z - debug: 4 customers seeded
+2018-11-13T05:37:59.311Z - debug: 2 products seeded
+2018-11-13T05:37:59.326Z - debug: 2 orders seeded
+2018-11-13T05:37:59.339Z - debug: 2 orderLineItems seeded
+2018-11-13T05:37:59.344Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:39:15.118Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 23:39:15 GMT-0600 (Central Standard Time), pid=17604, uid=null, gid=null, cwd=G:\Repos\ecommerce-a04, execPath=G:\Programs\node.exe, version=v8.12.0, argv=[G:\Programs\node.exe, G:\Repos\ecommerce-a04\app.js], rss=64385024, heapTotal=61779968, heapUsed=34055056, external=19071791, loadavg=[0, 0, 0], uptime=790596.4335856
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (G:\Repos\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\routes\index.js:23:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (G:\Repos\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T05:39:15.071Z - info: Environment variables loaded.
+2018-11-13T05:39:15.080Z - debug: START routing
+2018-11-13T05:41:27.492Z - info: Environment variables loaded.
+2018-11-13T05:41:27.502Z - debug: START routing
+2018-11-13T05:41:27.559Z - debug: END routing
+2018-11-13T05:41:27.559Z - info: Loaded routing.
+2018-11-13T05:41:27.591Z - info: START seeder.
+2018-11-13T05:41:27.600Z - debug: 4 customers seeded
+2018-11-13T05:41:27.604Z - debug: 2 products seeded
+2018-11-13T05:41:27.609Z - debug: 2 orders seeded
+2018-11-13T05:41:27.613Z - debug: 2 orderLineItems seeded
+2018-11-13T05:41:27.613Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:41:31.946Z - debug: GET /
+2018-11-13T05:41:31.951Z - debug: Request to /
+2018-11-13T05:41:49.793Z - debug: GET /products
+2018-11-13T05:41:54.690Z - debug: GET /product
+2018-11-14T01:38:51.136Z - info: Environment variables loaded.
+2018-11-14T01:38:51.147Z - debug: START routing
+2018-11-14T01:38:51.180Z - debug: END routing
+2018-11-14T01:38:51.182Z - info: Loaded routing.
+2018-11-14T01:38:51.210Z - info: START seeder.
+2018-11-14T01:38:51.210Z - debug: 4 customers seeded
+2018-11-14T01:38:51.216Z - debug: 5 products seeded
+2018-11-14T01:38:51.218Z - debug: 2 orders seeded
+2018-11-14T01:38:51.220Z - debug: 4 orderLineItems seeded
+2018-11-14T01:38:51.221Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:06.304Z - info: Environment variables loaded.
+2018-11-14T02:45:06.602Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:06 GMT-0600 (Central Standard Time), pid=272164, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72896512, heapTotal=63426560, heapUsed=31789320, external=18435191, loadavg=[0, 0, 0], uptime=602435.856163
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    mi
+    ^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:06.320Z - debug: START routing
+2018-11-14T02:45:11.179Z - info: Environment variables loaded.
+2018-11-14T02:45:11.201Z - debug: START routing
+2018-11-14T02:45:11.248Z - debug: END routing
+2018-11-14T02:45:11.248Z - info: Loaded routing.
+2018-11-14T02:45:11.306Z - info: START seeder.
+2018-11-14T02:45:11.315Z - debug: 4 customers seeded
+2018-11-14T02:45:11.315Z - debug: 5 products seeded
+2018-11-14T02:45:11.323Z - debug: 2 orders seeded
+2018-11-14T02:45:11.327Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:11.327Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:14.773Z - info: Environment variables loaded.
+2018-11-14T02:45:14.930Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:14 GMT-0600 (Central Standard Time), pid=273580, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72417280, heapTotal=61329408, heapUsed=41017240, external=19812507, loadavg=[0, 0, 0], uptime=602444.2043479
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:14.791Z - debug: START routing
+2018-11-14T02:45:17.656Z - info: Environment variables loaded.
+2018-11-14T02:45:17.788Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:45:17 GMT-0600 (Central Standard Time), pid=272176, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73535488, heapTotal=63426560, heapUsed=31410616, external=18418807, loadavg=[0, 0, 0], uptime=602447.0911226
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:45:17.678Z - debug: START routing
+2018-11-14T02:45:23.075Z - info: Environment variables loaded.
+2018-11-14T02:45:23.089Z - debug: START routing
+2018-11-14T02:45:23.119Z - debug: END routing
+2018-11-14T02:45:23.119Z - info: Loaded routing.
+2018-11-14T02:45:23.188Z - info: START seeder.
+2018-11-14T02:45:23.188Z - debug: 4 customers seeded
+2018-11-14T02:45:23.188Z - debug: 5 products seeded
+2018-11-14T02:45:23.188Z - debug: 2 orders seeded
+2018-11-14T02:45:23.205Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:23.205Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:45:28.946Z - info: Environment variables loaded.
+2018-11-14T02:45:28.963Z - debug: START routing
+2018-11-14T02:45:28.995Z - debug: END routing
+2018-11-14T02:45:28.995Z - info: Loaded routing.
+2018-11-14T02:45:29.057Z - info: START seeder.
+2018-11-14T02:45:29.063Z - debug: 4 customers seeded
+2018-11-14T02:45:29.068Z - debug: 5 products seeded
+2018-11-14T02:45:29.068Z - debug: 2 orders seeded
+2018-11-14T02:45:29.072Z - debug: 4 orderLineItems seeded
+2018-11-14T02:45:29.072Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:46:43.196Z - info: Environment variables loaded.
+2018-11-14T02:46:43.332Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:43 GMT-0600 (Central Standard Time), pid=274412, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73248768, heapTotal=63950848, heapUsed=30952480, external=18326700, loadavg=[0, 0, 0], uptime=602532.6283904
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:43.216Z - debug: START routing
+2018-11-14T02:46:52.119Z - info: Environment variables loaded.
+2018-11-14T02:46:52.245Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:52 GMT-0600 (Central Standard Time), pid=274120, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72638464, heapTotal=61329408, heapUsed=41119472, external=19804315, loadavg=[0, 0, 0], uptime=602541.5585881
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:52.143Z - debug: START routing
+2018-11-14T02:46:57.540Z - info: Environment variables loaded.
+2018-11-14T02:46:57.695Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:46:57 GMT-0600 (Central Standard Time), pid=273800, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73281536, heapTotal=63426560, heapUsed=30553568, external=18313660, loadavg=[0, 0, 0], uptime=602546.9858173
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:46:57.562Z - debug: START routing
+2018-11-14T02:47:00.573Z - info: Environment variables loaded.
+2018-11-14T02:47:00.703Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:00 GMT-0600 (Central Standard Time), pid=272708, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72491008, heapTotal=61329408, heapUsed=41011576, external=19804315, loadavg=[0, 0, 0], uptime=602550.0054467
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:00.584Z - debug: START routing
+2018-11-14T02:47:12.892Z - info: Environment variables loaded.
+2018-11-14T02:47:13.066Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:12 GMT-0600 (Central Standard Time), pid=273276, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72245248, heapTotal=61329408, heapUsed=41116696, external=19812507, loadavg=[0, 0, 0], uptime=602562.3318625
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:12.914Z - debug: START routing
+2018-11-14T02:47:20.106Z - info: Environment variables loaded.
+2018-11-14T02:47:20.281Z - error: uncaughtException: Unexpected identifier date=Tue Nov 13 2018 20:47:20 GMT-0600 (Central Standard Time), pid=271636, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73175040, heapTotal=63426560, heapUsed=31406944, external=18418807, loadavg=[0, 0, 0], uptime=602569.548217
+C:\Users\S533908\Documents\44563\ecommerce-a04\models\Product.js:24
+    min: 0,
+    ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:24:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-14T02:47:20.127Z - debug: START routing
+2018-11-14T02:49:16.779Z - info: Environment variables loaded.
+2018-11-14T02:49:16.802Z - debug: START routing
+2018-11-14T02:49:16.853Z - debug: END routing
+2018-11-14T02:49:16.853Z - info: Loaded routing.
+2018-11-14T02:49:16.905Z - info: START seeder.
+2018-11-14T02:49:16.920Z - debug: 4 customers seeded
+2018-11-14T02:49:16.925Z - debug: 5 products seeded
+2018-11-14T02:49:16.928Z - debug: 2 orders seeded
+2018-11-14T02:49:16.929Z - debug: 4 orderLineItems seeded
+2018-11-14T02:49:16.929Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:52:04.602Z - info: Environment variables loaded.
+2018-11-14T02:52:04.615Z - debug: START routing
+2018-11-14T02:52:04.647Z - debug: END routing
+2018-11-14T02:52:04.647Z - info: Loaded routing.
+2018-11-14T02:52:04.706Z - info: START seeder.
+2018-11-14T02:52:04.706Z - debug: 4 customers seeded
+2018-11-14T02:52:04.715Z - debug: 5 products seeded
+2018-11-14T02:52:04.722Z - debug: 2 orders seeded
+2018-11-14T02:52:04.724Z - debug: 4 orderLineItems seeded
+2018-11-14T02:52:04.724Z - info: END Seeder. Sample data read and verified.
+2018-11-14T02:53:35.187Z - info: Environment variables loaded.
+2018-11-14T02:53:35.195Z - debug: START routing
+2018-11-14T02:53:35.212Z - debug: END routing
+2018-11-14T02:53:35.212Z - info: Loaded routing.
+2018-11-14T02:53:35.245Z - info: START seeder.
+2018-11-14T02:53:35.245Z - debug: 4 customers seeded
+2018-11-14T02:53:35.245Z - debug: 5 products seeded
+2018-11-14T02:53:35.253Z - debug: 2 orders seeded
+2018-11-14T02:53:35.254Z - debug: 4 orderLineItems seeded
+2018-11-14T02:53:35.254Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:27:43.674Z - info: Environment variables loaded.
+2018-11-16T00:27:43.689Z - debug: START routing
+2018-11-16T00:27:43.713Z - debug: END routing
+2018-11-16T00:27:43.714Z - info: Loaded routing.
+2018-11-16T00:27:43.749Z - info: START seeder.
+2018-11-16T00:27:43.754Z - debug: 4 customers seeded
+2018-11-16T00:27:43.757Z - debug: 5 products seeded
+2018-11-16T00:27:43.758Z - debug: 2 orders seeded
+2018-11-16T00:27:43.760Z - debug: 4 orderLineItems seeded
+2018-11-16T00:27:43.761Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:27:55.863Z - debug: GET /
+2018-11-16T00:27:55.870Z - debug: Request to /
+2018-11-16T00:27:56.019Z - debug: GET /css/main.css
+2018-11-16T00:27:56.834Z - debug: GET /images/manifest.json
+2018-11-16T00:27:56.837Z - debug: GET /images/favicon-32x32.png
+2018-11-16T00:27:56.954Z - debug: GET /images/favicon-16x16.png
+2018-11-16T00:27:56.964Z - debug: GET /images/favicon-96x96.png
+2018-11-16T00:27:56.974Z - debug: GET /images/android-icon-192x192.png
+2018-11-16T00:29:35.813Z - info: Environment variables loaded.
+2018-11-16T00:29:35.834Z - debug: START routing
+2018-11-16T00:29:35.888Z - debug: END routing
+2018-11-16T00:29:35.888Z - info: Loaded routing.
+2018-11-16T00:29:35.956Z - info: START seeder.
+2018-11-16T00:29:35.965Z - debug: 4 customers seeded
+2018-11-16T00:29:35.965Z - debug: 5 products seeded
+2018-11-16T00:29:35.965Z - debug: 2 orders seeded
+2018-11-16T00:29:35.965Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:35.965Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:48.849Z - info: Environment variables loaded.
+2018-11-16T00:29:48.882Z - debug: START routing
+2018-11-16T00:29:48.929Z - debug: END routing
+2018-11-16T00:29:48.930Z - info: Loaded routing.
+2018-11-16T00:29:49.007Z - info: START seeder.
+2018-11-16T00:29:49.007Z - debug: 4 customers seeded
+2018-11-16T00:29:49.007Z - debug: 5 products seeded
+2018-11-16T00:29:49.007Z - debug: 2 orders seeded
+2018-11-16T00:29:49.007Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:49.007Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:52.101Z - info: Environment variables loaded.
+2018-11-16T00:29:52.123Z - debug: START routing
+2018-11-16T00:29:52.159Z - debug: END routing
+2018-11-16T00:29:52.159Z - info: Loaded routing.
+2018-11-16T00:29:52.209Z - info: START seeder.
+2018-11-16T00:29:52.212Z - debug: 4 customers seeded
+2018-11-16T00:29:52.215Z - debug: 5 products seeded
+2018-11-16T00:29:52.216Z - debug: 2 orders seeded
+2018-11-16T00:29:52.222Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:52.222Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:29:57.965Z - info: Environment variables loaded.
+2018-11-16T00:29:57.988Z - debug: START routing
+2018-11-16T00:29:58.041Z - debug: END routing
+2018-11-16T00:29:58.041Z - info: Loaded routing.
+2018-11-16T00:29:58.107Z - info: START seeder.
+2018-11-16T00:29:58.116Z - debug: 4 customers seeded
+2018-11-16T00:29:58.122Z - debug: 5 products seeded
+2018-11-16T00:29:58.125Z - debug: 2 orders seeded
+2018-11-16T00:29:58.128Z - debug: 4 orderLineItems seeded
+2018-11-16T00:29:58.128Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:30:07.177Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Thu Nov 15 2018 18:30:07 GMT-0600 (Central Standard Time), pid=203060, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73670656, heapTotal=63950848, heapUsed=31231096, external=18446721, loadavg=[0, 0, 0], uptime=123425.5535091
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:30:06.994Z - info: Environment variables loaded.
+2018-11-16T00:30:07.011Z - debug: START routing
+2018-11-16T00:30:35.213Z - info: Environment variables loaded.
+2018-11-16T00:30:35.371Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Thu Nov 15 2018 18:30:35 GMT-0600 (Central Standard Time), pid=203412, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73441280, heapTotal=61329408, heapUsed=41705928, external=19995600, loadavg=[0, 0, 0], uptime=123453.7493657
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S533908\Documents\44563\ecommerce-a04\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T00:30:35.232Z - debug: START routing
+2018-11-16T00:31:35.709Z - info: Environment variables loaded.
+2018-11-16T00:31:35.843Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:31:35 GMT-0600 (Central Standard Time), pid=202024, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73506816, heapTotal=63426560, heapUsed=32061256, external=18550026, loadavg=[0, 0, 0], uptime=123514.2415455
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:31:35.728Z - debug: START routing
+2018-11-16T00:31:40.937Z - info: Environment variables loaded.
+2018-11-16T00:31:41.079Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:31:41 GMT-0600 (Central Standard Time), pid=204320, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=70807552, heapTotal=62902272, heapUsed=39525456, external=19612800, loadavg=[0, 0, 0], uptime=123519.4769877
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:31:40.960Z - debug: START routing
+2018-11-16T00:32:11.537Z - info: Environment variables loaded.
+2018-11-16T00:32:11.666Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:11 GMT-0600 (Central Standard Time), pid=204244, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73781248, heapTotal=64475136, heapUsed=31301424, external=18384006, loadavg=[0, 0, 0], uptime=123550.0684989
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:11.556Z - debug: START routing
+2018-11-16T00:32:17.238Z - info: Environment variables loaded.
+2018-11-16T00:32:17.382Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:17 GMT-0600 (Central Standard Time), pid=203780, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73670656, heapTotal=63426560, heapUsed=34146096, external=18662454, loadavg=[0, 0, 0], uptime=123555.7812385
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:17.261Z - debug: START routing
+2018-11-16T00:32:34.756Z - info: Environment variables loaded.
+2018-11-16T00:32:34.849Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:34 GMT-0600 (Central Standard Time), pid=204516, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73568256, heapTotal=63950848, heapUsed=31687888, external=18449733, loadavg=[0, 0, 0], uptime=123573.2540427
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:34.763Z - debug: START routing
+2018-11-16T00:32:38.277Z - info: Environment variables loaded.
+2018-11-16T00:32:38.424Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:38 GMT-0600 (Central Standard Time), pid=202676, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73756672, heapTotal=63950848, heapUsed=31682296, external=18457924, loadavg=[0, 0, 0], uptime=123576.8128092
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:38.291Z - debug: START routing
+2018-11-16T00:32:46.601Z - info: Environment variables loaded.
+2018-11-16T00:32:46.772Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:46 GMT-0600 (Central Standard Time), pid=203860, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72925184, heapTotal=61329408, heapUsed=41818184, external=19935542, loadavg=[0, 0, 0], uptime=123585.1357703
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:46.618Z - debug: START routing
+2018-11-16T00:32:49.919Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:49 GMT-0600 (Central Standard Time), pid=204588, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73453568, heapTotal=61329408, heapUsed=41737392, external=19992932, loadavg=[0, 0, 0], uptime=123588.3013883
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:49.772Z - info: Environment variables loaded.
+2018-11-16T00:32:49.797Z - debug: START routing
+2018-11-16T00:32:54.127Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:32:54 GMT-0600 (Central Standard Time), pid=197544, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73879552, heapTotal=64475136, heapUsed=31286472, external=18452248, loadavg=[0, 0, 0], uptime=123592.5081525
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:32:53.983Z - info: Environment variables loaded.
+2018-11-16T00:32:53.997Z - debug: START routing
+2018-11-16T00:33:01.671Z - info: Environment variables loaded.
+2018-11-16T00:33:01.789Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:33:01 GMT-0600 (Central Standard Time), pid=204176, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73609216, heapTotal=63950848, heapUsed=31720408, external=18457933, loadavg=[0, 0, 0], uptime=123600.1854161
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:33:01.684Z - debug: START routing
+2018-11-16T00:34:19.244Z - info: Environment variables loaded.
+2018-11-16T00:34:19.387Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:34:19 GMT-0600 (Central Standard Time), pid=204192, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73572352, heapTotal=63426560, heapUsed=32158216, external=18550043, loadavg=[0, 0, 0], uptime=123677.771808
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:34:19.258Z - debug: START routing
+2018-11-16T00:34:23.620Z - info: Environment variables loaded.
+2018-11-16T00:34:23.761Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:34:23 GMT-0600 (Central Standard Time), pid=198756, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73773056, heapTotal=63426560, heapUsed=32043336, external=18550044, loadavg=[0, 0, 0], uptime=123682.1540154
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:34:23.636Z - debug: START routing
+2018-11-16T00:34:28.961Z - info: Environment variables loaded.
+2018-11-16T00:34:29.100Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:34:29 GMT-0600 (Central Standard Time), pid=204176, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72957952, heapTotal=61329408, heapUsed=41806136, external=19998928, loadavg=[0, 0, 0], uptime=123687.4818714
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:34:28.976Z - debug: START routing
+2018-11-16T00:34:36.043Z - info: Environment variables loaded.
+2018-11-16T00:34:36.189Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:34:36 GMT-0600 (Central Standard Time), pid=202844, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73523200, heapTotal=62902272, heapUsed=32570656, external=18566433, loadavg=[0, 0, 0], uptime=123694.5746933
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:34:36.061Z - debug: START routing
+2018-11-16T00:34:57.747Z - info: Environment variables loaded.
+2018-11-16T00:34:57.889Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:34:57 GMT-0600 (Central Standard Time), pid=204692, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73519104, heapTotal=63950848, heapUsed=31229840, external=18452261, loadavg=[0, 0, 0], uptime=123716.2874964
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:34:57.758Z - debug: START routing
+2018-11-16T00:35:16.344Z - info: Environment variables loaded.
+2018-11-16T00:35:16.504Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:35:16 GMT-0600 (Central Standard Time), pid=204524, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73879552, heapTotal=63950848, heapUsed=31282552, external=18452262, loadavg=[0, 0, 0], uptime=123734.8924618
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:35:16.367Z - debug: START routing
+2018-11-16T00:35:34.576Z - info: Environment variables loaded.
+2018-11-16T00:35:34.723Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:35:34 GMT-0600 (Central Standard Time), pid=204020, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73879552, heapTotal=64475136, heapUsed=31243096, external=18384027, loadavg=[0, 0, 0], uptime=123753.1097772
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:35:34.593Z - debug: START routing
+2018-11-16T00:35:46.625Z - info: Environment variables loaded.
+2018-11-16T00:35:46.775Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:35:46 GMT-0600 (Central Standard Time), pid=202544, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=74063872, heapTotal=63426560, heapUsed=32047328, external=18550054, loadavg=[0, 0, 0], uptime=123765.1664593
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:35:46.641Z - debug: START routing
+2018-11-16T00:36:10.628Z - error: uncaughtException: Cannot find module '../models/puppy.js' date=Thu Nov 15 2018 18:36:10 GMT-0600 (Central Standard Time), pid=202644, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=72384512, heapTotal=61329408, heapUsed=41301464, external=19819048, loadavg=[0, 0, 0], uptime=123788.9888006
+Error: Cannot find module '../models/puppy.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:36:10.456Z - info: Environment variables loaded.
+2018-11-16T00:36:10.473Z - debug: START routing
+2018-11-16T00:38:27.643Z - info: Environment variables loaded.
+2018-11-16T00:38:27.785Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:38:27 GMT-0600 (Central Standard Time), pid=204632, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73654272, heapTotal=63950848, heapUsed=32064208, external=18549706, loadavg=[0, 0, 0], uptime=123926.1721783
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:38:27.659Z - debug: START routing
+2018-11-16T00:38:38.618Z - info: Environment variables loaded.
+2018-11-16T00:38:38.757Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:38:38 GMT-0600 (Central Standard Time), pid=195808, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73535488, heapTotal=63426560, heapUsed=31753640, external=18457600, loadavg=[0, 0, 0], uptime=123937.1463647
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:38:38.636Z - debug: START routing
+2018-11-16T00:38:46.792Z - info: Environment variables loaded.
+2018-11-16T00:38:46.931Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:38:46 GMT-0600 (Central Standard Time), pid=205612, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73379840, heapTotal=63950848, heapUsed=31759040, external=18457605, loadavg=[0, 0, 0], uptime=123945.3182359
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:38:46.812Z - debug: START routing
+2018-11-16T00:39:09.295Z - info: Environment variables loaded.
+2018-11-16T00:39:09.438Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:09 GMT-0600 (Central Standard Time), pid=205812, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73654272, heapTotal=63426560, heapUsed=32071712, external=18549712, loadavg=[0, 0, 0], uptime=123967.8246844
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:09.312Z - debug: START routing
+2018-11-16T00:39:19.044Z - info: Environment variables loaded.
+2018-11-16T00:39:19.175Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:19 GMT-0600 (Central Standard Time), pid=204920, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73519104, heapTotal=63426560, heapUsed=31702096, external=18457605, loadavg=[0, 0, 0], uptime=123977.566703
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:19.062Z - debug: START routing
+2018-11-16T00:39:22.848Z - info: Environment variables loaded.
+2018-11-16T00:39:22.982Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:22 GMT-0600 (Central Standard Time), pid=205328, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73949184, heapTotal=63426560, heapUsed=32509576, external=18566096, loadavg=[0, 0, 0], uptime=123981.3727027
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:22.867Z - debug: START routing
+2018-11-16T00:39:32.431Z - info: Environment variables loaded.
+2018-11-16T00:39:32.574Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:32 GMT-0600 (Central Standard Time), pid=205420, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73474048, heapTotal=63426560, heapUsed=31826696, external=18457605, loadavg=[0, 0, 0], uptime=123990.9624643
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:32.446Z - debug: START routing
+2018-11-16T00:39:37.966Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:37 GMT-0600 (Central Standard Time), pid=205724, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73424896, heapTotal=63950848, heapUsed=31714024, external=18457605, loadavg=[0, 0, 0], uptime=123996.3534379
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:37.817Z - info: Environment variables loaded.
+2018-11-16T00:39:37.834Z - debug: START routing
+2018-11-16T00:39:59.014Z - info: Environment variables loaded.
+2018-11-16T00:39:59.168Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:39:59 GMT-0600 (Central Standard Time), pid=204816, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=70696960, heapTotal=62902272, heapUsed=39487056, external=19604291, loadavg=[0, 0, 0], uptime=124017.5473257
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:39:59.034Z - debug: START routing
+2018-11-16T00:40:08.632Z - info: Environment variables loaded.
+2018-11-16T00:40:08.771Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:40:08 GMT-0600 (Central Standard Time), pid=204964, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73568256, heapTotal=63426560, heapUsed=32157176, external=18549096, loadavg=[0, 0, 0], uptime=124027.1623224
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:40:08.650Z - debug: START routing
+2018-11-16T00:40:13.087Z - info: Environment variables loaded.
+2018-11-16T00:40:13.245Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:40:13 GMT-0600 (Central Standard Time), pid=205128, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73588736, heapTotal=63950848, heapUsed=31689344, external=18457635, loadavg=[0, 0, 0], uptime=124031.6309522
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:40:13.105Z - debug: START routing
+2018-11-16T00:40:22.491Z - info: Environment variables loaded.
+2018-11-16T00:40:22.631Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:40:22 GMT-0600 (Central Standard Time), pid=205088, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73568256, heapTotal=63426560, heapUsed=32097536, external=18549746, loadavg=[0, 0, 0], uptime=124041.0215818
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:40:22.509Z - debug: START routing
+2018-11-16T00:40:38.770Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:40:38 GMT-0600 (Central Standard Time), pid=200396, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73404416, heapTotal=62902272, heapUsed=32162160, external=18549746, loadavg=[0, 0, 0], uptime=124057.1583283
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:40:38.615Z - info: Environment variables loaded.
+2018-11-16T00:40:38.632Z - debug: START routing
+2018-11-16T00:41:04.953Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:41:04 GMT-0600 (Central Standard Time), pid=205688, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73650176, heapTotal=63426560, heapUsed=31266112, external=18451953, loadavg=[0, 0, 0], uptime=124083.3456428
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:41:04.813Z - info: Environment variables loaded.
+2018-11-16T00:41:04.829Z - debug: START routing
+2018-11-16T00:41:09.771Z - info: Environment variables loaded.
+2018-11-16T00:41:09.881Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:41:09 GMT-0600 (Central Standard Time), pid=205628, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73932800, heapTotal=63950848, heapUsed=32099208, external=18549742, loadavg=[0, 0, 0], uptime=124088.2856006
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:41:09.787Z - debug: START routing
+2018-11-16T00:41:18.269Z - info: Environment variables loaded.
+2018-11-16T00:41:18.364Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:41:18 GMT-0600 (Central Standard Time), pid=205100, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73805824, heapTotal=63426560, heapUsed=34069456, external=18662166, loadavg=[0, 0, 0], uptime=124096.7666773
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:41:18.277Z - debug: START routing
+2018-11-16T00:56:15.839Z - info: Environment variables loaded.
+2018-11-16T00:56:15.929Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:56:15 GMT-0600 (Central Standard Time), pid=208224, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73031680, heapTotal=61329408, heapUsed=41812320, external=19992640, loadavg=[0, 0, 0], uptime=124994.3337406
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:56:15.849Z - debug: START routing
+2018-11-16T00:57:11.816Z - info: Environment variables loaded.
+2018-11-16T00:57:11.901Z - error: uncaughtException: Cannot find module '../models/products.js' date=Thu Nov 15 2018 18:57:11 GMT-0600 (Central Standard Time), pid=208380, uid=null, gid=null, cwd=C:\Users\S533908\Documents\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533908\Documents\44563\ecommerce-a04\app.js], rss=73539584, heapTotal=62902272, heapUsed=34073752, external=18662166, loadavg=[0, 0, 0], uptime=125050.3096754
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\controllers\products.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\routes\index.js:25:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533908\Documents\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-11-16T00:57:11.829Z - debug: START routing
+2018-11-16T00:57:55.760Z - info: Environment variables loaded.
+2018-11-16T00:57:55.779Z - debug: START routing
+2018-11-16T00:57:55.822Z - debug: END routing
+2018-11-16T00:57:55.823Z - info: Loaded routing.
+2018-11-16T00:57:55.905Z - info: START seeder.
+2018-11-16T00:57:55.911Z - debug: 4 customers seeded
+2018-11-16T00:57:55.919Z - debug: 5 products seeded
+2018-11-16T00:57:55.928Z - debug: 2 orders seeded
+2018-11-16T00:57:55.934Z - debug: 4 orderLineItems seeded
+2018-11-16T00:57:55.934Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:58:10.889Z - info: Environment variables loaded.
+2018-11-16T00:58:10.896Z - debug: START routing
+2018-11-16T00:58:10.912Z - debug: END routing
+2018-11-16T00:58:10.912Z - info: Loaded routing.
+2018-11-16T00:58:10.953Z - info: START seeder.
+2018-11-16T00:58:10.953Z - debug: 4 customers seeded
+2018-11-16T00:58:10.953Z - debug: 5 products seeded
+2018-11-16T00:58:10.958Z - debug: 2 orders seeded
+2018-11-16T00:58:10.959Z - debug: 4 orderLineItems seeded
+2018-11-16T00:58:10.960Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:32:46.044Z - info: Environment variables loaded.
+2018-11-16T01:32:46.109Z - error: uncaughtException: Unexpected token << date=Thu Nov 15 2018 19:32:46 GMT-0600 (Central Standard Time), pid=61696, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=70082560, heapTotal=60805120, heapUsed=39183832, external=19674760, loadavg=[0, 0, 0], uptime=19469.5965024
+C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T01:44:46.018Z - info: Environment variables loaded.
+2018-11-16T01:44:46.077Z - error: uncaughtException: Unexpected token << date=Thu Nov 15 2018 19:44:46 GMT-0600 (Central Standard Time), pid=39276, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=67796992, heapTotal=62377984, heapUsed=36855024, external=19301536, loadavg=[0, 0, 0], uptime=20189.5651343
+C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
