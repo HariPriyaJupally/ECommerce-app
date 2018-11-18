@@ -2552,3 +2552,27 @@ SyntaxError: missing ) after argument list
 2018-11-18T06:20:28.528Z - info: END Seeder. Sample data read and verified.
 2018-11-18T06:20:41.886Z - debug: GET /
 2018-11-18T06:20:41.893Z - debug: Request to /
+2018-11-18T06:34:29.885Z - info: Environment variables loaded.
+2018-11-18T06:34:29.898Z - debug: START routing
+2018-11-18T06:34:29.923Z - debug: END routing
+2018-11-18T06:34:29.923Z - info: Loaded routing.
+2018-11-18T06:34:29.956Z - info: START seeder.
+2018-11-18T06:34:29.959Z - debug: 4 customers seeded
+2018-11-18T06:34:29.962Z - debug: 5 products seeded
+2018-11-18T06:34:29.963Z - debug: 2 orders seeded
+2018-11-18T06:34:29.965Z - debug: 4 orderLineItems seeded
+2018-11-18T06:34:29.965Z - info: END Seeder. Sample data read and verified.
+2018-11-18T06:35:44.166Z - debug: GET /
+2018-11-18T06:35:44.181Z - debug: Request to /
+2018-11-18T06:35:48.290Z - debug: GET /order/create
+2018-11-18T06:35:48.292Z - info: Handling GET /create[object Object]
+2018-11-18T06:35:48.300Z - debug: {"orderID":555,"datePlaced":"2018-11-18T06:34:29.915Z","paymentType":"not selected yet","paid":false}
+2018-11-18T06:36:13.437Z - debug: GET /order/edit/1
+2018-11-18T06:36:13.438Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T06:46:43.540Z - debug: GET /order/delete/1
+2018-11-18T06:46:43.545Z - info: Handling GET /delete/:id [object Object]
+2018-11-18T06:46:48.297Z - debug: GET /order/create
+2018-11-18T06:46:48.304Z - info: Handling GET /create[object Object]
+2018-11-18T06:46:48.308Z - debug: {"orderID":555,"datePlaced":"2018-11-18T06:34:29.915Z","paymentType":"not selected yet","paid":false}
+2018-11-18T06:47:36.328Z - debug: GET /order/edit/1
+2018-11-18T06:47:36.331Z - info: Handling GET /edit/:id [object Object]
