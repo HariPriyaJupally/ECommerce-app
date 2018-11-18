@@ -3551,3 +3551,27 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T21:28:40.613Z - debug: GET /order
 2018-11-18T21:28:43.573Z - debug: GET /
 2018-11-18T21:28:43.577Z - debug: Request to /
+2018-11-18T21:29:44.663Z - info: Environment variables loaded.
+2018-11-18T21:29:44.678Z - debug: START routing
+2018-11-18T21:29:44.724Z - debug: END routing
+2018-11-18T21:29:44.724Z - info: Loaded routing.
+2018-11-18T21:29:44.776Z - info: START seeder.
+2018-11-18T21:29:44.779Z - debug: 4 customers seeded
+2018-11-18T21:29:44.781Z - debug: 5 products seeded
+2018-11-18T21:29:44.783Z - debug: 2 order seeded
+2018-11-18T21:29:44.786Z - debug: 4 orderLineItems seeded
+2018-11-18T21:29:44.786Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:30:00.706Z - debug: GET /
+2018-11-18T21:30:00.712Z - debug: Request to /
+2018-11-18T21:30:05.559Z - debug: GET /order
+2018-11-18T21:30:13.878Z - debug: GET /Customer
+2018-11-18T21:33:57.711Z - debug: GET /Customer/create
+2018-11-18T21:33:57.714Z - info: Handling GET /create[object Object]
+2018-11-18T21:33:57.721Z - debug: {"_id":12345,"firstname":"Hari Priya","lastname":"Jupally","age":22,"phonenumber":0,"address":"address"}
+2018-11-18T21:34:01.245Z - debug: GET /products
+2018-11-18T21:34:05.398Z - debug: GET /Customer
+2018-11-18T21:34:10.533Z - debug: GET /orderLine
+2018-11-18T21:34:28.043Z - debug: GET /
+2018-11-18T21:34:28.044Z - debug: Request to /
+2018-11-18T21:34:31.052Z - debug: GET /order
+2018-11-18T21:34:44.707Z - debug: GET /order
