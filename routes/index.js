@@ -23,13 +23,9 @@ router.get('/', (req, res, next) => {
 // router.use('/about', require('../controllers/about.js'))
 router.use('/orderLine', require('../controllers/orderLine.js'))
 router.use('/order', require('../controllers/order.js'))
-<<<<<<< HEAD
 router.use('/Customer', require('../controllers/Customer.js'))
-=======
 router.use('/products', require('../controllers/products.js'))
 
-
->>>>>>> 3faf94071984e99581e1c3ac3fb250fbbc762c40
 
 LOG.debug('END routing')
 module.exports = router

@@ -2485,3 +2485,28 @@ SyntaxError: Unexpected token <<
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+2018-11-18T06:15:53.469Z - info: Environment variables loaded.
+2018-11-18T06:15:53.491Z - error: uncaughtException: Unexpected token << date=Sun Nov 18 2018 00:15:53 GMT-0600 (Central Standard Time), pid=16148, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=71929856, heapTotal=59756544, heapUsed=40150008, external=19895645, loadavg=[0, 0, 0], uptime=1617039.0775927
+C:\Users\s518350\44563\ecommerce-a04\routes\index.js:26
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
