@@ -3,7 +3,11 @@
 ## Overview
 Web Apps and Services Group Ecommerce App Project
 
-Uses JSON, JavaScript, and EJS
+Includes: Customers, Products, Orders, and OrderLine
+
+Uses: JSON, JavaScript, and EJS
+
+##Instructions
 
 
 ### Team

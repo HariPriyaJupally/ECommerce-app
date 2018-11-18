@@ -4034,3 +4034,16 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T22:48:56.749Z - debug: GET /order/findall
 2018-11-18T22:49:03.416Z - debug: GET /order/findone/1
 2018-11-18T22:49:15.607Z - debug: GET /order/findone/2
+2018-11-18T23:57:30.867Z - info: Environment variables loaded.
+2018-11-18T23:57:30.876Z - debug: START routing
+2018-11-18T23:57:30.903Z - debug: END routing
+2018-11-18T23:57:30.904Z - info: Loaded routing.
+2018-11-18T23:57:30.933Z - info: START seeder.
+2018-11-18T23:57:30.936Z - debug: 4 customers seeded
+2018-11-18T23:57:30.938Z - debug: 5 products seeded
+2018-11-18T23:57:30.939Z - debug: 2 order seeded
+2018-11-18T23:57:30.941Z - debug: 4 orderLineItems seeded
+2018-11-18T23:57:30.941Z - info: END Seeder. Sample data read and verified.
+2018-11-18T23:57:39.736Z - debug: GET /
+2018-11-18T23:57:39.741Z - debug: Request to /
+2018-11-18T23:57:44.465Z - debug: GET /order
