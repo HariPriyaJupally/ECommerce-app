@@ -7,9 +7,9 @@
         <br/>
         <h2>Create a new order </h2>
         <br/>
-        <% maxID=0; for (var i=0; i < order.query.length; i++) {
-        if(order.query[i]._id > maxID) { maxID=order.query[i]._id;   }
-        var age = order.query[i].age;}%>
+        <% maxID=0; for (var i=0; i < orders.query.length; i++) {
+        if(orders.query[i]._id > maxID) { maxID=orders.query[i]._id;   }
+        var age = orders.query[i].age;}%>
           <div class="content">
             <div>
               <form name="order" method="POST" action="/order/save">
