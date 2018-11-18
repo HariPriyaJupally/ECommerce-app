@@ -2623,3 +2623,14 @@ SyntaxError: missing ) after argument list
 2018-11-18T07:04:40.250Z - debug: GET /
 2018-11-18T07:04:40.255Z - debug: Request to /
 2018-11-18T07:04:44.848Z - debug: GET /order
+2018-11-18T07:06:18.847Z - info: Environment variables loaded.
+2018-11-18T07:06:18.858Z - debug: START routing
+2018-11-18T07:06:18.904Z - debug: END routing
+2018-11-18T07:06:18.906Z - info: Loaded routing.
+2018-11-18T07:06:18.937Z - info: START seeder.
+2018-11-18T07:06:18.940Z - debug: 4 customers seeded
+2018-11-18T07:06:18.941Z - debug: 5 products seeded
+2018-11-18T07:06:18.943Z - debug: 2 order seeded
+2018-11-18T07:06:18.946Z - debug: 4 orderLineItems seeded
+2018-11-18T07:06:18.946Z - info: END Seeder. Sample data read and verified.
+2018-11-18T07:06:22.377Z - debug: GET /order
