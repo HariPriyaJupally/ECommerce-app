@@ -50,7 +50,7 @@ module.exports = (app) => {
   db.orders.insert(orders)
 
   // initialize app.locals (these objects will be available to our controllers)
-  app.locals.orders = db.order.find(orders)
+  app.locals.orders = db.orders.find(orders)
   LOG.debug(`${app.locals.orders.query.length} order seeded`)
 
   // Each Order Line Item needs a product and an order...................
