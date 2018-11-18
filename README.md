@@ -1,7 +1,10 @@
-# ECommerce-a04.
+# Group 6-09 ECommerce A04 App.
 
-Web Apps and Services Group Ecommerce Project
+## Overview
+Web Apps and Services Group Ecommerce App Project
+Uses JSON, JavaScript, HTML, EJS, CSS
 
+## Team
 ```
 Customer - Hari Priya Jupally
 Product - Vamsee Krishna Gangapatnam
