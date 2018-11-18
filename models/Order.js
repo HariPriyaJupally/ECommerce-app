@@ -10,7 +10,7 @@
 // see <https://mongoosejs.com/> for more information
 const mongoose = require('mongoose')
 
-const OrderSchema = new mongoose.Schema({
+const orderSchema = new mongoose.Schema({
 
   _id: { type: Number, required: true },
   orderID: {
@@ -47,4 +47,4 @@ const OrderSchema = new mongoose.Schema({
     default: false
   }
 })
-module.exports = mongoose.model('order', OrderSchema)
+module.exports = mongoose.model('order', orderSchema)

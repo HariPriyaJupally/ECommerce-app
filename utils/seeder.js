@@ -4,7 +4,7 @@ const LOG = require('../utils/logger.js')
 
 const customers = require('../data/customers.json')
 const products = require('../data/products.json')
-const orders = require('../data/orders.json')
+const order = require('../data/order.json')
 const orderLineItems = require('../data/orderLineItems.json')
 
 //........................................................
@@ -41,17 +41,17 @@ module.exports = (app) => {
   LOG.debug(`${app.locals.products.query.length} products seeded`)
 
 
-  // Orders need a customer .................................
+  // order need a customer .................................
 
-  db.orders = new Datastore()
-  db.orders.loadDatabase()
+  db.order = new Datastore()
+  db.order.loadDatabase()
 
   // insert the sample data into our data store
-  db.orders.insert(orders)
+  db.order.insert(order)
 
   // initialize app.locals (these objects will be available to our controllers)
-  app.locals.orders = db.orders.find(orders)
-  LOG.debug(`${app.locals.orders.query.length} orders seeded`)
+  app.locals.order = db.order.find(order)
+  LOG.debug(`${app.locals.order.query.length} order seeded`)
 
   // Each Order Line Item needs a product and an order...................
 
