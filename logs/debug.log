@@ -3026,3 +3026,32 @@ SyntaxError: missing ) after argument list
 2018-11-18T18:45:24.471Z - debug: Request to /
 2018-11-18T18:45:27.811Z - debug: GET /
 2018-11-18T18:45:27.812Z - debug: Request to /
+2018-11-18T18:48:34.171Z - info: Environment variables loaded.
+2018-11-18T18:48:34.184Z - debug: START routing
+2018-11-18T18:48:34.222Z - debug: END routing
+2018-11-18T18:48:34.224Z - info: Loaded routing.
+2018-11-18T18:48:34.291Z - info: START seeder.
+2018-11-18T18:48:34.297Z - debug: 4 customers seeded
+2018-11-18T18:48:34.302Z - debug: 5 products seeded
+2018-11-18T18:48:34.304Z - debug: 2 order seeded
+2018-11-18T18:48:34.309Z - debug: 4 orderLineItems seeded
+2018-11-18T18:48:34.309Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:48:38.414Z - debug: GET /
+2018-11-18T18:48:38.420Z - debug: Request to /
+2018-11-18T19:19:17.216Z - debug: GET /order/findall
+2018-11-18T19:19:24.400Z - debug: GET /order
+2018-11-18T19:28:38.218Z - info: Environment variables loaded.
+2018-11-18T19:28:38.280Z - debug: START routing
+2018-11-18T19:28:38.338Z - debug: END routing
+2018-11-18T19:28:38.338Z - info: Loaded routing.
+2018-11-18T19:28:38.412Z - info: START seeder.
+2018-11-18T19:28:38.420Z - debug: 4 customers seeded
+2018-11-18T19:28:38.426Z - debug: 5 products seeded
+2018-11-18T19:28:38.430Z - debug: 2 order seeded
+2018-11-18T19:28:38.432Z - debug: 4 orderLineItems seeded
+2018-11-18T19:28:38.432Z - info: END Seeder. Sample data read and verified.
+2018-11-18T19:28:40.498Z - debug: GET /puppy
+2018-11-18T19:28:42.409Z - debug: GET /
+2018-11-18T19:28:42.411Z - debug: Request to /
+2018-11-18T19:28:45.687Z - debug: GET /
+2018-11-18T19:28:45.688Z - debug: Request to /
