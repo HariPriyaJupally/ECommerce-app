@@ -1,12 +1,48 @@
 <!--Author: Amy White-->
 
-<h1>Order Line Page</h1>
+<br/>
+<br/>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <a href="order/create" class="btn btn-primary new">
+        Create a new order
+      </a>
+      <h2>Recent order entries</h2>
+      <p>There are
+        <%= order.query.length %> orders.
+          <br/>
+      </p>
+      <% for (var i = order.query.length-1; i >= 0; i--) {   
+        order = order.query[i];   %>
+        <div class="panel panel-default">
+          <div class="panel-heading"></div>
+          <div class="text-muted pull-right"></div>
+          <div class="panel-body">
+            Order ID:
+            <%=  order._id %>
+              <br> First Name:
+              <%=order.firstName%>
+                <br/> Last Name:
+                <%=order.lastName%>
+                  <br/> Date Placed:
+                  <%=order.datePlaced%>
+                    <br/> Date Shipped:
+                    <%=order.dateShipped%>
+                        <br/> Payment Type:
+                        <%=order.paymentType%>
+                            <br/> Paid:
+                            <%=order.Paid%>
+                    <br/>
+                    <br/>
+                    
+                          <a href="/order/delete/<%= puppy._id  %>" class="btn btn-danger"> Delete </a>
+                          <a href="/order/details/<%= puppy._id %>" class="btn btn-info"> Details </a>
+                          <a href="/order/edit/<%= puppy._id %>" class="btn btn-warning"> Edit </a>
+          </div>
+        </div>
+        <% } %>
 
-<ul>
-    <li><a href="order/findall">Find All</a></li>
-    <li><a href="order/findone/0">Find One</a></li>
-    <li><a href="order/create">Create</a></li>
-    <li><a href="order/delete/0">Delete</a></li>
-    <li><a href="order/details/0">Details</a></li>
-    <li><a href="order/edit/0">Edit</a></li>
-</ul>
+    </div>
+  </div>
+</div>
