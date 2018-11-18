@@ -2540,3 +2540,15 @@ SyntaxError: missing ) after argument list
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
 2018-11-18T06:18:04.335Z - debug: START routing
+2018-11-18T06:20:28.446Z - info: Environment variables loaded.
+2018-11-18T06:20:28.455Z - debug: START routing
+2018-11-18T06:20:28.489Z - debug: END routing
+2018-11-18T06:20:28.490Z - info: Loaded routing.
+2018-11-18T06:20:28.520Z - info: START seeder.
+2018-11-18T06:20:28.523Z - debug: 4 customers seeded
+2018-11-18T06:20:28.525Z - debug: 5 products seeded
+2018-11-18T06:20:28.526Z - debug: 2 orders seeded
+2018-11-18T06:20:28.528Z - debug: 4 orderLineItems seeded
+2018-11-18T06:20:28.528Z - info: END Seeder. Sample data read and verified.
+2018-11-18T06:20:41.886Z - debug: GET /
+2018-11-18T06:20:41.893Z - debug: Request to /
