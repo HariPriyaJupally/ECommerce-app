@@ -22,6 +22,7 @@ router.get('/', (req, res, next) => {
 // Defer path requests to a particular controller
 // router.use('/about', require('../controllers/about.js'))
 router.use('/orderLine', require('../controllers/orderLine.js'))
+router.use('/order', require('../controllers/order.js'))
 <<<<<<< HEAD
 router.use('/Customer', require('../controllers/Customer.js'))
 =======
