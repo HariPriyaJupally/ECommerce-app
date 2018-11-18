@@ -3072,3 +3072,30 @@ SyntaxError: missing ) after argument list
 2018-11-18T19:32:38.237Z - debug: GET /products
 2018-11-18T19:33:35.926Z - debug: GET /orderLine
 2018-11-18T19:33:40.670Z - debug: GET /order
+2018-11-18T19:36:16.016Z - error: uncaughtException: Cannot find module '../data/order.json' date=Sun Nov 18 2018 13:36:15 GMT-0600 (Central Standard Time), pid=15424, uid=null, gid=null, cwd=C:\Users\s518350\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s518350\44563\ecommerce-a04\app.js], rss=73515008, heapTotal=61853696, heapUsed=41629248, external=19936015, loadavg=[0, 0, 0], uptime=1665061.5961174
+Error: Cannot find module '../data/order.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\utils\seeder.js:7:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s518350\44563\ecommerce-a04\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-18T19:36:15.889Z - info: Environment variables loaded.
+2018-11-18T19:36:15.902Z - debug: START routing
+2018-11-18T19:36:15.942Z - debug: END routing
+2018-11-18T19:36:15.942Z - info: Loaded routing.
