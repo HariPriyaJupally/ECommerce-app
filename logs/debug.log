@@ -2722,3 +2722,133 @@ SyntaxError: missing ) after argument list
 2018-11-18T07:22:14.718Z - debug: 4 orderLineItems seeded
 2018-11-18T07:22:14.718Z - info: END Seeder. Sample data read and verified.
 2018-11-18T07:22:17.186Z - debug: GET /order
+2018-11-18T07:24:42.531Z - info: Environment variables loaded.
+2018-11-18T07:24:42.542Z - debug: START routing
+2018-11-18T07:24:42.577Z - debug: END routing
+2018-11-18T07:24:42.578Z - info: Loaded routing.
+2018-11-18T07:24:42.615Z - info: START seeder.
+2018-11-18T07:24:42.619Z - debug: 4 customers seeded
+2018-11-18T07:24:42.622Z - debug: 5 products seeded
+2018-11-18T07:24:42.625Z - debug: 2 order seeded
+2018-11-18T07:24:42.629Z - debug: 4 orderLineItems seeded
+2018-11-18T07:24:42.629Z - info: END Seeder. Sample data read and verified.
+2018-11-18T07:24:45.184Z - debug: GET /order
+2018-11-18T16:48:01.748Z - info: Environment variables loaded.
+2018-11-18T16:48:01.767Z - debug: START routing
+2018-11-18T16:48:01.806Z - debug: END routing
+2018-11-18T16:48:01.807Z - info: Loaded routing.
+2018-11-18T16:48:01.848Z - info: START seeder.
+2018-11-18T16:48:01.853Z - debug: 4 customers seeded
+2018-11-18T16:48:01.855Z - debug: 5 products seeded
+2018-11-18T16:48:01.856Z - debug: 2 order seeded
+2018-11-18T16:48:01.858Z - debug: 4 orderLineItems seeded
+2018-11-18T16:48:01.860Z - info: END Seeder. Sample data read and verified.
+2018-11-18T16:48:07.387Z - debug: GET /
+2018-11-18T16:48:07.395Z - debug: Request to /
+2018-11-18T16:48:07.931Z - debug: GET /images/favicon-32x32.png
+2018-11-18T16:48:07.948Z - debug: GET /images/favicon-16x16.png
+2018-11-18T16:48:07.953Z - debug: GET /images/favicon-96x96.png
+2018-11-18T16:48:07.961Z - debug: GET /images/android-icon-192x192.png
+2018-11-18T16:48:13.612Z - debug: GET /order
+2018-11-18T16:56:11.714Z - info: Environment variables loaded.
+2018-11-18T16:56:11.726Z - debug: START routing
+2018-11-18T16:56:11.769Z - debug: END routing
+2018-11-18T16:56:11.770Z - info: Loaded routing.
+2018-11-18T16:56:11.818Z - info: START seeder.
+2018-11-18T16:56:11.821Z - debug: 4 customers seeded
+2018-11-18T16:56:11.823Z - debug: 5 products seeded
+2018-11-18T16:56:11.824Z - debug: 2 order seeded
+2018-11-18T16:56:11.826Z - debug: 4 orderLineItems seeded
+2018-11-18T16:56:11.826Z - info: END Seeder. Sample data read and verified.
+2018-11-18T16:56:16.438Z - debug: GET /order
+2018-11-18T16:58:11.049Z - debug: GET /
+2018-11-18T16:58:11.054Z - debug: Request to /
+2018-11-18T16:58:22.861Z - debug: GET /order/create
+2018-11-18T16:58:22.863Z - info: Handling GET /create[object Object]
+2018-11-18T16:58:22.872Z - debug: {"orderID":555,"datePlaced":"2018-11-18T16:56:11.757Z","paymentType":"not selected yet","paid":false}
+2018-11-18T17:00:06.334Z - debug: GET /order
+2018-11-18T17:54:39.600Z - info: Environment variables loaded.
+2018-11-18T17:54:39.616Z - debug: START routing
+2018-11-18T17:54:39.688Z - debug: END routing
+2018-11-18T17:54:39.688Z - info: Loaded routing.
+2018-11-18T17:54:39.774Z - info: START seeder.
+2018-11-18T17:54:39.783Z - debug: 4 customers seeded
+2018-11-18T17:54:39.785Z - debug: 5 products seeded
+2018-11-18T17:54:39.787Z - debug: 2 order seeded
+2018-11-18T17:54:39.790Z - debug: 4 orderLineItems seeded
+2018-11-18T17:54:39.790Z - info: END Seeder. Sample data read and verified.
+2018-11-18T17:54:42.540Z - debug: GET /order
+2018-11-18T17:55:03.533Z - info: Environment variables loaded.
+2018-11-18T17:55:03.545Z - debug: START routing
+2018-11-18T17:55:03.581Z - debug: END routing
+2018-11-18T17:55:03.581Z - info: Loaded routing.
+2018-11-18T17:55:03.627Z - info: START seeder.
+2018-11-18T17:55:03.635Z - debug: 4 customers seeded
+2018-11-18T17:55:03.637Z - debug: 5 products seeded
+2018-11-18T17:55:03.639Z - debug: 2 order seeded
+2018-11-18T17:55:03.642Z - debug: 4 orderLineItems seeded
+2018-11-18T17:55:03.642Z - info: END Seeder. Sample data read and verified.
+2018-11-18T17:55:06.070Z - debug: GET /order
+2018-11-18T17:56:48.057Z - info: Environment variables loaded.
+2018-11-18T17:56:48.076Z - debug: START routing
+2018-11-18T17:56:48.131Z - debug: END routing
+2018-11-18T17:56:48.131Z - info: Loaded routing.
+2018-11-18T17:56:48.191Z - info: START seeder.
+2018-11-18T17:56:48.201Z - debug: 4 customers seeded
+2018-11-18T17:56:48.208Z - debug: 5 products seeded
+2018-11-18T17:56:48.262Z - debug: 2 order seeded
+2018-11-18T17:56:48.266Z - debug: 4 orderLineItems seeded
+2018-11-18T17:56:48.267Z - info: END Seeder. Sample data read and verified.
+2018-11-18T17:56:50.731Z - debug: GET /order
+2018-11-18T17:57:26.575Z - debug: GET /order
+2018-11-18T17:58:28.565Z - info: Environment variables loaded.
+2018-11-18T17:58:28.579Z - debug: START routing
+2018-11-18T17:58:28.627Z - debug: END routing
+2018-11-18T17:58:28.628Z - info: Loaded routing.
+2018-11-18T17:58:28.671Z - info: START seeder.
+2018-11-18T17:58:28.675Z - debug: 4 customers seeded
+2018-11-18T17:58:28.677Z - debug: 5 products seeded
+2018-11-18T17:58:28.678Z - debug: 2 order seeded
+2018-11-18T17:58:28.681Z - debug: 4 orderLineItems seeded
+2018-11-18T17:58:28.681Z - info: END Seeder. Sample data read and verified.
+2018-11-18T17:58:30.213Z - debug: GET /order
+2018-11-18T17:59:19.040Z - debug: GET /order
+2018-11-18T18:01:58.304Z - info: Environment variables loaded.
+2018-11-18T18:01:58.339Z - debug: START routing
+2018-11-18T18:01:58.418Z - debug: END routing
+2018-11-18T18:01:58.418Z - info: Loaded routing.
+2018-11-18T18:01:58.475Z - info: START seeder.
+2018-11-18T18:01:58.487Z - debug: 4 customers seeded
+2018-11-18T18:01:58.491Z - debug: 5 products seeded
+2018-11-18T18:01:58.492Z - debug: 2 order seeded
+2018-11-18T18:01:58.496Z - debug: 4 orderLineItems seeded
+2018-11-18T18:01:58.497Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:01:58.619Z - debug: GET /order
+2018-11-18T18:02:03.902Z - debug: GET /order
+2018-11-18T18:02:09.069Z - debug: GET /order
+2018-11-18T18:02:22.747Z - info: Environment variables loaded.
+2018-11-18T18:02:22.762Z - debug: START routing
+2018-11-18T18:02:22.801Z - debug: END routing
+2018-11-18T18:02:22.802Z - info: Loaded routing.
+2018-11-18T18:02:22.850Z - info: START seeder.
+2018-11-18T18:02:22.853Z - debug: 4 customers seeded
+2018-11-18T18:02:22.854Z - debug: 5 products seeded
+2018-11-18T18:02:22.857Z - debug: 2 order seeded
+2018-11-18T18:02:22.867Z - debug: 4 orderLineItems seeded
+2018-11-18T18:02:22.867Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:02:24.533Z - debug: GET /
+2018-11-18T18:02:24.539Z - debug: Request to /
+2018-11-18T18:02:27.983Z - debug: GET /views/order/index.ejs
+2018-11-18T18:03:23.745Z - info: Environment variables loaded.
+2018-11-18T18:03:23.761Z - debug: START routing
+2018-11-18T18:03:23.807Z - debug: END routing
+2018-11-18T18:03:23.807Z - info: Loaded routing.
+2018-11-18T18:03:23.859Z - info: START seeder.
+2018-11-18T18:03:23.864Z - debug: 4 customers seeded
+2018-11-18T18:03:23.867Z - debug: 5 products seeded
+2018-11-18T18:03:23.869Z - debug: 2 order seeded
+2018-11-18T18:03:23.870Z - debug: 4 orderLineItems seeded
+2018-11-18T18:03:23.870Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:03:24.493Z - debug: GET /
+2018-11-18T18:03:24.500Z - debug: Request to /
+2018-11-18T18:03:28.569Z - debug: GET /order/index

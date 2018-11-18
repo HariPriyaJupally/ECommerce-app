@@ -1,5 +1,5 @@
 <!--Author: Amy White-->
-
+<& include header.ejs %>
 <br/>
 <br/>
 <div class="container-fluid">
@@ -41,7 +41,7 @@
                           <a href="/order/edit/<%= order._id %>" class="btn btn-warning"> Edit </a>
           </div>
         </div>
-        <% } %>
+        <% return order } %>
 
     </div>
   </div>
