@@ -134,7 +134,7 @@ api.post('/save/:id', (req, res) => {
   item.paymentType = req.body.paymentType
   item.paid = req.body.paid
     LOG.info(`SAVING UPDATED orderLine ${JSON.stringify(item)}`)
-    return res.redirect('/orderLine')
+    return res.redirect('/order')
 })
 
 // DELETE id (uses HTML5 form method POST)
