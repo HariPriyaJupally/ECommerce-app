@@ -22,9 +22,9 @@
             Order ID:
             <%=  order._id %>
               <br> First Name:
-              <%=order.firstName%>
+              <%=order.firstname%>
                 <br/> Last Name:
-                <%=order.lastName%>
+                <%=order.lastname%>
                   <br/> Date Placed:
                   <%=order.datePlaced%>
                     <br/> Date Shipped:
@@ -32,7 +32,7 @@
                         <br/> Payment Type:
                         <%=order.paymentType%>
                             <br/> Paid:
-                            <%=order.Paid%>
+                            <%=order.paid%>
                     <br/>
                     <br/>
                     
@@ -41,7 +41,7 @@
                           <a href="/order/edit/<%= order._id %>" class="btn btn-warning"> Edit </a>
           </div>
         </div>
-        <!--<% } %>-->
+        <% } %>
 
     </div>
   </div>
