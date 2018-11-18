@@ -3393,3 +3393,25 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T20:53:22.106Z - debug: GET /order/create
 2018-11-18T20:53:22.107Z - info: Handling GET /create[object Object]
 2018-11-18T20:53:22.111Z - debug: {"orderID":555,"datePlaced":"2018-11-18T20:52:29.180Z","paymentType":"not selected yet","paid":false}
+2018-11-18T20:55:23.690Z - info: Environment variables loaded.
+2018-11-18T20:55:23.720Z - debug: START routing
+2018-11-18T20:55:23.787Z - debug: END routing
+2018-11-18T20:55:23.788Z - info: Loaded routing.
+2018-11-18T20:55:23.862Z - info: START seeder.
+2018-11-18T20:55:23.866Z - debug: 4 customers seeded
+2018-11-18T20:55:23.870Z - debug: 5 products seeded
+2018-11-18T20:55:23.879Z - debug: 2 order seeded
+2018-11-18T20:55:23.880Z - debug: 4 orderLineItems seeded
+2018-11-18T20:55:23.880Z - info: END Seeder. Sample data read and verified.
+2018-11-18T20:55:35.543Z - debug: GET /
+2018-11-18T20:55:35.549Z - debug: Request to /
+2018-11-18T20:55:38.390Z - debug: GET /Customer
+2018-11-18T20:55:45.991Z - debug: GET /order
+2018-11-18T20:56:03.097Z - debug: GET /order/findall
+2018-11-18T21:03:15.699Z - debug: GET /order
+2018-11-18T21:04:37.270Z - debug: GET /order
+2018-11-18T21:04:39.190Z - debug: GET /
+2018-11-18T21:04:39.193Z - debug: Request to /
+2018-11-18T21:04:39.248Z - debug: GET /css/main.css
+2018-11-18T21:04:39.609Z - debug: GET /images/manifest.json
+2018-11-18T21:04:41.646Z - debug: GET /order
