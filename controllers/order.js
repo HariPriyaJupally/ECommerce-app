@@ -2,11 +2,11 @@
 
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/orderLineItem.js')
+const Model = require('../models/order.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'orderLine'
+const notfoundstring = 'orders'
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 
@@ -41,9 +41,9 @@ api.get('/create', (req, res) => {
   LOG.debug(JSON.stringify(item))
   res.render('order/create',
     {
-      title: 'Create orderLine',
+      title: 'Create order',
       layout: 'layout.ejs',
-      orderLine: item
+      order: item
     })
 })
 
@@ -57,9 +57,9 @@ api.get('/delete/:id', (req, res) => {
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('order/delete.ejs',
     {
-      title: 'Delete orderLine',
+      title: 'Delete order',
       layout: 'layout.ejs',
-      orderLine: item
+      order: item
     })
 })
 
@@ -73,9 +73,9 @@ api.get('/details/:id', (req, res) => {
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('order/details.ejs',
     {
-      title: 'orderLine Details',
+      title: 'order Details',
       layout: 'layout.ejs',
-      orderLine: item
+      order: item
     })
 })
 
@@ -89,9 +89,9 @@ api.get('/edit/:id', (req, res) => {
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
   return res.render('orderLine/edit.ejs',
     {
-      title: 'orderLineItems',
+      title: 'order',
       layout: 'layout.ejs',
-      orderLine: item
+      order: item
     })
 })
 
