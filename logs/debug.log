@@ -3010,3 +3010,19 @@ SyntaxError: missing ) after argument list
 2018-11-18T18:44:11.493Z - debug: GET /orderLine/findone/1
 2018-11-18T18:44:14.861Z - debug: GET /order/findall
 2018-11-18T18:44:18.831Z - debug: GET /order/findone/1
+2018-11-18T18:45:17.113Z - info: Environment variables loaded.
+2018-11-18T18:45:17.132Z - debug: START routing
+2018-11-18T18:45:17.207Z - debug: END routing
+2018-11-18T18:45:17.208Z - info: Loaded routing.
+2018-11-18T18:45:17.284Z - info: START seeder.
+2018-11-18T18:45:17.291Z - debug: 4 customers seeded
+2018-11-18T18:45:17.295Z - debug: 5 products seeded
+2018-11-18T18:45:17.299Z - debug: 2 order seeded
+2018-11-18T18:45:17.302Z - debug: 4 orderLineItems seeded
+2018-11-18T18:45:17.303Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:45:18.330Z - debug: GET /
+2018-11-18T18:45:18.338Z - debug: Request to /
+2018-11-18T18:45:24.464Z - debug: GET /
+2018-11-18T18:45:24.471Z - debug: Request to /
+2018-11-18T18:45:27.811Z - debug: GET /
+2018-11-18T18:45:27.812Z - debug: Request to /
