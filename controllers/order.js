@@ -51,7 +51,7 @@ api.get('/create', (req, res) => {
 api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
@@ -67,7 +67,7 @@ api.get('/delete/:id', (req, res) => {
 api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
@@ -83,13 +83,13 @@ api.get('/details/:id', (req, res) => {
 api.get('/edit/:id', (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
   return res.render('order/edit.ejs',
     {
-      title: 'orderItems',
+      title: 'orders',
       layout: 'layout.ejs',
       order: item
     })
@@ -101,7 +101,7 @@ api.get('/edit/:id', (req, res) => {
 api.post('/save', (req, res) => {
   LOG.info(`Handling POST ${req}`)
   LOG.debug(JSON.stringify(req.body))
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item.orderID = req.body.orderID
@@ -121,7 +121,7 @@ api.post('/save/:id', (req, res) => {
   LOG.info(`Handling SAVE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling SAVING ID=${id}`)
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
@@ -142,7 +142,7 @@ api.post('/delete/:id', (req, res) => {
   LOG.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling REMOVING ID=${id}`)
-  const data = req.app.locals.orderItems.query
+  const data = req.app.locals.orders.query
   const item = find(data, { _id: id })
   if (!item) {
     return res.end(notfoundstring)

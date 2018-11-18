@@ -3055,3 +3055,20 @@ SyntaxError: missing ) after argument list
 2018-11-18T19:28:42.411Z - debug: Request to /
 2018-11-18T19:28:45.687Z - debug: GET /
 2018-11-18T19:28:45.688Z - debug: Request to /
+2018-11-18T19:30:50.747Z - info: Environment variables loaded.
+2018-11-18T19:30:50.764Z - debug: START routing
+2018-11-18T19:30:50.805Z - debug: END routing
+2018-11-18T19:30:50.805Z - info: Loaded routing.
+2018-11-18T19:30:50.850Z - info: START seeder.
+2018-11-18T19:30:50.854Z - debug: 4 customers seeded
+2018-11-18T19:30:50.855Z - debug: 5 products seeded
+2018-11-18T19:30:50.862Z - debug: 2 order seeded
+2018-11-18T19:30:50.863Z - debug: 4 orderLineItems seeded
+2018-11-18T19:30:50.863Z - info: END Seeder. Sample data read and verified.
+2018-11-18T19:30:52.178Z - debug: GET /
+2018-11-18T19:30:52.183Z - debug: Request to /
+2018-11-18T19:31:57.017Z - debug: GET /Customer
+2018-11-18T19:32:05.571Z - debug: GET /products
+2018-11-18T19:32:38.237Z - debug: GET /products
+2018-11-18T19:33:35.926Z - debug: GET /orderLine
+2018-11-18T19:33:40.670Z - debug: GET /order
