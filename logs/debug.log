@@ -2852,3 +2852,48 @@ SyntaxError: missing ) after argument list
 2018-11-18T18:03:24.493Z - debug: GET /
 2018-11-18T18:03:24.500Z - debug: Request to /
 2018-11-18T18:03:28.569Z - debug: GET /order/index
+2018-11-18T18:05:09.118Z - info: Environment variables loaded.
+2018-11-18T18:05:09.134Z - debug: START routing
+2018-11-18T18:05:09.179Z - debug: END routing
+2018-11-18T18:05:09.179Z - info: Loaded routing.
+2018-11-18T18:05:09.218Z - info: START seeder.
+2018-11-18T18:05:09.221Z - debug: 4 customers seeded
+2018-11-18T18:05:09.223Z - debug: 5 products seeded
+2018-11-18T18:05:09.226Z - debug: 2 order seeded
+2018-11-18T18:05:09.230Z - debug: 4 orderLineItems seeded
+2018-11-18T18:05:09.230Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:05:09.682Z - debug: GET /order/index
+2018-11-18T18:05:11.825Z - debug: GET /order/index
+2018-11-18T18:05:15.513Z - debug: GET /order/index
+2018-11-18T18:05:42.943Z - info: Environment variables loaded.
+2018-11-18T18:05:42.954Z - debug: START routing
+2018-11-18T18:05:43.003Z - debug: END routing
+2018-11-18T18:05:43.004Z - info: Loaded routing.
+2018-11-18T18:05:43.059Z - info: START seeder.
+2018-11-18T18:05:43.062Z - debug: 4 customers seeded
+2018-11-18T18:05:43.064Z - debug: 5 products seeded
+2018-11-18T18:05:43.066Z - debug: 2 order seeded
+2018-11-18T18:05:43.068Z - debug: 4 orderLineItems seeded
+2018-11-18T18:05:43.069Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:05:43.423Z - debug: GET /order/index
+2018-11-18T18:05:46.236Z - debug: GET /order/create
+2018-11-18T18:05:46.239Z - info: Handling GET /create[object Object]
+2018-11-18T18:05:46.243Z - debug: {"orderID":555,"datePlaced":"2018-11-18T18:05:42.990Z","paymentType":"not selected yet","paid":false}
+2018-11-18T18:05:49.036Z - debug: GET /order/index
+2018-11-18T18:10:46.335Z - debug: GET /order/index
+2018-11-18T18:11:55.965Z - info: Environment variables loaded.
+2018-11-18T18:11:55.980Z - debug: START routing
+2018-11-18T18:11:56.026Z - debug: END routing
+2018-11-18T18:11:56.026Z - info: Loaded routing.
+2018-11-18T18:11:56.075Z - info: START seeder.
+2018-11-18T18:11:56.083Z - debug: 4 customers seeded
+2018-11-18T18:11:56.090Z - debug: 5 products seeded
+2018-11-18T18:11:56.103Z - debug: 2 order seeded
+2018-11-18T18:11:56.105Z - debug: 4 orderLineItems seeded
+2018-11-18T18:11:56.106Z - info: END Seeder. Sample data read and verified.
+2018-11-18T18:12:03.191Z - debug: GET /
+2018-11-18T18:12:03.194Z - debug: Request to /
+2018-11-18T18:12:06.352Z - debug: GET /order
+2018-11-18T18:12:13.050Z - debug: GET /order/create
+2018-11-18T18:12:13.053Z - info: Handling GET /create[object Object]
+2018-11-18T18:12:13.062Z - debug: {"orderID":555,"datePlaced":"2018-11-18T18:11:56.010Z","paymentType":"not selected yet","paid":false}
