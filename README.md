@@ -1,9 +1,9 @@
 # Group 6-09 ECommerce A04 App.
 
 ## Overview
-```
 Web Apps and Services Group Ecommerce App Project
-Uses JSON, JavaScript, HTML, EJS, CSS
+```
+Uses JSON, JavaScript, and EJS
 ```
 
 ### Team
