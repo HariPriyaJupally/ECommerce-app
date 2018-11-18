@@ -3575,3 +3575,141 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-18T21:34:28.044Z - debug: Request to /
 2018-11-18T21:34:31.052Z - debug: GET /order
 2018-11-18T21:34:44.707Z - debug: GET /order
+2018-11-18T21:35:39.047Z - info: Environment variables loaded.
+2018-11-18T21:35:39.063Z - debug: START routing
+2018-11-18T21:35:39.106Z - debug: END routing
+2018-11-18T21:35:39.106Z - info: Loaded routing.
+2018-11-18T21:35:39.158Z - info: START seeder.
+2018-11-18T21:35:39.166Z - debug: 4 customers seeded
+2018-11-18T21:35:39.170Z - debug: 5 products seeded
+2018-11-18T21:35:39.174Z - debug: 2 order seeded
+2018-11-18T21:35:39.177Z - debug: 4 orderLineItems seeded
+2018-11-18T21:35:39.177Z - info: END Seeder. Sample data read and verified.
+2018-11-18T21:40:21.450Z - debug: GET /order/edit/2
+2018-11-18T21:40:21.457Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:40:21.459Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:40:29.511Z - debug: GET /order
+2018-11-18T21:40:32.758Z - debug: GET /order/edit/2
+2018-11-18T21:40:32.761Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:40:32.762Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:41:12.365Z - debug: GET /order/edit/2
+2018-11-18T21:41:12.367Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:41:12.368Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:42:05.293Z - debug: GET /order/edit/2
+2018-11-18T21:42:05.294Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:42:05.294Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:44:46.971Z - debug: GET /order/edit/2
+2018-11-18T21:44:46.972Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:44:46.973Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:45:44.430Z - debug: GET /order
+2018-11-18T21:45:47.055Z - debug: GET /order/edit/2
+2018-11-18T21:45:47.057Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:45:47.057Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:45:56.409Z - debug: POST /order/save/2
+2018-11-18T21:45:56.452Z - info: Handling SAVE request [object Object]
+2018-11-18T21:45:56.456Z - info: Handling SAVING ID=2
+2018-11-18T21:45:56.458Z - info: ORIGINAL VALUES {"_id":2,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-11","dateShipped":"2018-11-12","paymentType":"Cash","amountDue":49.98,"paid":false}
+2018-11-18T21:45:56.460Z - info: UPDATED VALUES: {"firstname":"Hayden","lastname":"Rainey","paid":"true"}
+2018-11-18T21:45:56.463Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"true"}
+2018-11-18T21:45:56.483Z - debug: GET /orderLine
+2018-11-18T21:46:52.065Z - debug: GET /order/edit/2
+2018-11-18T21:46:52.067Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:46:56.059Z - debug: GET /order/edit/2
+2018-11-18T21:46:56.061Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:47:19.261Z - debug: GET /order
+2018-11-18T21:47:24.999Z - debug: GET /order/edit/NaN
+2018-11-18T21:47:25.001Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:47:25.004Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"true"}
+2018-11-18T21:47:38.906Z - debug: GET /order/edit/NaN
+2018-11-18T21:47:38.907Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:47:38.908Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"true"}
+2018-11-18T21:47:42.998Z - debug: POST /order/save/NaN
+2018-11-18T21:47:43.000Z - info: Handling SAVE request [object Object]
+2018-11-18T21:47:43.003Z - info: Handling SAVING ID=NaN
+2018-11-18T21:47:43.003Z - info: ORIGINAL VALUES {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"true"}
+2018-11-18T21:47:43.005Z - info: UPDATED VALUES: {"firstname":"Hayden","lastname":"Rainey","paid":"false"}
+2018-11-18T21:47:43.009Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:47:43.018Z - debug: GET /orderLine
+2018-11-18T21:47:45.455Z - debug: GET /order
+2018-11-18T21:48:38.229Z - debug: GET /order
+2018-11-18T21:52:20.533Z - debug: GET /order
+2018-11-18T21:52:22.655Z - debug: GET /order/edit/NaN
+2018-11-18T21:52:22.665Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:52:22.667Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:52:49.281Z - debug: GET /order/edit/NaN
+2018-11-18T21:52:49.283Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:52:49.284Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:01.683Z - debug: GET /order/edit/NaN
+2018-11-18T21:54:01.686Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:54:01.688Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:06.950Z - debug: POST /order/save/NaN
+2018-11-18T21:54:06.953Z - info: Handling SAVE request [object Object]
+2018-11-18T21:54:06.958Z - info: Handling SAVING ID=NaN
+2018-11-18T21:54:06.959Z - info: ORIGINAL VALUES {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:06.960Z - info: UPDATED VALUES: {"._id":"1","firstname":"Hayden","lastname":"Rainey","paid":"false"}
+2018-11-18T21:54:06.960Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:06.972Z - debug: GET /orderLine
+2018-11-18T21:54:09.066Z - debug: GET /order
+2018-11-18T21:54:13.858Z - debug: GET /order/edit/NaN
+2018-11-18T21:54:13.859Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:54:13.860Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:17.674Z - debug: POST /order/save/NaN
+2018-11-18T21:54:17.676Z - info: Handling SAVE request [object Object]
+2018-11-18T21:54:17.676Z - info: Handling SAVING ID=NaN
+2018-11-18T21:54:17.677Z - info: ORIGINAL VALUES {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:17.678Z - info: UPDATED VALUES: {"._id":"2","firstname":"Hayden","lastname":"Rainey","paid":"false"}
+2018-11-18T21:54:17.678Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:17.692Z - debug: GET /orderLine
+2018-11-18T21:54:19.478Z - debug: GET /order
+2018-11-18T21:54:31.341Z - debug: GET /order/details/NaN
+2018-11-18T21:54:31.342Z - info: Handling GET /details/:id [object Object]
+2018-11-18T21:54:31.343Z - info: RETURNING VIEW FOR {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:54:33.426Z - debug: GET /order?
+2018-11-18T21:54:38.006Z - debug: GET /order/create
+2018-11-18T21:54:38.008Z - info: Handling GET /create[object Object]
+2018-11-18T21:54:38.017Z - debug: {"orderID":555,"datePlaced":"2018-11-18T21:35:39.095Z","paymentType":"not selected yet","paid":false}
+2018-11-18T21:58:34.108Z - debug: GET /order/edit/NaN
+2018-11-18T21:58:34.109Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:58:34.110Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:59:10.142Z - debug: GET /order/edit/NaN
+2018-11-18T21:59:10.143Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:59:10.145Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:59:27.784Z - debug: GET /order
+2018-11-18T21:59:31.124Z - debug: GET /order/edit/NaN
+2018-11-18T21:59:31.127Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:59:31.128Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T21:59:36.455Z - debug: GET /order
+2018-11-18T21:59:42.737Z - debug: GET /order/edit/NaN
+2018-11-18T21:59:42.741Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T21:59:42.742Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T22:00:23.027Z - debug: POST /order/save/NaN
+2018-11-18T22:00:23.030Z - info: Handling SAVE request [object Object]
+2018-11-18T22:00:23.031Z - info: Handling SAVING ID=NaN
+2018-11-18T22:00:23.033Z - info: ORIGINAL VALUES {"_id":null,"firstname":"Hayden","lastname":"Rainey","amountDue":49.98,"paid":"false"}
+2018-11-18T22:00:23.034Z - info: UPDATED VALUES: {"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","paid":"true"}
+2018-11-18T22:00:23.035Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:00:23.043Z - debug: GET /orderLine
+2018-11-18T22:00:25.419Z - debug: GET /order
+2018-11-18T22:03:08.614Z - debug: GET /order
+2018-11-18T22:03:10.606Z - debug: GET /order/edit/NaN
+2018-11-18T22:03:10.608Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T22:03:10.608Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:03:16.813Z - debug: POST /order/save/NaN
+2018-11-18T22:03:16.815Z - info: Handling SAVE request [object Object]
+2018-11-18T22:03:16.817Z - info: Handling SAVING ID=NaN
+2018-11-18T22:03:16.818Z - info: ORIGINAL VALUES {"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:03:16.819Z - info: UPDATED VALUES: {"._id":"2","firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","paid":"true"}
+2018-11-18T22:03:16.822Z - info: SAVING UPDATED orderLine {"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:03:16.838Z - debug: GET /orderLine
+2018-11-18T22:03:18.756Z - debug: GET /order
+2018-11-18T22:03:43.651Z - debug: GET /order
+2018-11-18T22:03:46.014Z - debug: GET /order/edit/NaN
+2018-11-18T22:03:46.019Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T22:03:46.020Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:03:49.596Z - debug: GET /order/edit/NaN
+2018-11-18T22:03:49.598Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T22:03:49.601Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
+2018-11-18T22:03:50.911Z - debug: GET /order
+2018-11-18T22:04:12.619Z - debug: GET /order/edit/NaN
+2018-11-18T22:04:12.622Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T22:04:12.622Z - info: RETURNING VIEW FOR{"_id":null,"firstname":"Hayden","lastname":"Rainey","datePlaced":"2018-11-14","dateShipped":"2018-11-18","paymentType":"credit card","amountDue":49.98,"paid":"true"}
