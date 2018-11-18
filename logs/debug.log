@@ -2576,3 +2576,19 @@ SyntaxError: missing ) after argument list
 2018-11-18T06:46:48.308Z - debug: {"orderID":555,"datePlaced":"2018-11-18T06:34:29.915Z","paymentType":"not selected yet","paid":false}
 2018-11-18T06:47:36.328Z - debug: GET /order/edit/1
 2018-11-18T06:47:36.331Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T06:51:29.979Z - info: Environment variables loaded.
+2018-11-18T06:51:29.989Z - debug: START routing
+2018-11-18T06:51:30.021Z - debug: END routing
+2018-11-18T06:51:30.021Z - info: Loaded routing.
+2018-11-18T06:51:30.055Z - info: START seeder.
+2018-11-18T06:51:30.060Z - debug: 4 customers seeded
+2018-11-18T06:51:30.062Z - debug: 5 products seeded
+2018-11-18T06:51:30.063Z - debug: 2 orders seeded
+2018-11-18T06:51:30.064Z - debug: 4 orderLineItems seeded
+2018-11-18T06:51:30.065Z - info: END Seeder. Sample data read and verified.
+2018-11-18T06:51:34.923Z - debug: GET /order/edit/1
+2018-11-18T06:51:34.936Z - info: Handling GET /edit/:id [object Object]
+2018-11-18T06:51:39.719Z - debug: GET /
+2018-11-18T06:51:39.725Z - debug: Request to /
+2018-11-18T06:51:42.692Z - debug: GET /order
+2018-11-18T06:53:52.116Z - debug: GET /order
