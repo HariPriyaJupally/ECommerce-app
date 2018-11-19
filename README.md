@@ -9,8 +9,13 @@
 ### Uses: 
 #### JSON, JavaScript, and EJS
 
-##Instructions
-
+## Instructions
+### Run app locally
+``` node app.js```
+### From index.js choose an action
+```GET a view or GET JSON```
+### Use available buttons to 
+```Create, Edit, Delete, or View Details```
 
 ## Team
 ### Customer - Hari Priya Jupally
