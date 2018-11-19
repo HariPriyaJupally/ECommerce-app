@@ -1,7 +1,7 @@
 <!--Author: Amy White-->
 
-<br/>
-<br/>
+<br />
+<br />
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
@@ -9,14 +9,14 @@
       <div class="content">
         <form method="POST" action="/order/save/<%= order._id %>">
           <div class="form-group" id=frm>
-            <label for="_id">Current Order ID</label>
+            <label for="_id">Order ID</label>
             <input type="number" class="form-control" id="_id" name="_id" value="<%= order._id %>" required disabled>
           </div>
-            <!-- COMMON TO EDIT AND CREATE -->
-            <%include partial_edit.ejs %>
-              <input type="submit" value="Save" class="btn btn-primary" />
+          <!-- COMMON TO EDIT AND CREATE -->
+          <%include partial_edit.ejs %>
+          <input type="submit" value="Save" class="btn btn-primary" />
         </form>
-        <br/>
+        <br />
 
         <form method="get" action="/order">
           <input type="submit" value="Return to list" class="btn btn-caution" />

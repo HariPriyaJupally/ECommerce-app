@@ -13,12 +13,6 @@ const mongoose = require('mongoose')
 const orderSchema = new mongoose.Schema({
 
   _id: { type: Number, required: true },
-  orderID: {
-    type: Number,
-    required: true,
-    unique: true,
-    default: 555
-  },
   firstname: {
     type: String,
     required: true
