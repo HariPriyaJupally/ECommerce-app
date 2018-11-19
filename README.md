@@ -1,11 +1,11 @@
 # Group 6-09 ECommerce A04 App.
 
 ## Overview
-Web Apps and Services Group Ecommerce App Project
+#### Web Apps and Services Group Ecommerce App Project
 
-Includes: Customers, Products, Orders, and OrderLine
+#### Includes: Customers, Products, Orders, and OrderLine
 
-Uses: JSON, JavaScript, and EJS
+#### Uses: JSON, JavaScript, and EJS
 
 ##Instructions
 
