@@ -2510,3 +2510,61 @@ SyntaxError: Unexpected token <<
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+2018-11-16T02:10:08.111Z - info: Environment variables loaded.
+2018-11-16T02:10:08.148Z - error: uncaughtException: Unexpected token << date=Thu Nov 15 2018 20:10:08 GMT-0600 (Central Standard Time), pid=38848, uid=null, gid=null, cwd=C:\Users\S533990\44563\ecommerce-a04, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533990\44563\ecommerce-a04\app.js], rss=69861376, heapTotal=61329408, heapUsed=38592560, external=19674760, loadavg=[0, 0, 0], uptime=21711.6435518
+C:\Users\S533990\44563\ecommerce-a04\routes\index.js:25
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533990\44563\ecommerce-a04\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-16T02:12:08.882Z - info: Environment variables loaded.
+2018-11-16T02:12:08.893Z - debug: START routing
+2018-11-16T02:12:08.922Z - debug: END routing
+2018-11-16T02:12:08.922Z - info: Loaded routing.
+2018-11-16T02:12:08.958Z - info: START seeder.
+2018-11-16T02:12:08.961Z - debug: 4 customers seeded
+2018-11-16T02:12:08.963Z - debug: 5 products seeded
+2018-11-16T02:12:08.965Z - debug: 2 orders seeded
+2018-11-16T02:12:08.966Z - debug: 4 orderLineItems seeded
+2018-11-16T02:12:08.966Z - info: END Seeder. Sample data read and verified.
+2018-11-16T02:12:19.578Z - debug: GET /
+2018-11-16T02:12:19.589Z - debug: Request to /
+2018-11-16T02:12:24.031Z - debug: GET /customer
+2018-11-16T02:12:48.584Z - debug: GET /
+2018-11-16T02:12:48.588Z - debug: Request to /
+2018-11-16T02:12:50.532Z - debug: GET /customer
+2018-11-16T02:12:51.922Z - debug: GET /product
+2018-11-16T02:12:54.184Z - debug: GET /order
+2018-11-16T02:12:55.728Z - debug: GET /orderLine
+2018-11-16T02:13:08.222Z - debug: GET /
+2018-11-16T02:13:08.224Z - debug: Request to /
+2018-11-16T05:58:01.037Z - info: Environment variables loaded.
+2018-11-16T05:58:01.046Z - debug: START routing
+2018-11-16T05:58:01.074Z - debug: END routing
+2018-11-16T05:58:01.074Z - info: Loaded routing.
+2018-11-16T05:58:01.107Z - info: START seeder.
+2018-11-16T05:58:01.114Z - debug: 4 customers seeded
+2018-11-16T05:58:01.116Z - debug: 5 products seeded
+2018-11-16T05:58:01.118Z - debug: 2 orders seeded
+2018-11-16T05:58:01.121Z - debug: 4 orderLineItems seeded
+2018-11-16T05:58:01.121Z - info: END Seeder. Sample data read and verified.
+2018-11-16T05:58:11.808Z - debug: GET /
+2018-11-16T05:58:11.816Z - debug: Request to /
