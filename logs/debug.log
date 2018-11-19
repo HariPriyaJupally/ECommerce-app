@@ -4057,3 +4057,13 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-19T00:01:06.084Z - debug: 2 order seeded
 2018-11-19T00:01:06.086Z - debug: 4 orderLineItems seeded
 2018-11-19T00:01:06.087Z - info: END Seeder. Sample data read and verified.
+2018-11-19T00:02:07.130Z - info: Environment variables loaded.
+2018-11-19T00:02:07.141Z - debug: START routing
+2018-11-19T00:02:07.177Z - debug: END routing
+2018-11-19T00:02:07.177Z - info: Loaded routing.
+2018-11-19T00:02:07.229Z - info: START seeder.
+2018-11-19T00:02:07.236Z - debug: 4 customers seeded
+2018-11-19T00:02:07.274Z - debug: 5 products seeded
+2018-11-19T00:02:07.283Z - debug: 2 order seeded
+2018-11-19T00:02:07.284Z - debug: 4 orderLineItems seeded
+2018-11-19T00:02:07.284Z - info: END Seeder. Sample data read and verified.

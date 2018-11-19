@@ -4,21 +4,20 @@
 #### Web Apps and Services Group Ecommerce App Project
 
 #### Includes: 
-```Customers, Products, Orders, and OrderLine```
+##### Customers, Products, Orders, and OrderLine
 
 #### Uses: 
-```JSON, JavaScript, and EJS```
+##### JSON, JavaScript, and EJS
 
 ##Instructions
 
 
 ### Team
-```
-Customer - Hari Priya Jupally
-Product - Vamsee Krishna Gangapatnam
-Order - Amy White
-Order Line Item - Hayden Rainey
-```
+#### Customer - Hari Priya Jupally
+#### Product - Vamsee Krishna Gangapatnam
+#### Order - Amy White
+#### Order Line Item - Hayden Rainey
+
 
 
 Updated model and data for product...
