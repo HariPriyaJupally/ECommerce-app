@@ -1,4 +1,4 @@
-# Group 6-09 ECommerce A04 App.
+# Group 6-09 E-Commerce A04 App.
 
 ## Overview
 ### Web Apps and Services Group Ecommerce App Project
