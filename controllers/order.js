@@ -126,7 +126,6 @@ api.post('/save/:id', (req, res) => {
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-  item._id = parseInt(req.body._id, 10) // base 10
   item.firstname = req.body.firstname
   item.lastname = req.body.lastname
   item.datePlaced = req.body.datePlaced
