@@ -41,7 +41,7 @@ module.exports = (app) => {
   LOG.debug(`${app.locals.products.query.length} products seeded`)
 
 
-  // Orders need a customer .................................
+  // order need a customer .................................
 
   db.orders = new Datastore()
   db.orders.loadDatabase()
@@ -51,7 +51,7 @@ module.exports = (app) => {
 
   // initialize app.locals (these objects will be available to our controllers)
   app.locals.orders = db.orders.find(orders)
-  LOG.debug(`${app.locals.orders.query.length} orders seeded`)
+  LOG.debug(`${app.locals.orders.query.length} order seeded`)
 
   // Each Order Line Item needs a product and an order...................
 

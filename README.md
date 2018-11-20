@@ -1,13 +1,26 @@
-# ECommerce-a04.
+# Group 6-09 E-Commerce A04 App
 
-Web Apps and Services Group Ecommerce Project
+## Overview: 
+### Web Apps and Services Group Ecommerce App Project
 
+#### Includes: 
+```Customers, Products, Orders, and OrderLine```
+
+#### Uses: 
+```JSON, JavaScript, and EJS```
+
+### Instructions:
+#### Run app locally
+``` node app.js```
+#### From index.js choose an action
+```GET a view or GET JSON```
+#### Use available buttons to 
+```Create, Edit, Delete, or View Details```
+
+### Team
 ```
 Customer - Hari Priya Jupally
 Product - Vamsee Krishna Gangapatnam
-Order - Amy White
+Order -  Amy White
 Order Line Item - Hayden Rainey
 ```
-
-
-Updated model and data for product...
