@@ -5542,3 +5542,152 @@ SyntaxError: Unexpected token <<
 2018-11-20T07:14:30.925Z - info: UPDATED VALUES: {"_id":"4","firstname":"Amy","lastname":"white","age":"22","phonenumber":"444444444444","address":"1121 N College Drive"}
 2018-11-20T07:14:30.925Z - info: SAVING UPDATED Customer {"_id":4,"firstname":"Amy","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
 2018-11-20T07:14:30.938Z - debug: GET /Customer
+2018-11-21T01:07:29.243Z - info: Environment variables loaded.
+2018-11-21T01:07:29.257Z - debug: START routing
+2018-11-21T01:07:29.302Z - debug: END routing
+2018-11-21T01:07:29.302Z - info: Loaded routing.
+2018-11-21T01:07:29.348Z - info: START seeder.
+2018-11-21T01:07:29.352Z - debug: 4 customers seeded
+2018-11-21T01:07:29.355Z - debug: 5 products seeded
+2018-11-21T01:07:29.357Z - debug: 2 order seeded
+2018-11-21T01:07:29.360Z - debug: 4 orderLineItems seeded
+2018-11-21T01:07:29.360Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:07:38.161Z - debug: GET /
+2018-11-21T01:07:38.168Z - debug: Request to /
+2018-11-21T01:07:41.506Z - debug: GET /product
+2018-11-21T01:11:56.913Z - info: Environment variables loaded.
+2018-11-21T01:11:56.927Z - debug: START routing
+2018-11-21T01:11:56.979Z - debug: END routing
+2018-11-21T01:11:56.979Z - info: Loaded routing.
+2018-11-21T01:11:57.031Z - info: START seeder.
+2018-11-21T01:11:57.035Z - debug: 4 customers seeded
+2018-11-21T01:11:57.037Z - debug: 5 products seeded
+2018-11-21T01:11:57.038Z - debug: 2 order seeded
+2018-11-21T01:11:57.040Z - debug: 4 orderLineItems seeded
+2018-11-21T01:11:57.040Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:49.872Z - info: Environment variables loaded.
+2018-11-21T01:12:49.886Z - debug: START routing
+2018-11-21T01:12:49.936Z - debug: END routing
+2018-11-21T01:12:49.937Z - info: Loaded routing.
+2018-11-21T01:12:49.990Z - info: START seeder.
+2018-11-21T01:12:49.995Z - debug: 4 customers seeded
+2018-11-21T01:12:49.997Z - debug: 5 products seeded
+2018-11-21T01:12:49.999Z - debug: 2 order seeded
+2018-11-21T01:12:50.002Z - debug: 4 orderLineItems seeded
+2018-11-21T01:12:50.002Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:53.687Z - debug: GET /product
+2018-11-21T01:12:57.363Z - debug: GET /
+2018-11-21T01:12:57.365Z - debug: Request to /
+2018-11-21T01:12:59.417Z - debug: GET /product
+2018-11-21T01:13:00.982Z - debug: GET /order
+2018-11-21T01:13:02.312Z - debug: GET /orderLine
+2018-11-21T01:13:03.062Z - debug: GET /order
+2018-11-21T01:13:03.826Z - debug: GET /product
+2018-11-21T01:15:07.451Z - debug: GET /product
+2018-11-21T01:15:29.261Z - debug: GET /product
+2018-11-21T01:15:33.840Z - debug: GET /products
+2018-11-21T01:16:28.108Z - debug: GET /
+2018-11-21T01:16:28.116Z - debug: Request to /
+2018-11-21T01:17:05.343Z - debug: GET /
+2018-11-21T01:17:05.347Z - debug: Request to /
+2018-11-21T01:17:08.242Z - debug: GET /products
+2018-11-21T01:17:27.636Z - debug: GET /products/details/5
+2018-11-21T01:17:27.664Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:17:27.674Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:17:33.301Z - debug: GET /products/edit/5
+2018-11-21T01:17:33.307Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T01:17:33.308Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:00.383Z - debug: GET /customer
+2018-11-21T01:18:01.743Z - debug: GET /products
+2018-11-21T01:18:03.488Z - debug: GET /products/details/5
+2018-11-21T01:18:03.495Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:18:03.495Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:07.589Z - debug: GET /products/edit/5
+2018-11-21T01:18:07.592Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T01:18:07.593Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:27.783Z - debug: POST /products/save/5
+2018-11-21T01:18:27.906Z - info: Handling SAVE request [object Object]
+2018-11-21T01:18:27.906Z - info: Handling SAVING ID=5
+2018-11-21T01:18:27.906Z - info: ORIGINAL VALUES {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:27.906Z - info: UPDATED VALUES: {"productName":"SAMSUNG GALAXY-S7 EDITED","productDescription":"Latest S series Andriod phone by SAMSUNG","price":"700","productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:27.906Z - info: SAVING UPDATED product {"_productid":5,"productName":"SAMSUNG GALAXY-S7 EDITED","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:27.938Z - debug: GET /products
+2018-11-21T01:18:31.405Z - debug: GET /products/edit/5
+2018-11-21T01:18:31.406Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T01:18:31.406Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"SAMSUNG GALAXY-S7 EDITED","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:37.309Z - debug: GET /products/details/5
+2018-11-21T01:18:37.310Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:18:37.310Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7 EDITED","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":"5"}
+2018-11-21T01:18:44.813Z - debug: GET /products/create
+2018-11-21T01:18:44.814Z - info: Handling GET /create[object Object]
+2018-11-21T01:18:44.841Z - debug: {"productName":"DELL-LAPTOP","productDescription":"TOP brabded Laptop","price":1000,"productCategory":"Laptops","_id":"5bf4b2743afba337c1e3b414"}
+2018-11-21T01:21:06.756Z - info: Environment variables loaded.
+2018-11-21T01:21:06.780Z - debug: START routing
+2018-11-21T01:21:06.831Z - debug: END routing
+2018-11-21T01:21:06.831Z - info: Loaded routing.
+2018-11-21T01:21:06.926Z - info: START seeder.
+2018-11-21T01:21:06.930Z - debug: 4 customers seeded
+2018-11-21T01:21:06.932Z - debug: 5 products seeded
+2018-11-21T01:21:06.937Z - debug: 2 order seeded
+2018-11-21T01:21:06.939Z - debug: 4 orderLineItems seeded
+2018-11-21T01:21:06.939Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:21:07.272Z - debug: GET /products/create
+2018-11-21T01:21:07.282Z - info: Handling GET /create[object Object]
+2018-11-21T01:21:07.288Z - debug: {"productName":"DELL-LAPTOP","productDescription":"TOP brabded Laptop","price":1000,"productCategory":"Laptops","_id":"5bf4b30310027644fdb711d7"}
+2018-11-21T01:21:10.679Z - debug: GET /products
+2018-11-21T01:21:12.011Z - debug: GET /
+2018-11-21T01:21:12.013Z - debug: Request to /
+2018-11-21T01:21:16.394Z - debug: GET /products/create
+2018-11-21T01:21:16.396Z - info: Handling GET /create[object Object]
+2018-11-21T01:21:16.398Z - debug: {"productName":"DELL-LAPTOP","productDescription":"TOP brabded Laptop","price":1000,"productCategory":"Laptops","_id":"5bf4b30c10027644fdb711d8"}
+2018-11-21T01:21:19.598Z - debug: GET /products
+2018-11-21T01:21:21.975Z - debug: GET /products
+2018-11-21T01:21:24.005Z - debug: GET /products/details/5
+2018-11-21T01:21:24.010Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:21:24.013Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":5}
+2018-11-21T01:21:28.643Z - debug: GET /products/edit/5
+2018-11-21T01:21:28.645Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T01:21:28.645Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":5}
+2018-11-21T01:21:32.095Z - debug: GET /products/details/5
+2018-11-21T01:21:32.100Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:21:32.104Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":5}
+2018-11-21T01:21:41.706Z - debug: GET /products/create
+2018-11-21T01:21:41.707Z - info: Handling GET /create[object Object]
+2018-11-21T01:21:41.709Z - debug: {"productName":"DELL-LAPTOP","productDescription":"TOP brabded Laptop","price":1000,"productCategory":"Laptops","_id":"5bf4b32510027644fdb711d9"}
+2018-11-21T01:23:16.683Z - info: Environment variables loaded.
+2018-11-21T01:23:16.707Z - debug: START routing
+2018-11-21T01:23:16.794Z - debug: END routing
+2018-11-21T01:23:16.794Z - info: Loaded routing.
+2018-11-21T01:23:16.865Z - info: START seeder.
+2018-11-21T01:23:16.873Z - debug: 4 customers seeded
+2018-11-21T01:23:16.878Z - debug: 5 products seeded
+2018-11-21T01:23:16.883Z - debug: 2 order seeded
+2018-11-21T01:23:16.889Z - debug: 4 orderLineItems seeded
+2018-11-21T01:23:16.889Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:23:17.871Z - debug: GET /products
+2018-11-21T01:23:19.672Z - debug: GET /products/create
+2018-11-21T01:23:19.674Z - info: Handling GET /create[object Object]
+2018-11-21T01:23:19.683Z - debug: {"productName":"","productDescription":"","price":0,"productCategory":"","_id":"5bf4b387dfec724af9ec4509"}
+2018-11-21T01:23:26.202Z - debug: GET /products
+2018-11-21T01:23:28.337Z - debug: GET /products/details/5
+2018-11-21T01:23:28.342Z - info: Handling GET /details/:id [object Object]
+2018-11-21T01:23:28.346Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"SAMSUNG GALAXY-S7","productDescription":"Latest S series Andriod phone by SAMSUNG","price":700,"productCategory":"Electronic","sellerId":5}
+2018-11-21T01:23:32.350Z - debug: GET /products/create
+2018-11-21T01:23:32.352Z - info: Handling GET /create[object Object]
+2018-11-21T01:23:32.354Z - debug: {"productName":"","productDescription":"","price":0,"productCategory":"","_id":"5bf4b394dfec724af9ec450a"}
+2018-11-21T01:23:49.363Z - debug: POST /products/save
+2018-11-21T01:23:49.424Z - info: Handling POST [object Object]
+2018-11-21T01:23:49.424Z - debug: {"_productid":"6","productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":"160000","productCategory":"Mobile/electronic","sellerId":"6"}
+2018-11-21T01:23:49.425Z - info: NEW ID 6
+2018-11-21T01:23:49.432Z - info: SAVING NEW product {"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":4160000,"productCategory":"Mobile/electronic","_id":"5bf4b3a5dfec724af9ec450b","_productid":6,"sellerId":6}
+2018-11-21T01:23:49.492Z - debug: GET /products
+2018-11-21T01:23:58.085Z - debug: GET /products/edit/6
+2018-11-21T01:23:58.087Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T01:23:58.090Z - info: RETURNING VIEW FOR{"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":4160000,"productCategory":"Mobile/electronic","_id":"5bf4b3a5dfec724af9ec450b","_productid":6,"sellerId":6}
+2018-11-21T01:24:03.231Z - debug: POST /products/save/6
+2018-11-21T01:24:03.233Z - info: Handling SAVE request [object Object]
+2018-11-21T01:24:03.233Z - info: Handling SAVING ID=6
+2018-11-21T01:24:03.233Z - info: ORIGINAL VALUES {"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":4160000,"productCategory":"Mobile/electronic","_id":"5bf4b3a5dfec724af9ec450b","_productid":6,"sellerId":6}
+2018-11-21T01:24:03.234Z - info: UPDATED VALUES: {"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":"160000","productCategory":"Mobile/electronic","sellerId":"6"}
+2018-11-21T01:24:03.235Z - info: SAVING UPDATED product {"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":160000,"productCategory":"Mobile/electronic","_id":"5bf4b3a5dfec724af9ec450b","_productid":6,"sellerId":6}
+2018-11-21T01:24:03.244Z - debug: GET /products
