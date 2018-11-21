@@ -43,7 +43,7 @@ api.get('/create', (req, res) => {
     {
       title: 'Create orderLine',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
 
@@ -59,7 +59,7 @@ api.get('/delete/:id', (req, res) => {
     {
       title: 'Delete orderLine',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
 
@@ -75,7 +75,7 @@ api.get('/details/:id', (req, res) => {
     {
       title: 'orderLine Details',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
 
@@ -91,7 +91,7 @@ api.get('/edit/:id', (req, res) => {
     {
       title: 'orderLineItems',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
 
@@ -105,25 +105,13 @@ api.post('/save', (req, res) => {
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
-  item.name = req.body.name
-  item.breed = req.body.breed
-  item.age = parseInt(req.body.age, 10)
-  item.parents = []
-  item.parents.length = 0
-  if (req.body.parentName.length > 0) {
-    for (let count = 0; count < req.body.parentName.length; count++) {
-      item.parents.push(
-        {
-          parentName: req.body.parentName[count],
-          parentBreed: req.body.parentBreed,
-          parentAge: parseInt(req.body.parentAge[count], 10)
-        }
-      )
-    }
-    data.push(item)
-    LOG.info(`SAVING NEW orderLine ${JSON.stringify(item)}`)
-    return res.redirect('/orderLine')
-  }
+  item.orderID = req.body.orderID
+  item.lineNumber = req.body.lineNumber
+  item.productKey = req.body.productKey
+  item.quantity = req.body.quantity
+  data.push(item)
+  LOG.info(`SAVING NEW orderLine ${JSON.stringify(item)}`)
+  return res.redirect('/orderLine')
 })
 
 // POST update
@@ -136,24 +124,10 @@ api.post('/save/:id', (req, res) => {
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-  item.name = req.body.name
-  item.breed = req.body.breed
-  item.age = parseInt(req.body.age, 10)
-  item.parents = []
-  item.parents.length = 0
-  if (req.body.parentName.length > 0) {
-    for (let count = 0; count < req.body.parentName.length; count++) {
-      item.parents.push(
-        {
-          parentName: req.body.parentName[count],
-          parentBreed: req.body.parentBreed[count],
-          parentAge: parseInt(req.body.parentAge[count], 10)
-        }
-      )
-    }
-    LOG.info(`SAVING UPDATED orderLine ${JSON.stringify(item)}`)
-    return res.redirect('/orderLine')
-  }
+  item.lineNumber = req.body.lineNumber
+  item.productKey = req.body.productKey
+  item.quantity = req.body.quantity
+  return res.redirect('/orderLine')
 })
 
 // DELETE id (uses HTML5 form method POST)
