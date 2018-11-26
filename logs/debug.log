@@ -5935,3 +5935,16 @@ SyntaxError: Unexpected token <<
 2018-11-26T21:39:52.796Z - debug: 4 orderLineItems seeded
 2018-11-26T21:39:52.796Z - info: END Seeder. Sample data read and verified.
 2018-11-26T21:39:54.185Z - debug: GET /order
+2018-11-26T22:08:11.144Z - info: Environment variables loaded.
+2018-11-26T22:08:11.153Z - debug: START routing
+2018-11-26T22:08:11.184Z - debug: END routing
+2018-11-26T22:08:11.184Z - info: Loaded routing.
+2018-11-26T22:08:11.213Z - info: START seeder.
+2018-11-26T22:08:11.217Z - debug: 4 customers seeded
+2018-11-26T22:08:11.219Z - debug: 5 products seeded
+2018-11-26T22:08:11.221Z - debug: 4 order seeded
+2018-11-26T22:08:11.223Z - debug: 4 orderLineItems seeded
+2018-11-26T22:08:11.223Z - info: END Seeder. Sample data read and verified.
+2018-11-26T22:08:16.577Z - debug: GET /
+2018-11-26T22:08:16.588Z - debug: Request to /
+2018-11-26T22:08:20.678Z - debug: GET /order

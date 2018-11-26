@@ -1,9 +1,10 @@
+//Author: Hayden Rainey
+
 /**
  * @file app.js
  * The starting point of the application.
  * Express allows us to configure our app and use
  * dependency injection to add it to the http server.
- * 
  * The server-side app starts and begins listening for events.
  *
  */
