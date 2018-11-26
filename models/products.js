@@ -10,24 +10,24 @@ const ProductSchema = new mongoose.Schema({
   productName: {
     type: String,
     required: true,
-    default: 'DELL-LAPTOP'
+    default: ''
   }, 
   productDescription: {
     type: String,
     required: true,
-    default: 'TOP brabded Laptop'
+    default: ''
   }, 
   price: { 
     type: Number,
     required: false,
-    default:1000,
+    default: 0,
     min: 0,
     max: 50000
   },
   productCategory: { 
     type: String,
     required: true,
-    default: 'Laptops'
+    default: ''
   },
   sellerId: { 
     type: Number,

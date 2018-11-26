@@ -1,15 +1,14 @@
-/**
- * @author Hari Priya Jupally
- */
+//controller file for customer.js
+//@author Hari Priya Jupally
 const express = require('express')
 const api = express.Router()
 const Model = require('../models/Customer.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'Customer'
+const notfoundstring = 'customers'
 
-// RESPOND WITH JSON DATA  -------------------------------------------
+// RESPOND WITH JSON DATA  --------------------------------------------
 
 // GET all JSON
 api.get('/findall', (req, res) => {
@@ -44,7 +43,7 @@ api.get('/create', (req, res) => {
     {
       title: 'Create Customer',
       layout: 'layout.ejs',
-      orderLine: item
+      Customer: item
     })
 })
 
@@ -60,7 +59,7 @@ api.get('/delete/:id', (req, res) => {
     {
       title: 'Delete Customer',
       layout: 'layout.ejs',
-      orderLine: item
+      Customer: item
     })
 })
 
@@ -76,7 +75,7 @@ api.get('/details/:id', (req, res) => {
     {
       title: 'Customer Details',
       layout: 'layout.ejs',
-      orderLine: item
+      Customer: item
     })
 })
 
@@ -92,7 +91,7 @@ api.get('/edit/:id', (req, res) => {
     {
       title: 'Customer',
       layout: 'layout.ejs',
-      orderLine: item
+      Customer: item
     })
 })
 
@@ -106,25 +105,14 @@ api.post('/save', (req, res) => {
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
-  item.name = req.body.name
-  item.breed = req.body.breed
+  item.firstname = req.body.firstname
+  item.lastname = req.body.lastname
   item.age = parseInt(req.body.age, 10)
-  item.parents = []
-  item.parents.length = 0
-  if (req.body.parentName.length > 0) {
-    for (let count = 0; count < req.body.parentName.length; count++) {
-      item.parents.push(
-        {
-          parentName: req.body.parentName[count],
-          parentBreed: req.body.parentBreed,
-          parentAge: parseInt(req.body.parentAge[count], 10)
-        }
-      )
-    }
-    data.push(item)
-    LOG.info(`SAVING NEW Customer ${JSON.stringify(item)}`)
-    return res.redirect('/Customer')
-  }
+  item.phonenumber = req.body.phonenumber
+  item.address = req.body.address
+  data.push(item)
+  LOG.info(`SAVING NEW Customer ${JSON.stringify(item)}`)
+  return res.redirect('/Customer')
 })
 
 // POST update
@@ -137,24 +125,13 @@ api.post('/save/:id', (req, res) => {
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-  item.name = req.body.name
-  item.breed = req.body.breed
+  item.firstname = req.body.firstname
+  item.lastname = req.body.lastname
   item.age = parseInt(req.body.age, 10)
-  item.parents = []
-  item.parents.length = 0
-  if (req.body.parentName.length > 0) {
-    for (let count = 0; count < req.body.parentName.length; count++) {
-      item.parents.push(
-        {
-          parentName: req.body.parentName[count],
-          parentBreed: req.body.parentBreed[count],
-          parentAge: parseInt(req.body.parentAge[count], 10)
-        }
-      )
-    }
-    LOG.info(`SAVING UPDATED Customer ${JSON.stringify(item)}`)
-    return res.redirect('/Customer')
-  }
+  item.phonenumber = req.body.phonenumber
+  item.address = req.body.address
+  LOG.info(`SAVING UPDATED Customer ${JSON.stringify(item)}`)
+  return res.redirect('/Customer')
 })
 
 // DELETE id (uses HTML5 form method POST)
