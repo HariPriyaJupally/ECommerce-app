@@ -4260,3 +4260,69 @@ TypeError: Cannot read property 'find' of undefined
 2018-11-19T03:51:59.299Z - debug: 4 orderLineItems seeded
 2018-11-19T03:51:59.299Z - info: END Seeder. Sample data read and verified.
 2018-11-19T03:52:02.248Z - debug: GET /order?
+2018-11-26T06:40:58.517Z - info: Environment variables loaded.
+2018-11-26T06:40:58.533Z - debug: START routing
+2018-11-26T06:40:58.571Z - debug: END routing
+2018-11-26T06:40:58.571Z - info: Loaded routing.
+2018-11-26T06:40:58.618Z - info: START seeder.
+2018-11-26T06:40:58.623Z - debug: 4 customers seeded
+2018-11-26T06:40:58.625Z - debug: 5 products seeded
+2018-11-26T06:40:58.626Z - debug: 2 order seeded
+2018-11-26T06:40:58.627Z - debug: 4 orderLineItems seeded
+2018-11-26T06:40:58.627Z - info: END Seeder. Sample data read and verified.
+2018-11-26T06:44:31.664Z - info: Environment variables loaded.
+2018-11-26T06:44:31.672Z - debug: START routing
+2018-11-26T06:44:31.702Z - debug: END routing
+2018-11-26T06:44:31.702Z - info: Loaded routing.
+2018-11-26T06:44:31.735Z - info: START seeder.
+2018-11-26T06:44:31.737Z - debug: 4 customers seeded
+2018-11-26T06:44:31.738Z - debug: 5 products seeded
+2018-11-26T06:44:31.740Z - debug: 2 order seeded
+2018-11-26T06:44:31.741Z - debug: 4 orderLineItems seeded
+2018-11-26T06:44:31.741Z - info: END Seeder. Sample data read and verified.
+2018-11-26T06:49:17.715Z - info: Environment variables loaded.
+2018-11-26T06:49:17.723Z - debug: START routing
+2018-11-26T06:49:17.749Z - debug: END routing
+2018-11-26T06:49:17.749Z - info: Loaded routing.
+2018-11-26T06:49:17.779Z - info: START seeder.
+2018-11-26T06:49:17.782Z - debug: 4 customers seeded
+2018-11-26T06:49:17.784Z - debug: 5 products seeded
+2018-11-26T06:49:17.786Z - debug: 2 order seeded
+2018-11-26T06:49:17.787Z - debug: 4 orderLineItems seeded
+2018-11-26T06:49:17.787Z - info: END Seeder. Sample data read and verified.
+2018-11-26T06:57:38.762Z - info: Environment variables loaded.
+2018-11-26T06:57:38.771Z - debug: START routing
+2018-11-26T06:57:38.805Z - debug: END routing
+2018-11-26T06:57:38.805Z - info: Loaded routing.
+2018-11-26T06:57:38.859Z - info: START seeder.
+2018-11-26T06:57:38.864Z - debug: 4 customers seeded
+2018-11-26T06:57:38.867Z - debug: 5 products seeded
+2018-11-26T06:57:38.868Z - debug: 2 order seeded
+2018-11-26T06:57:38.869Z - debug: 4 orderLineItems seeded
+2018-11-26T06:57:38.869Z - info: END Seeder. Sample data read and verified.
+2018-11-26T06:57:55.314Z - debug: GET /
+2018-11-26T06:57:55.318Z - debug: Request to /
+2018-11-26T06:57:55.434Z - debug: GET /css/main.css
+2018-11-26T06:57:55.892Z - debug: GET /images/manifest.json
+2018-11-26T06:57:55.895Z - debug: GET /images/favicon-32x32.png
+2018-11-26T06:57:55.919Z - debug: GET /images/favicon-16x16.png
+2018-11-26T06:57:55.931Z - debug: GET /images/favicon-96x96.png
+2018-11-26T06:57:55.941Z - debug: GET /images/android-icon-192x192.png
+2018-11-26T06:58:03.886Z - debug: GET /Customer
+2018-11-26T06:58:09.869Z - debug: GET /order
+2018-11-26T06:58:14.887Z - debug: GET /order/create
+2018-11-26T06:58:14.893Z - info: Handling GET /create[object Object]
+2018-11-26T06:58:14.926Z - debug: {"datePlaced":"2018-11-26T06:57:38.794Z","paymentType":"not selected yet","paid":false}
+2018-11-26T07:01:09.662Z - info: Environment variables loaded.
+2018-11-26T07:01:09.671Z - debug: START routing
+2018-11-26T07:01:09.700Z - debug: END routing
+2018-11-26T07:01:09.700Z - info: Loaded routing.
+2018-11-26T07:01:09.732Z - info: START seeder.
+2018-11-26T07:01:09.734Z - debug: 4 customers seeded
+2018-11-26T07:01:09.736Z - debug: 5 products seeded
+2018-11-26T07:01:09.738Z - debug: 2 order seeded
+2018-11-26T07:01:09.740Z - debug: 4 orderLineItems seeded
+2018-11-26T07:01:09.740Z - info: END Seeder. Sample data read and verified.
+2018-11-26T07:01:19.683Z - debug: GET /
+2018-11-26T07:01:19.689Z - debug: Request to /
+2018-11-26T07:01:23.763Z - debug: GET /Customer
