@@ -19,7 +19,7 @@
 * JavaScript
 * EJS
 
-### Instructions:
+## Instructions:
 * Run app locally
     * ``` node app.js```
 * From index.js choose an action
