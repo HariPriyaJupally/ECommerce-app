@@ -5760,3 +5760,178 @@ SyntaxError: Unexpected token <<
 2018-11-21T01:24:03.235Z - info: SAVING UPDATED product {"productName":"Apple Laptop","productDescription":"Laptop manufactured by Apple","price":160000,"productCategory":"Mobile/electronic","_id":"5bf4b3a5dfec724af9ec450b","_productid":6,"sellerId":6}
 2018-11-21T01:24:03.244Z - debug: GET /products
 >>>>>>> c6fb765386e48fe2a2a431d9680da76060a705ed
+2018-11-26T20:58:08.168Z - info: Environment variables loaded.
+2018-11-26T20:58:08.247Z - debug: START routing
+2018-11-26T20:58:08.300Z - debug: END routing
+2018-11-26T20:58:08.300Z - info: Loaded routing.
+2018-11-26T20:58:08.350Z - info: START seeder.
+2018-11-26T20:58:08.356Z - debug: 4 customers seeded
+2018-11-26T20:58:08.359Z - debug: 5 products seeded
+2018-11-26T20:58:08.368Z - debug: 2 order seeded
+2018-11-26T20:58:08.371Z - debug: 4 orderLineItems seeded
+2018-11-26T20:58:08.371Z - info: END Seeder. Sample data read and verified.
+2018-11-26T20:58:18.730Z - debug: GET /
+2018-11-26T20:58:18.747Z - debug: Request to /
+2018-11-26T20:58:19.256Z - debug: GET /css/main.css
+2018-11-26T20:58:20.169Z - debug: GET /images/manifest.json
+2018-11-26T20:58:31.692Z - debug: GET /Customer
+2018-11-26T20:58:44.663Z - debug: GET /
+2018-11-26T20:58:44.665Z - debug: Request to /
+2018-11-26T20:58:50.430Z - debug: GET /products
+2018-11-26T20:58:57.433Z - debug: GET /
+2018-11-26T20:58:57.452Z - debug: Request to /
+2018-11-26T20:59:04.914Z - debug: GET /orderLine
+2018-11-26T20:59:12.973Z - debug: GET /
+2018-11-26T20:59:12.981Z - debug: Request to /
+2018-11-26T20:59:17.375Z - debug: GET /order
+2018-11-26T20:59:24.046Z - debug: GET /
+2018-11-26T20:59:24.200Z - debug: Request to /
+2018-11-26T20:59:30.622Z - debug: GET /Customer
+2018-11-26T20:59:42.733Z - debug: GET /order/create
+2018-11-26T20:59:42.744Z - info: Handling GET /create[object Object]
+2018-11-26T20:59:42.802Z - debug: {"datePlaced":"2018-11-26T20:58:08.287Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:03:35.944Z - info: Environment variables loaded.
+2018-11-26T21:03:35.963Z - debug: START routing
+2018-11-26T21:03:36.009Z - debug: END routing
+2018-11-26T21:03:36.010Z - info: Loaded routing.
+2018-11-26T21:03:36.052Z - info: START seeder.
+2018-11-26T21:03:36.055Z - debug: 4 customers seeded
+2018-11-26T21:03:36.057Z - debug: 5 products seeded
+2018-11-26T21:03:36.058Z - debug: 2 order seeded
+2018-11-26T21:03:36.064Z - debug: 4 orderLineItems seeded
+2018-11-26T21:03:36.064Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:03:41.677Z - debug: GET /
+2018-11-26T21:03:41.684Z - debug: Request to /
+2018-11-26T21:03:42.292Z - debug: GET /images/favicon-32x32.png
+2018-11-26T21:03:42.314Z - debug: GET /images/favicon-16x16.png
+2018-11-26T21:03:42.323Z - debug: GET /images/favicon-96x96.png
+2018-11-26T21:03:42.329Z - debug: GET /images/android-icon-192x192.png
+2018-11-26T21:03:45.371Z - debug: GET /order
+2018-11-26T21:03:46.694Z - debug: GET /order/create
+2018-11-26T21:03:46.696Z - info: Handling GET /create[object Object]
+2018-11-26T21:03:46.700Z - debug: {"datePlaced":"2018-11-26T21:03:35.997Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:04:27.635Z - debug: POST /order/save
+2018-11-26T21:04:27.718Z - info: Handling POST [object Object]
+2018-11-26T21:04:27.719Z - debug: {"_id":"3","firstname":"Vamsee","lastname":"Krishna","datePlaced":"2018-11-26","dateShipped":"","paymentType":"Check","paid":"false"}
+2018-11-26T21:04:27.722Z - info: NEW ID 3
+2018-11-26T21:04:27.729Z - info: SAVING NEW order {"datePlaced":"2018-11-26T00:00:00.000Z","paymentType":"Check","paid":false,"_id":3,"firstname":"Vamsee","lastname":"Krishna","dateShipped":null}
+2018-11-26T21:04:27.750Z - debug: GET /order
+2018-11-26T21:04:30.582Z - debug: GET /order/create
+2018-11-26T21:04:30.586Z - info: Handling GET /create[object Object]
+2018-11-26T21:04:30.590Z - debug: {"datePlaced":"2018-11-26T21:03:35.997Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:05:05.189Z - debug: POST /order/save
+2018-11-26T21:05:05.189Z - info: Handling POST [object Object]
+2018-11-26T21:05:05.190Z - debug: {"_id":"4","firstname":"Hari ","lastname":"Jupally","datePlaced":"2018-11-26","dateShipped":"2018-11-26","paymentType":"Credit card","paid":"true"}
+2018-11-26T21:05:05.190Z - info: NEW ID 4
+2018-11-26T21:05:05.190Z - info: SAVING NEW order {"datePlaced":"2018-11-26T00:00:00.000Z","paymentType":"Credit card","paid":true,"_id":4,"firstname":"Hari ","lastname":"Jupally","dateShipped":"2018-11-26T00:00:00.000Z"}
+2018-11-26T21:05:05.199Z - debug: GET /order
+2018-11-26T21:05:08.823Z - debug: GET /order
+2018-11-26T21:05:12.004Z - debug: GET /products
+2018-11-26T21:05:12.781Z - debug: GET /order
+2018-11-26T21:05:43.492Z - debug: GET /order
+2018-11-26T21:10:06.375Z - info: Environment variables loaded.
+2018-11-26T21:10:06.384Z - debug: START routing
+2018-11-26T21:10:06.415Z - debug: END routing
+2018-11-26T21:10:06.415Z - info: Loaded routing.
+2018-11-26T21:10:06.442Z - info: START seeder.
+2018-11-26T21:10:06.446Z - debug: 4 customers seeded
+2018-11-26T21:10:06.447Z - debug: 5 products seeded
+2018-11-26T21:10:06.449Z - debug: 2 order seeded
+2018-11-26T21:10:06.451Z - debug: 4 orderLineItems seeded
+2018-11-26T21:10:06.451Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:10:09.649Z - debug: GET /order/create
+2018-11-26T21:10:09.663Z - info: Handling GET /create[object Object]
+2018-11-26T21:10:09.673Z - debug: {"datePlaced":"2018-11-26T21:10:06.408Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:12:33.531Z - info: Environment variables loaded.
+2018-11-26T21:12:33.540Z - debug: START routing
+2018-11-26T21:12:33.572Z - debug: END routing
+2018-11-26T21:12:33.572Z - info: Loaded routing.
+2018-11-26T21:12:33.601Z - info: START seeder.
+2018-11-26T21:12:33.604Z - debug: 4 customers seeded
+2018-11-26T21:12:33.605Z - debug: 5 products seeded
+2018-11-26T21:12:33.607Z - debug: 2 order seeded
+2018-11-26T21:12:33.609Z - debug: 4 orderLineItems seeded
+2018-11-26T21:12:33.609Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:12:36.357Z - debug: GET /order/create
+2018-11-26T21:12:36.373Z - info: Handling GET /create[object Object]
+2018-11-26T21:12:36.382Z - debug: {"datePlaced":"2018-11-26T21:12:33.560Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:13:55.856Z - info: Environment variables loaded.
+2018-11-26T21:13:55.865Z - debug: START routing
+2018-11-26T21:13:55.895Z - debug: END routing
+2018-11-26T21:13:55.895Z - info: Loaded routing.
+2018-11-26T21:13:55.923Z - info: START seeder.
+2018-11-26T21:13:55.926Z - debug: 4 customers seeded
+2018-11-26T21:13:55.928Z - debug: 5 products seeded
+2018-11-26T21:13:55.929Z - debug: 2 order seeded
+2018-11-26T21:13:55.931Z - debug: 4 orderLineItems seeded
+2018-11-26T21:13:55.931Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:14:07.986Z - debug: GET /order/create
+2018-11-26T21:14:08.006Z - info: Handling GET /create[object Object]
+2018-11-26T21:14:08.018Z - debug: {"datePlaced":"2018-11-26T21:13:55.883Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:14:23.474Z - debug: GET /order
+2018-11-26T21:14:32.229Z - debug: GET /customer
+2018-11-26T21:26:26.253Z - debug: GET /order
+2018-11-26T21:26:40.555Z - debug: GET /order/create
+2018-11-26T21:26:40.556Z - info: Handling GET /create[object Object]
+2018-11-26T21:26:40.557Z - debug: {"datePlaced":"2018-11-26T21:13:55.883Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:27:01.421Z - debug: POST /order/save
+2018-11-26T21:27:01.446Z - info: Handling POST [object Object]
+2018-11-26T21:27:01.447Z - debug: {"_id":"3","firstname":"Vimshee","lastname":"Krishnal","datePlaced":"2018-11-26","dateShipped":"","paymentType":"Check","paid":"false"}
+2018-11-26T21:27:01.447Z - info: NEW ID 3
+2018-11-26T21:27:01.450Z - info: SAVING NEW order {"datePlaced":"2018-11-26T00:00:00.000Z","paymentType":"Check","paid":false,"_id":3,"firstname":"Vimshee","lastname":"Krishnal","dateShipped":null}
+2018-11-26T21:27:01.460Z - debug: GET /order
+2018-11-26T21:27:06.773Z - debug: GET /order/create
+2018-11-26T21:27:06.777Z - info: Handling GET /create[object Object]
+2018-11-26T21:27:06.779Z - debug: {"datePlaced":"2018-11-26T21:13:55.883Z","paymentType":"not selected yet","paid":false}
+2018-11-26T21:27:28.299Z - debug: POST /order/save
+2018-11-26T21:27:28.300Z - info: Handling POST [object Object]
+2018-11-26T21:27:28.300Z - debug: {"_id":"4","firstname":"Hari ","lastname":"Jupally","datePlaced":"2018-11-26","dateShipped":"","paymentType":"creditCard","paid":"true"}
+2018-11-26T21:27:28.301Z - info: NEW ID 4
+2018-11-26T21:27:28.301Z - info: SAVING NEW order {"datePlaced":"2018-11-26T00:00:00.000Z","paymentType":"creditCard","paid":true,"_id":4,"firstname":"Hari ","lastname":"Jupally","dateShipped":null}
+2018-11-26T21:27:28.308Z - debug: GET /order
+2018-11-26T21:29:20.641Z - info: Environment variables loaded.
+2018-11-26T21:29:20.650Z - debug: START routing
+2018-11-26T21:29:20.691Z - debug: END routing
+2018-11-26T21:29:20.691Z - info: Loaded routing.
+2018-11-26T21:29:20.729Z - info: START seeder.
+2018-11-26T21:29:20.732Z - debug: 4 customers seeded
+2018-11-26T21:29:20.736Z - debug: 5 products seeded
+2018-11-26T21:29:20.738Z - debug: 2 order seeded
+2018-11-26T21:29:20.740Z - debug: 4 orderLineItems seeded
+2018-11-26T21:29:20.740Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:29:33.547Z - debug: GET /
+2018-11-26T21:29:33.562Z - debug: Request to /
+2018-11-26T21:29:34.722Z - debug: GET /order
+2018-11-26T21:38:48.531Z - info: Environment variables loaded.
+2018-11-26T21:38:48.540Z - debug: START routing
+2018-11-26T21:38:48.569Z - debug: END routing
+2018-11-26T21:38:48.569Z - info: Loaded routing.
+2018-11-26T21:38:48.597Z - info: START seeder.
+2018-11-26T21:38:48.600Z - debug: 4 customers seeded
+2018-11-26T21:38:48.601Z - debug: 5 products seeded
+2018-11-26T21:38:48.603Z - debug: 4 order seeded
+2018-11-26T21:38:48.604Z - debug: 4 orderLineItems seeded
+2018-11-26T21:38:48.604Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:38:50.990Z - debug: GET /order
+2018-11-26T21:39:18.226Z - info: Environment variables loaded.
+2018-11-26T21:39:18.235Z - debug: START routing
+2018-11-26T21:39:18.263Z - debug: END routing
+2018-11-26T21:39:18.264Z - info: Loaded routing.
+2018-11-26T21:39:18.294Z - info: START seeder.
+2018-11-26T21:39:18.297Z - debug: 4 customers seeded
+2018-11-26T21:39:18.299Z - debug: 5 products seeded
+2018-11-26T21:39:18.301Z - debug: 4 order seeded
+2018-11-26T21:39:18.302Z - debug: 4 orderLineItems seeded
+2018-11-26T21:39:18.302Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:39:20.869Z - debug: GET /order
+2018-11-26T21:39:52.716Z - info: Environment variables loaded.
+2018-11-26T21:39:52.727Z - debug: START routing
+2018-11-26T21:39:52.760Z - debug: END routing
+2018-11-26T21:39:52.760Z - info: Loaded routing.
+2018-11-26T21:39:52.788Z - info: START seeder.
+2018-11-26T21:39:52.791Z - debug: 4 customers seeded
+2018-11-26T21:39:52.793Z - debug: 5 products seeded
+2018-11-26T21:39:52.794Z - debug: 4 order seeded
+2018-11-26T21:39:52.796Z - debug: 4 orderLineItems seeded
+2018-11-26T21:39:52.796Z - info: END Seeder. Sample data read and verified.
+2018-11-26T21:39:54.185Z - debug: GET /order

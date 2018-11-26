@@ -17,6 +17,26 @@
         "dateShipped": "2018-11-12",
         "paymentType": "Cash",
         "amountDue": 49.98,
+        "paid": true  
+    },
+    {
+        "_id": 3,
+        "firstname": "Vamsee",
+        "lastname": "Krishna",
+        "datePlaced": "2018-11-26",
+        "dateShipped": "",
+        "paymentType": "Check",
+        "amountDue": 24.99,
         "paid": false  
+    },
+    {
+        "_id": 4,
+        "firstname": "Amy",
+        "lastname": "White",
+        "datePlaced": "2018-11-26",
+        "dateShipped": "2018-11-28",
+        "paymentType": "Credit Card",
+        "amountDue": 74.97,
+        "paid": true  
     }
 ]

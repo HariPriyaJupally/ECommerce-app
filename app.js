@@ -78,4 +78,11 @@ app.listen(app.get('port'), () => {
   console.log('  Press CTRL-C to stop\n')
 })
 
+// log calls
+app.use((req, res, next) => {
+  LOG.debug('%s %s', req.method, req.url)
+  next()
+ })
+ 
+
 module.exports = app

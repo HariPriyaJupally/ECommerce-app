@@ -22,11 +22,19 @@
     </div>
     <div class="form-group">
       <label for="paymentType">Payment Type</label>
-      <input type="text" class="form-control" id="paymentType" name="paymentType" value="<%= order.paymentType %>">
+      <select type="text" class="form-control" id="paymentType" name="paymentType" value="<%= order.paymentType %>">
+        <option value="Credit Card">Credit Card</option>
+        <option value="Check">Check</option>
+        <option value="Cash">Cash</option>
+      </select>
+        
     </div>
     <div class="form-group">
       <label for="paid">Paid</label>
-      <input type="text" class="form-control" id="paid" name="paid" value="<%= order.paid %>" required>
+      <select type="text" class="form-control" id="paid" name="paid" value="<%= order.paid %>" required>
+          <option value="true">True (Paid)</option>
+          <option value="false">False (Not Paid)</option>
+      </select>
     </div>
   </div>
 </div>
