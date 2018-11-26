@@ -1,20 +1,19 @@
 # Group 6-09 E-Commerce A04 App
 #### Author: Amy White
 
-## Overview: 
-### Web Apps and Services Group Ecommerce App Project
+## Overview: Web Apps and Services Group Ecommerce App Project
 
-### Team
+### Team:
 #### Customer - Hari Priya Jupally
 #### Product - Vamsee Krishna Gangapatnam
 #### Order -  Amy White
 #### Order Line Item - Hayden Rainey
 
 #### Includes: 
-```Customers, Products, Orders, and OrderLine```
+##### Customers, Products, Orders, and OrderLine
 
 #### Uses: 
-```JSON, JavaScript, and EJS```
+##### JSON, JavaScript, and EJS
 
 ### Instructions:
 #### Run app locally
