@@ -5542,3 +5542,47 @@ SyntaxError: Unexpected token <<
 2018-11-20T07:14:30.925Z - info: UPDATED VALUES: {"_id":"4","firstname":"Amy","lastname":"white","age":"22","phonenumber":"444444444444","address":"1121 N College Drive"}
 2018-11-20T07:14:30.925Z - info: SAVING UPDATED Customer {"_id":4,"firstname":"Amy","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
 2018-11-20T07:14:30.938Z - debug: GET /Customer
+2018-11-20T07:26:21.388Z - debug: GET /order
+2018-11-20T07:34:21.849Z - debug: GET /customer
+2018-11-20T07:34:29.723Z - debug: GET /order
+2018-11-20T07:34:39.900Z - debug: GET /order
+2018-11-20T07:34:52.499Z - debug: GET /customer
+2018-11-20T07:38:24.899Z - debug: GET /Customer/create
+2018-11-20T07:38:24.903Z - info: Handling GET /create[object Object]
+2018-11-20T07:38:24.913Z - debug: {"_id":12345,"firstname":"Hari Priya","lastname":"Jupally","age":22,"phonenumber":0,"address":"address"}
+2018-11-20T07:38:54.913Z - debug: POST /Customer/save
+2018-11-20T07:38:54.918Z - info: Handling POST [object Object]
+2018-11-20T07:38:54.919Z - debug: {"_id":"5","firstname":"Paloma","lastname":"Rao","age":"32","phonenumber":"555555555555","address":"India"}
+2018-11-20T07:38:54.920Z - info: NEW ID 5
+2018-11-20T07:38:54.933Z - info: SAVING NEW Customer {"_id":5,"firstname":"Paloma","lastname":"Rao","age":32,"phonenumber":555555555555,"address":"India"}
+2018-11-20T07:38:54.942Z - debug: GET /Customer
+2018-11-20T07:41:38.412Z - debug: GET /Customer/edit/4
+2018-11-20T07:41:38.413Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T07:41:38.413Z - info: RETURNING VIEW FOR{"_id":4,"firstname":"Amy","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:41:57.206Z - debug: POST /Customer/save/4
+2018-11-20T07:41:57.209Z - info: Handling SAVE request [object Object]
+2018-11-20T07:41:57.210Z - info: Handling SAVING ID=4
+2018-11-20T07:41:57.210Z - info: ORIGINAL VALUES {"_id":4,"firstname":"Amy","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:41:57.210Z - info: UPDATED VALUES: {"_id":"4","firstname":"Amy White","lastname":"white","age":"22","phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:41:57.210Z - info: SAVING UPDATED Customer {"_id":4,"firstname":"Amy White","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:41:57.220Z - debug: GET /Customer
+2018-11-20T07:42:21.093Z - debug: GET /Customer/edit/4
+2018-11-20T07:42:21.095Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T07:42:21.095Z - info: RETURNING VIEW FOR{"_id":4,"firstname":"Amy White","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:42:36.411Z - debug: POST /Customer/save/4
+2018-11-20T07:42:36.412Z - info: Handling SAVE request [object Object]
+2018-11-20T07:42:36.412Z - info: Handling SAVING ID=4
+2018-11-20T07:42:36.412Z - info: ORIGINAL VALUES {"_id":4,"firstname":"Amy White","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:42:36.412Z - info: UPDATED VALUES: {"_id":"4","firstname":"Jermaih","lastname":"white","age":"22","phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:42:36.412Z - info: SAVING UPDATED Customer {"_id":4,"firstname":"Jermaih","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:42:36.416Z - debug: GET /Customer
+2018-11-20T07:42:40.371Z - debug: GET /Customer/edit/4
+2018-11-20T07:42:40.373Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T07:42:40.373Z - info: RETURNING VIEW FOR{"_id":4,"firstname":"Jermaih","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:43:15.821Z - debug: POST /Customer/save/4
+2018-11-20T07:43:15.823Z - info: Handling SAVE request [object Object]
+2018-11-20T07:43:15.824Z - info: Handling SAVING ID=4
+2018-11-20T07:43:15.825Z - info: ORIGINAL VALUES {"_id":4,"firstname":"Jermaih","lastname":"white","age":22,"phonenumber":"444444444444","address":"1121 N College Drive"}
+2018-11-20T07:43:15.826Z - info: UPDATED VALUES: {"_id":"4","firstname":"Hyndavi","lastname":"Musipatla","age":"29","phonenumber":"565657644444","address":"1121 N College Drive"}
+2018-11-20T07:43:15.826Z - info: SAVING UPDATED Customer {"_id":4,"firstname":"Hyndavi","lastname":"Musipatla","age":29,"phonenumber":"565657644444","address":"1121 N College Drive"}
+2018-11-20T07:43:15.835Z - debug: GET /Customer
