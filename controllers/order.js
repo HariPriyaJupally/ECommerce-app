@@ -111,9 +111,9 @@ api.post('/save', (req, res) => {
   item.dateShipped = req.body.dateShipped
   item.paymentType = req.body.paymentType
   item.paid = req.body.paid
-    data.push(item)
-    LOG.info(`SAVING NEW order ${JSON.stringify(item)}`)
-    return res.redirect('/order')
+  data.push(item)
+  LOG.info(`SAVING NEW order ${JSON.stringify(item)}`)
+  return res.redirect('/order')
 })
 
 // POST update

@@ -1,12 +1,45 @@
 <!--Author: Hayden Rainey-->
 
-<h1>Order Line Page</h1>
+<h1>Order Line</h1>
+<br />
+<br />
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <a href="orderLine/create" class="btn btn-primary new">
+        Create a new order-line item
+      </a>
+      <h2>Recent order entries</h2>
+      <p>There are
+        <%= orderLineItems.query.length %> orders-line items.
+        <br />
+      </p>
+      <% for (var i = orderLineItems.query.length-1; i >= 0; i--) {   
+        orderLineItem = orderLineItems.query[i];   %>
+      <div class="panel panel-default">
+        <div class="panel-heading"></div>
+        <div class="text-muted pull-right"></div>
+        <div class="panel-body">
+          Order ID:
+          <%=  orderLineItem._id %>
+          <br> Order ID
+          <%=orderLineItem.orderID%>
+          <br /> Line Number
+          <%=orderLineItem.lineNumber%>
+          <br /> Product Key
+          <%=orderLineItem.productKey%>
+          <br /> Quantity
+          <%=orderLineItem.quantity%>
+          <br />
+          <br />
 
-<ul>
-    <li><a href="orderLine/findall">Find All</a></li>
-    <li><a href="orderLine/findone/0">Find One</a></li>
-    <li><a href="orderLine/create">Create</a></li>
-    <li><a href="orderLine/delete/0">Delete</a></li>
-    <li><a href="orderLine/details/0">Details</a></li>
-    <li><a href="orderLine/edit/0">Edit</a></li>
-</ul>
+          <a href="/orderLine/delete/<%= orderLineItem._id  %>" class="btn btn-danger"> Delete </a>
+          <a href="/orderLine/details/<%= orderLineItem._id %>" class="btn btn-info"> Details </a>
+          <a href="/orderLine/edit/<%= orderLineItem._id %>" class="btn btn-warning"> Edit </a>
+        </div>
+      </div>
+      <%  } %>
+
+    </div>
+  </div>
+</div>

@@ -1,3 +1,6 @@
+//Authors: Vamsee Krishna Gangapatnam, Hari Priya Jupally, Hayden Rainey, and Amy White
+
+
 // set up a temporary (in memory) database
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')

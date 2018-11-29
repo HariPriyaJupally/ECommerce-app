@@ -15,7 +15,7 @@ const notfoundstring = 'products'
 
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
-  res.render('product/index.ejs')
+  res.render('products/index.ejs')
 })
 
 // GET create
@@ -23,7 +23,7 @@ api.get('/create', (req, res) => {
   LOG.info(`Handling GET /create${req}`)
   const item = new Model()
   LOG.debug(JSON.stringify(item))
-  res.render('product/create',
+  res.render('products/create',
     {
       title: 'Create product',
       layout: 'layout.ejs',
@@ -58,7 +58,7 @@ api.get('/delete/:id', (req, res) => {
   const item = find(data, { _productid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('product/delete.ejs',
+  return res.render('products/delete.ejs',
     {
       title: 'Delete product',
       layout: 'layout.ejs',
@@ -74,7 +74,7 @@ api.get('/details/:id', (req, res) => {
   const item = find(data, { _productid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('product/details.ejs',
+  return res.render('products/details.ejs',
     {
       title: 'product Details',
       layout: 'layout.ejs',
@@ -90,7 +90,7 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _productid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-  return res.render('product/edit.ejs',
+  return res.render('products/edit.ejs',
     {
       title: 'products',
       layout: 'layout.ejs',
@@ -116,7 +116,7 @@ api.post('/save', (req, res) => {
 
     data.push(item)
     LOG.info(`SAVING NEW product ${JSON.stringify(item)}`)
-    return res.redirect('/product')
+    return res.redirect('/products')
   }
 )
 
@@ -136,7 +136,7 @@ api.post('/save/:id', (req, res) => {
   item.productCategory = req.body.productCategory
   item.sellerId = req.body.sellerId
   LOG.info(`SAVING UPDATED product ${JSON.stringify(item)}`)
-  return res.redirect('/product')
+  return res.redirect('/products')
   
 })
 
@@ -157,7 +157,7 @@ api.post('/delete/:id', (req, res) => {
     const item = remove(data, { _productid: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect('/product')
+  return res.redirect('/products')
 })
 
 module.exports = api
