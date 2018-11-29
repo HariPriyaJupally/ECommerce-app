@@ -5948,3 +5948,21 @@ SyntaxError: Unexpected token <<
 2018-11-26T22:08:16.577Z - debug: GET /
 2018-11-26T22:08:16.588Z - debug: Request to /
 2018-11-26T22:08:20.678Z - debug: GET /order
+2018-11-29T16:15:18.696Z - info: Environment variables loaded.
+2018-11-29T16:15:18.707Z - debug: START routing
+2018-11-29T16:15:18.743Z - debug: END routing
+2018-11-29T16:15:18.743Z - info: Loaded routing.
+2018-11-29T16:15:18.779Z - info: START seeder.
+2018-11-29T16:15:18.783Z - debug: 4 customers seeded
+2018-11-29T16:15:18.786Z - debug: 5 products seeded
+2018-11-29T16:15:18.787Z - debug: 4 order seeded
+2018-11-29T16:15:18.789Z - debug: 4 orderLineItems seeded
+2018-11-29T16:15:18.789Z - info: END Seeder. Sample data read and verified.
+2018-11-29T16:15:29.121Z - debug: GET /
+2018-11-29T16:15:29.127Z - debug: Request to /
+2018-11-29T16:15:29.193Z - debug: GET /css/main.css
+2018-11-29T16:15:30.952Z - debug: GET /images/manifest.json
+2018-11-29T16:15:30.953Z - debug: GET /images/favicon-32x32.png
+2018-11-29T16:15:30.980Z - debug: GET /images/favicon-16x16.png
+2018-11-29T16:15:30.991Z - debug: GET /images/favicon-96x96.png
+2018-11-29T16:15:30.999Z - debug: GET /images/android-icon-192x192.png
